@@ -1,0 +1,303 @@
+{
+    "polygons": [
+      {
+        "id": 1,
+        "name": "Zona Arqueológica de Teotihuacán",
+        "color": "#8e44ad",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Teotihuacan.jpg/1200px-Teotihuacan.jpg",
+        "startDate": "2023-01-01",
+        "endDate": "",
+        "positions": [
+          [19.6925, -98.8438],
+          [19.6925, -98.8361],
+          [19.6875, -98.8361],
+          [19.6875, -98.8438]
+        ],
+        "markers": [
+          {
+            "id": 1,
+            "position": [19.6925, -98.8438],
+            "title": "Pirámide del Sol",
+            "description": "La segunda pirámide más grande de Mesoamérica",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Piramide_del_Sol_072006.jpg/800px-Piramide_del_Sol_072006.jpg",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          },
+          {
+            "id": 2,
+            "position": [19.6920, -98.8415],
+            "title": "Pirámide de la Luna",
+            "description": "Ubicada al norte de la Calzada de los Muertos",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Teotihuacan_pyramid_of_the_moon_2006.jpg/800px-Teotihuacan_pyramid_of_the_moon_2006.jpg",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          },
+          {
+            "id": 3,
+            "position": [19.6910, -98.8390],
+            "title": "Templo de Quetzalcóatl",
+            "description": "También conocido como la Ciudadela",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Teotihuacan_-_Ciudadela_-_Temple_of_Quetzalcoatl_01.jpg/800px-Teotihuacan_-_Ciudadela_-_Temple_of_Quetzalcoatl_01.jpg",
+            "startDate": "2023-03-15",
+            "endDate": ""
+          },
+          {
+            "id": 4,
+            "position": [19.6880, -98.8400],
+            "title": "Museo de Sitio",
+            "description": "Exhibe piezas encontradas en la zona arqueológica",
+            "image": "https://www.inah.gob.mx/images/zonas/museos/museo_sitio_teotihuacan.jpg",
+            "startDate": "2023-02-01",
+            "endDate": "2023-12-31"
+          },
+          {
+            "id": 5,
+            "position": [19.6895, -98.8425],
+            "title": "Entrada Principal",
+            "description": "Acceso 1 a la zona arqueológica",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/e3/57/entrada-principal.jpg",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          }
+        ],
+        "routes": [
+          {
+            "id": 1,
+            "name": "Ruta de las Pirámides",
+            "positions": [
+              [19.6925, -98.8438],
+              [19.6920, -98.8415],
+              [19.6910, -98.8390]
+            ],
+            "color": "#e74c3c",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          },
+          {
+            "id": 2,
+            "name": "Circuito del Museo",
+            "positions": [
+              [19.6910, -98.8390],
+              [19.6890, -98.8400],
+              [19.6880, -98.8400]
+            ],
+            "color": "#3498db",
+            "startDate": "2023-02-01",
+            "endDate": "2023-12-31"
+          },
+          {
+            "id": 3,
+            "name": "Camino a la Entrada",
+            "positions": [
+              [19.6880, -98.8400],
+              [19.6895, -98.8425],
+              [19.6925, -98.8438]
+            ],
+            "color": "#2ecc71",
+            "startDate": "2023-03-01",
+            "endDate": ""
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Pueblo de San Juan Teotihuacán",
+        "color": "#3498db",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/San_Juan_Teotihuac%C3%A1n.jpg/800px-San_Juan_Teotihuac%C3%A1n.jpg",
+        "startDate": "2023-01-01",
+        "endDate": "",
+        "positions": [
+          [19.6850, -98.8630],
+          [19.6850, -98.8530],
+          [19.6750, -98.8530],
+          [19.6750, -98.8630]
+        ],
+        "markers": [
+          {
+            "id": 6,
+            "position": [19.6815, -98.8600],
+            "title": "Plaza Principal",
+            "description": "Zócalo del pueblo con kiosco tradicional",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg/800px-Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          },
+          {
+            "id": 7,
+            "position": [19.6800, -98.8580],
+            "title": "Mercado Artesanal",
+            "description": "Venta de artesanías y productos locales",
+            "image": "https://live.staticflickr.com/65535/49938301361_9d5a3c4e3b_b.jpg",
+            "startDate": "2023-02-15",
+            "endDate": ""
+          },
+          {
+            "id": 8,
+            "position": [19.6780, -98.8550],
+            "title": "Taller de Obsidiana",
+            "description": "Demostraciones de tallado de obsidiana",
+            "image": "https://cdn2.civitatis.com/mexico/teotihuacan/galeria/thumb/taller-obsidiana.jpg",
+            "startDate": "2023-03-01",
+            "endDate": "2023-11-30"
+          },
+          {
+            "id": 9,
+            "position": [19.6775, -98.8600],
+            "title": "Iglesia de San Juan",
+            "description": "Templo católico del siglo XVI",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Parroquia_de_San_Juan_Bautista_Teotihuac%C3%A1n.jpg/800px-Parroquia_de_San_Juan_Bautista_Teotihuac%C3%A1n.jpg",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          },
+          {
+            "id": 10,
+            "position": [19.6820, -98.8550],
+            "title": "Estación de Autobuses",
+            "description": "Punto de llegada y salida de transporte público",
+            "image": "https://www.autobusesetn.com.mx/wp-content/uploads/2021/06/central-autobuses-teotihuacan.jpg",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          }
+        ],
+        "routes": [
+          {
+            "id": 4,
+            "name": "Ruta del Centro",
+            "positions": [
+              [19.6815, -98.8600],
+              [19.6800, -98.8580],
+              [19.6780, -98.8550]
+            ],
+            "color": "#f39c12",
+            "startDate": "2023-01-01",
+            "endDate": ""
+          },
+          {
+            "id": 5,
+            "name": "Circuito Religioso",
+            "positions": [
+              [19.6815, -98.8600],
+              [19.6775, -98.8600],
+              [19.6770, -98.8620]
+            ],
+            "color": "#9b59b6",
+            "startDate": "2023-02-01",
+            "endDate": ""
+          },
+          {
+            "id": 6,
+            "name": "Camino a la Zona Arqueológica",
+            "positions": [
+              [19.6815, -98.8600],
+              [19.6820, -98.8550],
+              [19.6850, -98.8530],
+              [19.6875, -98.8438]
+            ],
+            "color": "#1abc9c",
+            "startDate": "2023-03-15",
+            "endDate": ""
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Área Natural Protegida",
+        "color": "#2ecc71",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Teotihuacan_landscape.jpg/800px-Teotihuacan_landscape.jpg",
+        "startDate": "2023-04-01",
+        "endDate": "",
+        "positions": [
+          [19.7000, -98.8500],
+          [19.7000, -98.8300],
+          [19.6800, -98.8300],
+          [19.6800, -98.8500]
+        ],
+        "markers": [
+          {
+            "id": 11,
+            "position": [19.6950, -98.8400],
+            "title": "Mirador Natural",
+            "description": "Vista panorámica de las pirámides",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5f/2e/3b/view-of-the-pyramids.jpg",
+            "startDate": "2023-04-01",
+            "endDate": ""
+          },
+          {
+            "id": 12,
+            "position": [19.6900, -98.8350],
+            "title": "Área de Picnic",
+            "description": "Zona con mesas y asadores",
+            "image": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/09/areas-de-picnic-en-cdmx.jpg",
+            "startDate": "2023-05-01",
+            "endDate": "2023-10-31"
+          },
+          {
+            "id": 13,
+            "position": [19.6850, -98.8450],
+            "title": "Sendero Ecológico",
+            "description": "Ruta para caminata de 2 km",
+            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Sendero-ecologico.jpg",
+            "startDate": "2023-04-15",
+            "endDate": ""
+          },
+          {
+            "id": 14,
+            "position": [19.6950, -98.8450],
+            "title": "Jardín Botánico",
+            "description": "Exhibición de flora regional",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg/800px-Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg",
+            "startDate": "2023-06-01",
+            "endDate": ""
+          },
+          {
+            "id": 15,
+            "position": [19.6925, -98.8325],
+            "title": "Centro de Visitantes",
+            "description": "Información sobre el área natural",
+            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Centro-de-visitantes.jpg",
+            "startDate": "2023-04-01",
+            "endDate": ""
+          }
+        ],
+        "routes": [
+          {
+            "id": 7,
+            "name": "Sendero Principal",
+            "positions": [
+              [19.6950, -98.8400],
+              [19.6900, -98.8350],
+              [19.6850, -98.8450]
+            ],
+            "color": "#16a085",
+            "startDate": "2023-04-01",
+            "endDate": ""
+          },
+          {
+            "id": 8,
+            "name": "Ruta Botánica",
+            "positions": [
+              [19.6950, -98.8450],
+              [19.6930, -98.8430],
+              [19.6920, -98.8400]
+            ],
+            "color": "#27ae60",
+            "startDate": "2023-05-15",
+            "endDate": ""
+          },
+          {
+            "id": 9,
+            "name": "Circuito Panorámico",
+            "positions": [
+              [19.6950, -98.8400],
+              [19.6950, -98.8450],
+              [19.6925, -98.8325],
+              [19.6900, -98.8350]
+            ],
+            "color": "#d35400",
+            "startDate": "2023-06-01",
+            "endDate": ""
+          }
+        ]
+      }
+    ]
+  }
