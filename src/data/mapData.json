@@ -68,60 +68,60 @@
       },
       {
         "id": 2,
-        "name": "Pueblo de San Juan Teotihuacán",
+        "name": "Chapa de Mota - San Felipe",
         "color": "#3498db",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/San_Juan_Teotihuac%C3%A1n.jpg/800px-San_Juan_Teotihuac%C3%A1n.jpg",
+        "image": "/map_images/mapa_antiguo_san_felipe.jpg",
         "startDate": "2023-01-01",
         "endDate": "",
         "positions": [
-          [19.6850, -98.8630],
-          [19.6850, -98.8530],
-          [19.6750, -98.8530],
-          [19.6750, -98.8630]
+          [ 19.8774186427284, -99.656503309556],
+          [ 19.8707554247909, -99.5732469038239],
+          [ 19.7750612300943, -99.5727658426089],
+          [ 19.7754160009097, -99.6693060932165]
         ],
         "markers": [
           {
             "id": 6,
-            "position": [19.6815, -98.8600],
-            "title": "Plaza Principal",
-            "description": "Zócalo del pueblo con kiosco tradicional",
+            "position": [19.8138942514158, -99.5277875711953],
+            "title": "Chapa de Mota",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg/800px-Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg",
             "startDate": "2023-01-01",
             "endDate": ""
           },
           {
             "id": 7,
-            "position": [19.6800, -98.8580],
-            "title": "Mercado Artesanal",
-            "description": "Venta de artesanías y productos locales",
-            "image": "https://live.staticflickr.com/65535/49938301361_9d5a3c4e3b_b.jpg",
+            "position": [19.8668759345129,  -99.5872907878733],
+            "title": "Santa Elena",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/santa_elena.jpg",
             "startDate": "2023-02-15",
             "endDate": ""
           },
           {
             "id": 8,
-            "position": [19.6780, -98.8550],
-            "title": "Taller de Obsidiana",
-            "description": "Demostraciones de tallado de obsidiana",
-            "image": "https://cdn2.civitatis.com/mexico/teotihuacan/galeria/thumb/taller-obsidiana.jpg",
+            "position": [19.8639948286071, -99.6188849863877],
+            "title": "San Juan",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/san_juan.jpg",
             "startDate": "2023-03-01",
             "endDate": "2023-11-30"
           },
           {
             "id": 9,
-            "position": [19.6775, -98.8600],
-            "title": "Iglesia de San Juan",
-            "description": "Templo católico del siglo XVI",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Parroquia_de_San_Juan_Bautista_Teotihuac%C3%A1n.jpg/800px-Parroquia_de_San_Juan_Bautista_Teotihuac%C3%A1n.jpg",
+            "position": [19.8574241658102, -99.6113717085467],
+            "title": "San Felipe",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/san_felipe.jpg",
             "startDate": "2023-01-01",
             "endDate": ""
           },
           {
             "id": 10,
-            "position": [19.6820, -98.8550],
-            "title": "Estación de Autobuses",
-            "description": "Punto de llegada y salida de transporte público",
-            "image": "https://www.autobusesetn.com.mx/wp-content/uploads/2021/06/central-autobuses-teotihuacan.jpg",
+            "position": [19.8467597379682, -99.5930614582443],
+            "title": "Dongu",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/dongu.jpg",
             "startDate": "2023-01-01",
             "endDate": ""
           }
@@ -129,39 +129,13 @@
         "routes": [
           {
             "id": 4,
-            "name": "Ruta del Centro",
+            "name": "Camino nuevo a San Felipe",
             "positions": [
-              [19.6815, -98.8600],
-              [19.6800, -98.8580],
-              [19.6780, -98.8550]
+              [19.8332139155596, -99.5266861590894],
+              [19.9107008735275, -99.6393895012977 ]
             ],
             "color": "#f39c12",
             "startDate": "2023-01-01",
-            "endDate": ""
-          },
-          {
-            "id": 5,
-            "name": "Circuito Religioso",
-            "positions": [
-              [19.6815, -98.8600],
-              [19.6775, -98.8600],
-              [19.6770, -98.8620]
-            ],
-            "color": "#9b59b6",
-            "startDate": "2023-02-01",
-            "endDate": ""
-          },
-          {
-            "id": 6,
-            "name": "Camino a la Zona Arqueológica",
-            "positions": [
-              [19.6815, -98.8600],
-              [19.6820, -98.8550],
-              [19.6850, -98.8530],
-              [19.6875, -98.8438]
-            ],
-            "color": "#1abc9c",
-            "startDate": "2023-03-15",
             "endDate": ""
           }
         ]
