@@ -89,7 +89,7 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
   const marks = generateMarks();
 
   return (
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-2xl border border-gray-200 z-[1000] w-11/12 max-w-4xl">
+    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm opacity-80 p-4 rounded-xl shadow-2xl border border-gray-200 z-[1000] w-11/12 max-w-4xl">
       <div className="flex flex-col space-y-3">
         <div className="flex justify-between items-center">
           <div className="text-lg font-semibold text-gray-700">
@@ -143,7 +143,7 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
         />
       </div>
       
-      <style jsx global>{`
+      <style jsx='true' global='tue' >{`
         .MuiSlider-markLabel[data-type="year"] {
           font-weight: 600 !important;
           color: #1e40af !important;

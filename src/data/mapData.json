@@ -1,344 +1,547 @@
 {
-    "polygons": [
-      {
-        "id": 1,
-        "name": "Xilotepec San pablo ",
-        "color": "#8e44ad",
-        "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
-        "startDate": "2023-01-01",
-        "endDate": "",
-        "positions": [
-          [19.9784930435694000, -99.5372754642592000],
-          [19.9970843573964000, -99.4459824506960000],
-          [19.9624054221947000, -99.4407010682247000],
-          [19.9343171962047000, -99.5346735807441000]
+  "polygons": [
+    {
+      "id": 1,
+      "name": "Xilotepec San pablo ",
+      "color": "#8e44ad",
+      "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.9784930435694000,
+          -99.5372754642592000
         ],
-        "markers": [
-          {
-            "id": 1,
-            "position": [19.9595306121699, -99.5248940114487],
-            "title": "Cruz de Dhendo",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Piramide_del_Sol_072006.jpg/800px-Piramide_del_Sol_072006.jpg",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          },
-          {
-            "id": 2,
-            "position": [19.9677891796955, -99.491305465541],
-            "title": "San Pablo Huantepec",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/san_pablo.jpg",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          },
-          {
-            "id": 3,
-            "position": [19.9739687037666, -99.4953889557054],
-            "title": "Lagunilla de San Pablo",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/lagunilla_san_pablo.jpg",
-            "startDate": "2023-03-15",
-            "endDate": ""
-          },
-          {
-            "id": 4,
-            "position": [19.9902367725945, -99.4457990166188],
-            "title": "San Luis Atongo",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/san_luis_atongo.jpg",
-            "startDate": "2023-02-01",
-            "endDate": "2023-12-31"
-          }
+        [
+          19.9970843573964000,
+          -99.4459824506960000
         ],
-        "routes": [
-          {
-            "id": 1,
-            "name": "Camino de Xilotepec a San Pablo",
-            "positions": [
-              [19.9526458743496000, -99.5324784954577000],
-              [19.9694108768850000, -99.4872073085806000 ],
-              [19.9871253129438000, -99.4482390232610000]
-            ],
-            "color": "#e74c3c",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          }
+        [
+          19.9624054221947000,
+          -99.4407010682247000
+        ],
+        [
+          19.9343171962047000,
+          -99.5346735807441000
         ]
-      },
-      {
-        "id": 2,
-        "name": "Chapa de Mota - San Felipe",
-        "color": "#3498db",
-        "image": "/map_images/mapa_antiguo_san_felipe.jpg",
-        "startDate": "2023-01-01",
-        "endDate": "",
-        "positions": [
-          [ 19.8774186427284, -99.656503309556],
-          [ 19.8707554247909, -99.5732469038239],
-          [ 19.7750612300943, -99.5727658426089],
-          [ 19.7754160009097, -99.6693060932165]
-        ],
-        "markers": [
-          {
-            "id": 6,
-            "position": [19.8138942514158, -99.5277875711953],
-            "title": "Chapa de Mota",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg/800px-Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          },
-          {
-            "id": 7,
-            "position": [19.8668759345129,  -99.5872907878733],
-            "title": "Santa Elena",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/santa_elena.jpg",
-            "startDate": "2023-02-15",
-            "endDate": ""
-          },
-          {
-            "id": 8,
-            "position": [19.8639948286071, -99.6188849863877],
-            "title": "San Juan",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/san_juan.jpg",
-            "startDate": "2023-03-01",
-            "endDate": "2023-11-30"
-          },
-          {
-            "id": 9,
-            "position": [19.8574241658102, -99.6113717085467],
-            "title": "San Felipe",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/san_felipe.jpg",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          },
-          {
-            "id": 10,
-            "position": [19.8467597379682, -99.5930614582443],
-            "title": "Dongu",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "image": "/map_images/marker_image/dongu.jpg",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          }
-        ],
-        "routes": [
-          {
-            "id": 4,
-            "name": "Camino nuevo a San Felipe",
-            "positions": [
-              [19.8332139155596, -99.5266861590894],
-              [19.9107008735275, -99.6393895012977 ]
+      ],
+      "markers": [
+        {
+          "id": 1,
+          "position": [
+            19.9595306121699,
+            -99.5248940114487
+          ],
+          "title": "Cruz de Dhendo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Piramide_del_Sol_072006.jpg/800px-Piramide_del_Sol_072006.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        },
+        {
+          "id": 2,
+          "position": [
+            19.9677891796955,
+            -99.491305465541
+          ],
+          "title": "San Pablo Huantepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_pablo.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        },
+        {
+          "id": 3,
+          "position": [
+            19.9739687037666,
+            -99.4953889557054
+          ],
+          "title": "Lagunilla de San Pablo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/lagunilla_san_pablo.jpg",
+          "startDate": "2023-03-15",
+          "endDate": ""
+        },
+        {
+          "id": 4,
+          "position": [
+            19.9902367725945,
+            -99.4457990166188
+          ],
+          "title": "San Luis Atongo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_luis_atongo.jpg",
+          "startDate": "2023-02-01",
+          "endDate": "2023-12-31"
+        }
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Camino de Xilotepec a San Pablo",
+          "positions": [
+            [
+              19.9526458743496000,
+              -99.5324784954577000
             ],
-            "color": "#f39c12",
-            "startDate": "2023-01-01",
-            "endDate": ""
-          }
+            [
+              19.9694108768850000,
+              -99.4872073085806000
+            ],
+            [
+              19.9871253129438000,
+              -99.4482390232610000
+            ]
+          ],
+          "color": "#e74c3c",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chapa de Mota - San Felipe",
+      "color": "#3498db",
+      "image": "/map_images/mapa_antiguo_san_felipe.jpg",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.8774186427284,
+          -99.656503309556
+        ],
+        [
+          19.8707554247909,
+          -99.5732469038239
+        ],
+        [
+          19.7750612300943,
+          -99.5727658426089
+        ],
+        [
+          19.7754160009097,
+          -99.6693060932165
         ]
-      },
-      {
-        "id": 4,
-        "name": "Área Natural Protegida 1",
-        "color": "#2ecc71",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Teotihuacan_landscape.jpg/800px-Teotihuacan_landscape.jpg",
-        "startDate": "2023-04-01",
-        "endDate": "",
-        "positions": [
-          [19.7000, -98.8500],
-          [19.7000, -98.8300],
-          [19.6800, -98.8300],
-          [19.6800, -98.8500]
+      ],
+      "markers": [
+        {
+          "id": 6,
+          "position": [
+            19.8138942514158,
+            -99.5277875711953
+          ],
+          "title": "Chapa de Mota",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg/800px-Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        },
+        {
+          "id": 7,
+          "position": [
+            19.8668759345129,
+            -99.5872907878733
+          ],
+          "title": "Santa Elena",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/santa_elena.jpg",
+          "startDate": "2023-02-15",
+          "endDate": ""
+        },
+        {
+          "id": 8,
+          "position": [
+            19.8639948286071,
+            -99.6188849863877
+          ],
+          "title": "San Juan Tuxtepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_juan.jpg",
+          "startDate": "2023-03-01",
+          "endDate": "2023-11-30"
+        },
+        {
+          "id": 9,
+          "position": [
+            19.8574241658102,
+            -99.6113717085467
+          ],
+          "title": "San Felipe Cuamango",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_felipe.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        },
+        {
+          "id": 10,
+          "position": [
+            19.8467597379682,
+            -99.5930614582443
+          ],
+          "title": "Dongú",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/dongu.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        },
+        {
+          "id": 11,
+          "position": [
+            19.78251,
+            -99.66669
+          ],
+          "title": "San Bartolome de las Tunas",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_bartolome_tunas.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        },
+        {
+          "id": 12,
+          "position": [
+            19.782734,
+            -99.643509
+          ],
+          "title": "San Gregorio",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_gregorio.jpg",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        }
+      ],
+      "routes": [
+        {
+          "id": 4,
+          "name": "Camino nuevo a San Felipe",
+          "positions": [
+            [
+              19.8332139155596,
+              -99.5266861590894
+            ],
+            [
+              19.9107008735275,
+              -99.6393895012977
+            ]
+          ],
+          "color": "#f39c12",
+          "startDate": "2023-01-01",
+          "endDate": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mapa de 1583",
+      "color": "#2ecc71",
+      "image": "/map_images/mapa_antiguo_1583.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.058225006958228,
+          -99.5628983149456
         ],
-        "markers": [
-          {
-            "id": 11,
-            "position": [19.6950, -98.8400],
-            "title": "Mirador Natural",
-            "description": "Vista panorámica de las pirámides",
-            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5f/2e/3b/view-of-the-pyramids.jpg",
-            "startDate": "2023-04-01",
-            "endDate": ""
-          },
-          {
-            "id": 12,
-            "position": [19.6900, -98.8350],
-            "title": "Área de Picnic",
-            "description": "Zona con mesas y asadores",
-            "image": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/09/areas-de-picnic-en-cdmx.jpg",
-            "startDate": "2023-05-01",
-            "endDate": "2023-10-31"
-          },
-          {
-            "id": 13,
-            "position": [19.6850, -98.8450],
-            "title": "Sendero Ecológico",
-            "description": "Ruta para caminata de 2 km",
-            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Sendero-ecologico.jpg",
-            "startDate": "2023-04-15",
-            "endDate": ""
-          },
-          {
-            "id": 14,
-            "position": [19.6950, -98.8450],
-            "title": "Jardín Botánico",
-            "description": "Exhibición de flora regional",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg/800px-Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg",
-            "startDate": "2023-06-01",
-            "endDate": ""
-          },
-          {
-            "id": 15,
-            "position": [19.6925, -98.8325],
-            "title": "Centro de Visitantes",
-            "description": "Información sobre el área natural",
-            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Centro-de-visitantes.jpg",
-            "startDate": "2023-04-01",
-            "endDate": ""
-          }
+        [
+          20.05877074608271,
+          -99.3815773023988
         ],
-        "routes": [
-          {
-            "id": 7,
-            "name": "Sendero Principal",
-            "positions": [
-              [19.6950, -98.8400],
-              [19.6900, -98.8350],
-              [19.6850, -98.8450]
-            ],
-            "color": "#16a085",
-            "startDate": "2023-04-01",
-            "endDate": ""
-          },
-          {
-            "id": 8,
-            "name": "Ruta Botánica",
-            "positions": [
-              [19.6950, -98.8450],
-              [19.6930, -98.8430],
-              [19.6920, -98.8400]
-            ],
-            "color": "#27ae60",
-            "startDate": "2023-05-15",
-            "endDate": ""
-          },
-          {
-            "id": 9,
-            "name": "Circuito Panorámico",
-            "positions": [
-              [19.6950, -98.8400],
-              [19.6950, -98.8450],
-              [19.6925, -98.8325],
-              [19.6900, -98.8350]
-            ],
-            "color": "#d35400",
-            "startDate": "2023-06-01",
-            "endDate": ""
-          }
+        [
+          19.939893919402024,
+          -99.38105296677362
+        ],
+        [
+          19.941455867665358,
+          -99.56321903382822
         ]
-      },
-       {
-        "id": 3,
-        "name": "Área Natural Protegida",
-        "color": "#2ecc71",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Teotihuacan_landscape.jpg/800px-Teotihuacan_landscape.jpg",
-        "startDate": "2023-04-01",
-        "endDate": "",
-        "positions": [
-          [19.7000, -98.8500],
-          [19.7000, -98.8300],
-          [19.6800, -98.8300],
-          [19.6800, -98.8500]
+      ],
+      "markers": [
+        {
+          "id": 11,
+          "position": [
+            20.011871177613838,
+            -99.52567247290914
+          ],
+          "title": "San Francisco Soyaniquilpan",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/soyaniquilpan.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 12,
+          "position": [
+            19.950301552751302,
+            -99.53227014868982
+          ],
+          "title": "Xilotepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/xilotepec.jpg",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        },
+        {
+          "id": 13,
+          "position": [
+            19.945744085982803,
+            -99.38721035485585
+          ],
+          "title": "Santa Clara",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/santa_clara.jpg",
+          "startDate": "2023-04-15",
+          "endDate": ""
+        },
+        {
+          "id": 14,
+          "position": [
+            20.039468381401097,
+            -99.55107227293632
+          ],
+          "title": "Venta del dicho Gonzalo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/venta_dicho_gonzalo.jpg",
+          "startDate": "2023-06-01",
+          "endDate": ""
+        },
+        {
+          "id": 15,
+          "position": [
+            20.044400612354817,
+            -99.48448834936259
+          ],
+          "title": "San Bartolome",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_bartolome.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 17,
+          "position": [
+            20.019810292536935,
+            -99.48489034349421
+          ],
+          "title": "Cerro de San Agustìn",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/cerro_san_agustin.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.169888,
+            -99.485215
+          ],
+          "title": "Cerro de San Francisco",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/cerro_san_franciso.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 19,
+          "position": [
+            20.169888,
+            -99.535732
+          ],
+          "title": "San Sebastián",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_sebastian.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 20,
+          "position": [
+            19.954539,
+            -99.488403
+          ],
+          "title": "Sitio de Juan de Roxas",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/juan_rosas.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        }
+      ],
+      "routes": [
+        {
+          "id": 7,
+          "name": "Ruta 1583",
+          "positions": [
+            [
+              20.044400612354817,
+              -99.48448834936259
+            ],
+            [
+              20.011871177613838,
+              -99.52567247290914
+            ],
+            [
+              19.950301552751302,
+              -99.53227014868982
+            ]
+          ],
+          "color": "#16a085",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sitio El Potrero",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_sitio_el_potrerp.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.993664,
+          -99.556336
         ],
-        "markers": [
-          {
-            "id": 11,
-            "position": [19.6950, -98.8400],
-            "title": "Mirador Natural",
-            "description": "Vista panorámica de las pirámides",
-            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5f/2e/3b/view-of-the-pyramids.jpg",
-            "startDate": "2023-04-01",
-            "endDate": ""
-          },
-          {
-            "id": 12,
-            "position": [19.6900, -98.8350],
-            "title": "Área de Picnic",
-            "description": "Zona con mesas y asadores",
-            "image": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/09/areas-de-picnic-en-cdmx.jpg",
-            "startDate": "2023-05-01",
-            "endDate": "2023-10-31"
-          },
-          {
-            "id": 13,
-            "position": [19.6850, -98.8450],
-            "title": "Sendero Ecológico",
-            "description": "Ruta para caminata de 2 km",
-            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Sendero-ecologico.jpg",
-            "startDate": "2023-04-15",
-            "endDate": ""
-          },
-          {
-            "id": 14,
-            "position": [19.6950, -98.8450],
-            "title": "Jardín Botánico",
-            "description": "Exhibición de flora regional",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg/800px-Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg",
-            "startDate": "2023-06-01",
-            "endDate": ""
-          },
-          {
-            "id": 15,
-            "position": [19.6925, -98.8325],
-            "title": "Centro de Visitantes",
-            "description": "Información sobre el área natural",
-            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Centro-de-visitantes.jpg",
-            "startDate": "2023-04-01",
-            "endDate": ""
-          }
+        [
+          19.980352,
+          -99.316274
         ],
-        "routes": [
-          {
-            "id": 7,
-            "name": "Sendero Principal",
-            "positions": [
-              [19.6950, -98.8400],
-              [19.6900, -98.8350],
-              [19.6850, -98.8450]
-            ],
-            "color": "#16a085",
-            "startDate": "2023-04-01",
-            "endDate": ""
-          },
-          {
-            "id": 8,
-            "name": "Ruta Botánica",
-            "positions": [
-              [19.6950, -98.8450],
-              [19.6930, -98.8430],
-              [19.6920, -98.8400]
-            ],
-            "color": "#27ae60",
-            "startDate": "2023-05-15",
-            "endDate": ""
-          },
-          {
-            "id": 9,
-            "name": "Circuito Panorámico",
-            "positions": [
-              [19.6950, -98.8400],
-              [19.6950, -98.8450],
-              [19.6925, -98.8325],
-              [19.6900, -98.8350]
-            ],
-            "color": "#d35400",
-            "startDate": "2023-06-01",
-            "endDate": ""
-          }
+        [
+          19.875218,
+          -99.316646
+        ],
+        [
+          19.919733,
+          -99.567519
         ]
-      }
-    ]
-  }
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            19.950301552751302,
+            -99.53227014868982
+          ],
+          "title": "Xilotepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/xilotepec.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            19.911943,
+            -99.432005
+          ],
+          "title": "Loma de la gallina",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/loma_gallina.jpg",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        },
+        {
+          "id": 19,
+          "position": [
+            19.909556,
+            -99.423884
+          ],
+          "title": "Loma larga",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/loma_larga.jpg",
+          "startDate": "2023-04-15",
+          "endDate": ""
+        },
+        {
+          "id": 20,
+          "position": [
+            19.908296,
+            -99.41219
+          ],
+          "title": "Monte Solo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/monte_solo.jpg",
+          "startDate": "2023-06-01",
+          "endDate": ""
+        },
+        {
+          "id": 21,
+          "position": [
+            19.903806,
+            -99.40517
+          ],
+          "title": "Monte Grande",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/monte_grande.jpg",
+          "startDate": "2023-06-01",
+          "endDate": ""
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 5,
+      "name": "Tecozautla",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_tecozautla.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.563754,
+          -99.676535
+        ],
+        [
+          20.574887,
+          -99.320497
+        ],
+        [
+          20.386169,
+          -99.312803
+        ],
+        [
+          20.407805,
+          -99.680732
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            20.534074,
+            -99.633177
+          ],
+          "title": "Tecozautla",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/tecozautla.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.408298,
+            -99.348406
+          ],
+          "title": "Alfajayucan",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/alfayucan.jpg",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        },
+        {
+          "id": 19,
+          "position": [
+            20.439439,
+            -99.532656
+          ],
+          "title": "Estancia que se solicita",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/entancia_solicita.jpg",
+          "startDate": "2023-04-15",
+          "endDate": ""
+        }
+      ],
+      "routes": []
+    }
+  ]
+}
