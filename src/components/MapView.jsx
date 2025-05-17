@@ -98,7 +98,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                       <img
                         src={marker.image}
                         alt={marker.title}
-                        className="w-full h-32 object-cover mb-2"
+                        className="w-full h-32 object-cover mb-2 rounded"
                       />
                     )}
                     <p className="text-sm">{marker.description}</p>

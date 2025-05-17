@@ -2,99 +2,66 @@
     "polygons": [
       {
         "id": 1,
-        "name": "Zona Arqueológica de Teotihuacán",
+        "name": "Xilotepec San pablo ",
         "color": "#8e44ad",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Teotihuacan.jpg/1200px-Teotihuacan.jpg",
+        "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
         "startDate": "2023-01-01",
         "endDate": "",
         "positions": [
-          [19.6925, -98.8438],
-          [19.6925, -98.8361],
-          [19.6875, -98.8361],
-          [19.6875, -98.8438]
+          [19.9784930435694000, -99.5372754642592000],
+          [19.9970843573964000, -99.4459824506960000],
+          [19.9624054221947000, -99.4407010682247000],
+          [19.9343171962047000, -99.5346735807441000]
         ],
         "markers": [
           {
             "id": 1,
-            "position": [19.6925, -98.8438],
-            "title": "Pirámide del Sol",
-            "description": "La segunda pirámide más grande de Mesoamérica",
+            "position": [19.9595306121699, -99.5248940114487],
+            "title": "Cruz de Dhendo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Piramide_del_Sol_072006.jpg/800px-Piramide_del_Sol_072006.jpg",
             "startDate": "2023-01-01",
             "endDate": ""
           },
           {
             "id": 2,
-            "position": [19.6920, -98.8415],
-            "title": "Pirámide de la Luna",
-            "description": "Ubicada al norte de la Calzada de los Muertos",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Teotihuacan_pyramid_of_the_moon_2006.jpg/800px-Teotihuacan_pyramid_of_the_moon_2006.jpg",
+            "position": [19.9677891796955, -99.491305465541],
+            "title": "San Pablo Huantepec",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/san_pablo.jpg",
             "startDate": "2023-01-01",
             "endDate": ""
           },
           {
             "id": 3,
-            "position": [19.6910, -98.8390],
-            "title": "Templo de Quetzalcóatl",
-            "description": "También conocido como la Ciudadela",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Teotihuacan_-_Ciudadela_-_Temple_of_Quetzalcoatl_01.jpg/800px-Teotihuacan_-_Ciudadela_-_Temple_of_Quetzalcoatl_01.jpg",
+            "position": [19.9739687037666, -99.4953889557054],
+            "title": "Lagunilla de San Pablo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/lagunilla_san_pablo.jpg",
             "startDate": "2023-03-15",
             "endDate": ""
           },
           {
             "id": 4,
-            "position": [19.6880, -98.8400],
-            "title": "Museo de Sitio",
-            "description": "Exhibe piezas encontradas en la zona arqueológica",
-            "image": "https://www.inah.gob.mx/images/zonas/museos/museo_sitio_teotihuacan.jpg",
+            "position": [19.9902367725945, -99.4457990166188],
+            "title": "San Luis Atongo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/map_images/marker_image/san_luis_atongo.jpg",
             "startDate": "2023-02-01",
             "endDate": "2023-12-31"
-          },
-          {
-            "id": 5,
-            "position": [19.6895, -98.8425],
-            "title": "Entrada Principal",
-            "description": "Acceso 1 a la zona arqueológica",
-            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/e3/57/entrada-principal.jpg",
-            "startDate": "2023-01-01",
-            "endDate": ""
           }
         ],
         "routes": [
           {
             "id": 1,
-            "name": "Ruta de las Pirámides",
+            "name": "Camino de Xilotepec a San Pablo",
             "positions": [
-              [19.6925, -98.8438],
-              [19.6920, -98.8415],
-              [19.6910, -98.8390]
+              [19.9526458743496000, -99.5324784954577000],
+              [19.9694108768850000, -99.4872073085806000 ],
+              [19.9871253129438000, -99.4482390232610000]
             ],
             "color": "#e74c3c",
             "startDate": "2023-01-01",
-            "endDate": ""
-          },
-          {
-            "id": 2,
-            "name": "Circuito del Museo",
-            "positions": [
-              [19.6910, -98.8390],
-              [19.6890, -98.8400],
-              [19.6880, -98.8400]
-            ],
-            "color": "#3498db",
-            "startDate": "2023-02-01",
-            "endDate": "2023-12-31"
-          },
-          {
-            "id": 3,
-            "name": "Camino a la Entrada",
-            "positions": [
-              [19.6880, -98.8400],
-              [19.6895, -98.8425],
-              [19.6925, -98.8438]
-            ],
-            "color": "#2ecc71",
-            "startDate": "2023-03-01",
             "endDate": ""
           }
         ]
@@ -200,6 +167,106 @@
         ]
       },
       {
+        "id": 4,
+        "name": "Área Natural Protegida 1",
+        "color": "#2ecc71",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Teotihuacan_landscape.jpg/800px-Teotihuacan_landscape.jpg",
+        "startDate": "2023-04-01",
+        "endDate": "",
+        "positions": [
+          [19.7000, -98.8500],
+          [19.7000, -98.8300],
+          [19.6800, -98.8300],
+          [19.6800, -98.8500]
+        ],
+        "markers": [
+          {
+            "id": 11,
+            "position": [19.6950, -98.8400],
+            "title": "Mirador Natural",
+            "description": "Vista panorámica de las pirámides",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5f/2e/3b/view-of-the-pyramids.jpg",
+            "startDate": "2023-04-01",
+            "endDate": ""
+          },
+          {
+            "id": 12,
+            "position": [19.6900, -98.8350],
+            "title": "Área de Picnic",
+            "description": "Zona con mesas y asadores",
+            "image": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/09/areas-de-picnic-en-cdmx.jpg",
+            "startDate": "2023-05-01",
+            "endDate": "2023-10-31"
+          },
+          {
+            "id": 13,
+            "position": [19.6850, -98.8450],
+            "title": "Sendero Ecológico",
+            "description": "Ruta para caminata de 2 km",
+            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Sendero-ecologico.jpg",
+            "startDate": "2023-04-15",
+            "endDate": ""
+          },
+          {
+            "id": 14,
+            "position": [19.6950, -98.8450],
+            "title": "Jardín Botánico",
+            "description": "Exhibición de flora regional",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg/800px-Jard%C3%ADn_Bot%C3%A1nico_Exterior.jpg",
+            "startDate": "2023-06-01",
+            "endDate": ""
+          },
+          {
+            "id": 15,
+            "position": [19.6925, -98.8325],
+            "title": "Centro de Visitantes",
+            "description": "Información sobre el área natural",
+            "image": "https://www.gob.mx/cms/uploads/article/main_image/34747/Centro-de-visitantes.jpg",
+            "startDate": "2023-04-01",
+            "endDate": ""
+          }
+        ],
+        "routes": [
+          {
+            "id": 7,
+            "name": "Sendero Principal",
+            "positions": [
+              [19.6950, -98.8400],
+              [19.6900, -98.8350],
+              [19.6850, -98.8450]
+            ],
+            "color": "#16a085",
+            "startDate": "2023-04-01",
+            "endDate": ""
+          },
+          {
+            "id": 8,
+            "name": "Ruta Botánica",
+            "positions": [
+              [19.6950, -98.8450],
+              [19.6930, -98.8430],
+              [19.6920, -98.8400]
+            ],
+            "color": "#27ae60",
+            "startDate": "2023-05-15",
+            "endDate": ""
+          },
+          {
+            "id": 9,
+            "name": "Circuito Panorámico",
+            "positions": [
+              [19.6950, -98.8400],
+              [19.6950, -98.8450],
+              [19.6925, -98.8325],
+              [19.6900, -98.8350]
+            ],
+            "color": "#d35400",
+            "startDate": "2023-06-01",
+            "endDate": ""
+          }
+        ]
+      },
+       {
         "id": 3,
         "name": "Área Natural Protegida",
         "color": "#2ecc71",

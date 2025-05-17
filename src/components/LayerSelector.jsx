@@ -44,7 +44,7 @@ const LayerSelector = () => {
 
             {/* Menú desplegable */}
             {isOpen && (
-                <div className="mt-2 bg-white rounded-md shadow-lg overflow-hidden w-full md:w-64">
+                <div className="mt-2 bg-white rounded-md shadow-lg overflow-hidden w-full md:w-64 ">
                     {layersData.Layers.map((layer) => (
                         <div
                             key={layer.name}

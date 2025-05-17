@@ -44,12 +44,12 @@ function App() {
 
   return (
     <div className="h-screen flex flex-col">
-      <div className="flex flex-1 flex-col md:flex-row overflow-hidden">
+      <div className="flex flex-1 flex-col md:flex-row overflow-hidden scrollbar-hide">
         {/* Sidebar */}
         <div className={`${showMobileMenu ? 'translate-x-0' : '-translate-x-full'} 
                         md:translate-x-0 transform transition-transform duration-300 ease-in-out
                         fixed md:static top-0 left-0 w-4/5 md:w-80 h-full bg-gray-50 p-4 
-                        overflow-y-auto border-r border-gray-200 z-40 flex flex-col`}>
+                        overflow-y-auto border-r border-gray-200 z-40 flex flex-col scrollbar-hide overflow-hidden`}>
           {/* Header del menú */}
           <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-200">
             <h2 className="text-xl font-bold text-gray-800">Provincia de Xilotepec</h2>

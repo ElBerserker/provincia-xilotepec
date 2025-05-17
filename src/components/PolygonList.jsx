@@ -13,7 +13,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
   const visiblePolygons = filterByDate(polygons);
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md">
+    <div className="bg-white p-4 rounded-lg shadow-md max-h-64 overflow-y-auto overflow-hidden scrollbar-hide">
       <h2 className="text-xl font-bold mb-4">Mapas Disponibles ({visiblePolygons.length})</h2>
       <div className="space-y-2">
         {visiblePolygons.map((polygon) => {
