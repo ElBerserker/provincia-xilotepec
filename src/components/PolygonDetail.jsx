@@ -67,7 +67,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                   {visibleRoutes.map((route) => (
                     <div key={route.id} className="flex items-center">
                       <span
-                        className="inline-block w-4 h-4 rounded-full mr-2"
+                        className="inline-block w-6 h-2 rounded mr-2"
                         style={{ backgroundColor: route.color }}
                       ></span>
                       <span className="text-sm">{route.name}</span>

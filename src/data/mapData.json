@@ -73,6 +73,18 @@
           "image": "/map_images/marker_image/san_luis_atongo.jpg",
           "startDate": "2023-02-01",
           "endDate": "2023-12-31"
+        },
+        {
+          "id": 5,
+          "position": [
+            19.950301552751302,
+            -99.53227014868982
+          ],
+          "title": "Xilotepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/xilotepec_san_pablo.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
         }
       ],
       "routes": [
@@ -181,7 +193,7 @@
           ],
           "title": "Dongú",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/map_images/marker_image/dongu.jpg",
+          "image": "/map_images/marker_image/san_juan_dongu.jpg",
           "startDate": "2023-01-01",
           "endDate": ""
         },
@@ -524,7 +536,7 @@
           ],
           "title": "Alfajayucan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/map_images/marker_image/alfayucan.jpg",
+          "image": "/map_images/marker_image/alfajayucan.jpg",
           "startDate": "2023-05-01",
           "endDate": "2023-10-31"
         },

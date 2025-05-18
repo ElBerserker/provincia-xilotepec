@@ -8,7 +8,7 @@ const CenterMapButton = ({ selectedPolygons, dateRange }) => {
 
   const centerMapOnVisibleElements = () => {
     if (selectedPolygons.length === 0) {
-      map.setView([19.6925, -98.8438], 14); // Vista por defecto
+      map.setView([19.954210, -99.534492], 10); // Vista por defecto
       return;
     }
 
