@@ -548,7 +548,7 @@
           ],
           "title": "Estancia que se solicita",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/map_images/marker_image/entancia_solicita.jpg",
+          "image": "",
           "startDate": "2023-04-15",
           "endDate": ""
         }

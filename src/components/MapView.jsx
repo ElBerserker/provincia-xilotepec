@@ -17,7 +17,7 @@ L.Icon.Default.mergeOptions({
 const caminoReal = [
   {
     name: 'Camino Real',
-    description: 'Descripcion del camino real.',
+    description: 'Camino real de tierra adentro.',
     coords_route: [
       { latitude: 19.4382788294, longitude: -99.1340476016348, mapType: 'Jurisdiccion de Xilotepec-Chichimecas' },
       //{ latitude: 19.8755301987497, longitude: -99.5451710801731 , mapType: 'Mapa de Chapa de Mota-San Felipe'},
