@@ -34,7 +34,7 @@
           ],
           "title": "Cruz de Dhendo",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Piramide_del_Sol_072006.jpg/800px-Piramide_del_Sol_072006.jpg",
+          "image": "",
           "startDate": "2023-01-01",
           "endDate": ""
         },
@@ -145,7 +145,7 @@
           ],
           "title": "Chapa de Mota",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg/800px-Kiosco_de_San_Juan_Teotihuac%C3%A1n.jpg",
+          "image": "",
           "startDate": "2023-01-01",
           "endDate": ""
         },
