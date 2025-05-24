@@ -33,7 +33,7 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
   // Estado para el rango seleccionado
   const [value, setValue] = useState([minTimestamp, maxTimestamp]);
 
-  // Formateador de fechas mejorado
+  // Formateador de fechas
   const formatDate = (timestamp) => {
     const date = new Date(timestamp);
     return {
@@ -48,45 +48,6 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
     setValue(newValue);
     onDateRangeChange(newValue.map(t => new Date(t)));
   };
-
-  // Marcas para el slider (por año y puntos de datos importantes)
-  const generateMarks = () => {
-    const marks = [];
-    const years = new Set();
-    
-    // Agregar marcas anuales
-    const currentYear = new Date(minDate);
-    currentYear.setMonth(0, 1);
-    
-    while (currentYear <= maxDate) {
-      marks.push({
-        value: currentYear.getTime(),
-        label: format(currentYear, 'yyyy', { locale: es }),
-        type: 'year'
-      });
-      years.add(currentYear.getFullYear());
-      currentYear.setFullYear(currentYear.getFullYear() + 1);
-    }
-    
-    // Agregar marcas para fechas importantes (inicios/finales)
-    allDates.forEach(date => {
-      const timestamp = date.getTime();
-      const year = date.getFullYear();
-      
-      if (!years.has(year) || 
-          date.getMonth() === 0 || date.getMonth() === 6) {
-        marks.push({
-          value: timestamp,
-          label: format(date, 'MMM yy', { locale: es }),
-          type: 'event'
-        });
-      }
-    });
-    
-    return marks.sort((a, b) => a.value - b.value);
-  };
-
-  const marks = generateMarks();
 
   return (
     <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm opacity-80 p-4 rounded-xl shadow-2xl border border-gray-200 z-[1000] w-11/12 max-w-4xl">
@@ -106,11 +67,12 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
           min={minTimestamp}
           max={maxTimestamp}
           step={30 * 24 * 60 * 60 * 1000} // Paso de 1 mes en milisegundos
-          marks={marks}
+          marks={[]} // Elimina todas las marcas (incluyendo años)
+          disableTrack // Oculta la barra gris (rail)
           valueLabelDisplay="auto"
           valueLabelFormat={(v) => formatDate(v).short}
           sx={{
-            color: '#3b82f6', // Azul-500
+            color: '#3b82f6', // Color del thumb y riel activo
             height: 8,
             '& .MuiSlider-thumb': {
               width: 20,
@@ -121,34 +83,10 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
                 boxShadow: '0 0 0 6px rgba(59, 130, 246, 0.2)',
               },
             },
-            '& .MuiSlider-mark': {
-              backgroundColor: '#bfdbfe',
-              height: 8,
-              '&.MuiSlider-markActive': {
-                backgroundColor: '#3b82f6',
-              },
-            },
-            '& .MuiSlider-markLabel': {
-              fontSize: '0.75rem',
-              color: '#6b7280',
-              '&[data-index="0"], &[data-index="1"]': {
-                transform: 'translateY(20px)',
-              },
-              '&.year-mark': {
-                fontWeight: 'bold',
-                color: '#1e40af',
-              },
-            },
+            // Eliminados estilos relacionados con marcas/rail
           }}
         />
       </div>
-      
-      <style jsx='true' global='tue' >{`
-        .MuiSlider-markLabel[data-type="year"] {
-          font-weight: 600 !important;
-          color: #1e40af !important;
-        }
-      `}</style>
     </div>
   );
 };

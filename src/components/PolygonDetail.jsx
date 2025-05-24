@@ -53,8 +53,11 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                     style={{ backgroundColor: polygon.color }}
                   ></span>
                   <span className="text-sm text-gray-600">
+                    {polygon.temporality && `Temporalidad: ${polygon.temporality}`}
+                    {/*
                     {polygon.startDate && `Desde ${new Date(polygon.startDate).toLocaleDateString('es-ES')}`}
                     {polygon.endDate && ` • Hasta ${new Date(polygon.endDate).toLocaleDateString('es-ES')}`}
+                    */}
                   </span>
                 </div>
               </div>

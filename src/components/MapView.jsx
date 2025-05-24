@@ -148,14 +148,18 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                         className="w-full h-32 object-cover mb-2 rounded"
                       />
                     )}
-                    <p className="text-sm">{marker.description}</p>
+                    {/*<p className="text-sm">{marker.description}</p>*/}
                     <div className="text-xs text-gray-500 mt-2">
+                      {marker.year && (<p><b>Año:</b> {marker.year}</p>)}
+                      {marker.type && (<p><b>Tipo:</b> {marker.type}</p>)}
+                      {/* 
                       {marker.startDate && (
                         <p>Desde: {new Date(marker.startDate).toLocaleDateString('es-ES')}</p>
                       )}
                       {marker.endDate && (
                         <p>Hasta: {new Date(marker.endDate).toLocaleDateString('es-ES')}</p>
                       )}
+                      */}
                     </div>
                   </div>
                 </Popup>
