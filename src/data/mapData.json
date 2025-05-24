@@ -348,7 +348,7 @@
           ],
           "title": "Cerro de San Francisco",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/map_images/marker_image/cerro_san_franciso.jpg",
+          "image": "",
           "startDate": "2023-04-01",
           "endDate": ""
         },
@@ -554,6 +554,430 @@
         }
       ],
       "routes": []
-    }
+    },
+    {
+      "id": 6,
+      "name": "San Juan Aculco",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_san_juan_aculco.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.131114,
+          -99.793298
+        ],
+        [
+          20.156953,
+          -99.626142
+        ],
+        [
+          19.988925,
+          -99.634236
+        ],
+        [
+          19.979797,
+          -99.795727
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            20.047308,
+            -99.75289
+          ],
+          "title": "Cerro del mapa de San Juan Aculco_1",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.0504940440605,
+            -99.7396539085838
+          ],
+          "title": "Cerro del mapa de San Juan Aculco_2",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        },
+        {
+          "id": 19,
+          "position": [
+            20.0460701959313,
+            -99.758868725876
+          ],
+          "title": "Cerro del mapa de San Juan Aculco_3",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-04-15",
+          "endDate": ""
+        },
+        {
+          "id": 19,
+          "position": [
+            20.1196927199217,
+            -99.6574403850437
+          ],
+          "title": "Cerro del mapa de San Juan Aculco_4",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-04-15",
+          "endDate": ""
+        },
+        {
+          "id": 19,
+          "position": [
+            20.1322074071078,
+            -99.659524260898
+          ],
+          "title": "Cerro del mapa de San Juan Aculco_5",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-04-15",
+          "endDate": ""
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 7,
+      "name": "San Martín Alfajayucan 1",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_san_martin_alfajayucan1.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.457964,
+          -99.387079
+        ],
+        [
+          20.461108,
+          -99.307679
+        ],
+        [
+          20.341443,
+          -99.311966
+        ],
+        [
+          20.336899,
+          -99.395466
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            20.4102034959995,
+            -99.348282140998
+          ],
+          "title": "Alfajayucan",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_martin_alfajayucan.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.3588071475806,
+            -99.3771049659094
+          ],
+          "title": "Cerro de mapa",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/cerro_alfajayucan.jpg",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 8,
+      "name": "San Juan Azguatepec",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_san_juan_azguatepec.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.999096,
+          -99.902132
+        ],
+        [
+          20.048386,
+          -99.515316
+        ],
+        [
+          19.824513,
+          -99.511696
+        ],
+        [
+          19.869305,
+          -99.931082
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            19.926833834714,
+            -99.7898738641319
+          ],
+          "title": "Pueblo despoblado de San Juan",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/pueblo_despoblado_de_san_juan.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            19.9228133632773,
+            -99.8037572027909
+          ],
+          "title": "Estancia de ganado",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        }
+      ],
+      "routes": [
+        {
+          "id": 7,
+          "name": "Camino de Acambay a Timilpan",
+          "positions": [
+            [
+              19.9240027244903,
+              -99.7885297496525
+            ],
+            [
+              19.8761053593871,
+              -99.7338382273771
+            ]
+          ],
+          "color": "#16a085",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 7,
+          "name": "Camino de Acambay a Xilotepec",
+          "positions": [
+            [
+              19.9552413510388,
+              -99.8452690149966
+            ],
+            [
+              19.9526723095011,
+              -99.5325253927175
+            ]
+          ],
+          "color": "#16a085",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "San Martín Alfajayucan 2",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_san_martin_alfajayucan2.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.500448,
+          -99.399208
+        ],
+        [
+          20.495319,
+          -99.218178
+        ],
+        [
+          20.410812,
+          -99.180491
+        ],
+        [
+          20.400245,
+          -99.382458
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            20.4102034959995,
+            -99.348282140998
+          ],
+          "title": "Alfajayucan",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/alfajayucan2.jpg",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.4355925172578,
+            -99.3328888399691
+          ],
+          "title": "Estancia de ganado",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        }
+      ],
+      "routes": [
+        {
+          "id": 7,
+          "name": "Camino de Alfajayucan a Iximiquilpan",
+          "positions": [
+            [
+              20.4149199113088,
+              -99.3485638544448
+            ],
+            [
+              20.4784511727553,
+              -99.2177512301772
+            ]
+          ],
+          "color": "#16a085",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 7,
+          "name": "Camino de Alfajayucan a Chapatongo",
+          "positions": [
+            [
+              20.4087014896449,
+              -99.349285146866
+            ],
+            [
+              20.4819532485017,
+              -99.3235302675187
+            ]
+          ],
+          "color": "#16a085",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mezquital de Tecozautla",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_mezquital_de_tecozautla.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.533683,
+          -99.421217
+        ],
+        [
+          20.536107,
+          -99.298273
+        ],
+        [
+          20.420528,
+          -99.305606
+        ],
+        [
+          20.420528,
+          -99.420354
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            20.4823802038494,
+            -99.392641568418
+          ],
+          "title": "Estancia de ganado",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.4812862401267,
+            -99.3857826859723
+          ],
+          "title": "Estancia de ganado",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 10,
+      "name": "Mezquital de Tecozautla",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_mezquital_de_tecozautla.jpg",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.533683,
+          -99.421217
+        ],
+        [
+          20.536107,
+          -99.298273
+        ],
+        [
+          20.420528,
+          -99.305606
+        ],
+        [
+          20.420528,
+          -99.420354
+        ]
+      ],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            20.4823802038494,
+            -99.392641568418
+          ],
+          "title": "Estancia de ganado",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-04-01",
+          "endDate": ""
+        },
+        {
+          "id": 18,
+          "position": [
+            20.4812862401267,
+            -99.3857826859723
+          ],
+          "title": "Estancia de ganado",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "startDate": "2023-05-01",
+          "endDate": "2023-10-31"
+        }
+      ],
+      "routes": []
+    }    
   ]
 }
