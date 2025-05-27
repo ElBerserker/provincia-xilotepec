@@ -39,7 +39,7 @@
           "year": "1584",
           "startDate": "1584-01-01",
           "endDate": "",
-          "type":"Cruz de humilladero"
+          "type": "Cruz de humilladero"
         },
         {
           "id": 2,
@@ -53,7 +53,7 @@
           "year": "1584",
           "startDate": "1584-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 3,
@@ -67,7 +67,7 @@
           "startDate": "1584-01-01",
           "year": "1584",
           "endDate": "",
-          "type":"Manantial"
+          "type": "Manantial"
         },
         {
           "id": 4,
@@ -81,7 +81,7 @@
           "year": "1584",
           "startDate": "1584-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 5,
@@ -95,7 +95,7 @@
           "year": "1584",
           "startDate": "1584-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         }
       ],
       "routes": [
@@ -175,7 +175,7 @@
           "year": "1559",
           "startDate": "1559-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 9,
@@ -189,7 +189,7 @@
           "year": "1559",
           "startDate": "1559-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 10,
@@ -203,7 +203,7 @@
           "year": "1559",
           "startDate": "1559-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 11,
@@ -217,7 +217,7 @@
           "year": "1559",
           "startDate": "1559-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 12,
@@ -231,7 +231,7 @@
           "year": "1559",
           "startDate": "1559-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         }
       ],
       "routes": [
@@ -293,7 +293,7 @@
           "year": "1583",
           "startDate": "2023-04-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 12,
@@ -307,7 +307,7 @@
           "year": "1583",
           "startDate": "1583-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         },
         {
           "id": 13,
@@ -321,7 +321,7 @@
           "year": "1583",
           "startDate": "2023-04-15",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 14,
@@ -335,7 +335,7 @@
           "year": "1583",
           "startDate": "1583-01-01",
           "endDate": "",
-          "type":"Venta"
+          "type": "Venta"
         },
         {
           "id": 15,
@@ -349,7 +349,7 @@
           "year": "1583",
           "startDate": "1583-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 17,
@@ -363,21 +363,7 @@
           "year": "1583",
           "startDate": "1583-01-01",
           "endDate": "",
-          "type":"Cerro"
-        },
-        {
-          "id": 18,
-          "position": [
-            20.169888,
-            -99.485215
-          ],
-          "title": "Cerro de San Francisco",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "year": "1583",
-          "image": "",
-          "startDate": "1583-01-01",
-          "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 19,
@@ -391,7 +377,7 @@
           "year": "1583",
           "startDate": "1583-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 20,
@@ -405,7 +391,7 @@
           "year": "1583",
           "startDate": "1583-01-01",
           "endDate": "",
-          "type":"Sitio de ganado"
+          "type": "Sitio de ganado"
         }
       ],
       "routes": [
@@ -442,8 +428,8 @@
       "endDate": "",
       "positions": [
         [
-          19.993664,
-          -99.556336
+          19.980850,
+          -99.455669
         ],
         [
           19.980352,
@@ -454,25 +440,11 @@
           -99.316646
         ],
         [
-          19.919733,
-          -99.567519
+          19.875349,
+          -99.464980
         ]
       ],
       "markers": [
-        {
-          "id": 17,
-          "position": [
-            19.950301552751302,
-            -99.53227014868982
-          ],
-          "title": "Xilotepec",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/map_images/marker_image/xilotepec.jpg",
-          "year": "1527",
-          "startDate": "1527-01-01",
-          "endDate": "",
-          "type": "Pueblo de cabecera"
-        },
         {
           "id": 18,
           "position": [
@@ -571,7 +543,7 @@
           "year": "1585",
           "startDate": "1585-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         },
         {
           "id": 18,
@@ -585,7 +557,7 @@
           "year": "1585",
           "startDate": "1585-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         },
         {
           "id": 19,
@@ -595,11 +567,11 @@
           ],
           "title": "Estancia que se solicita",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/estancia_tecozautla.jpg",
           "year": "1585",
           "startDate": "1585-01-01",
           "endDate": "",
-          "type":"Estancia de ganado"
+          "type": "Estancia de ganado"
         }
       ],
       "routes": []
@@ -639,11 +611,11 @@
           ],
           "title": "Cerro del mapa de San Juan Aculco_1",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_san_juan_aculco_1.jpg",
           "year": "1610",
           "startDate": "1610-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 18,
@@ -653,11 +625,11 @@
           ],
           "title": "Cerro del mapa de San Juan Aculco_2",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_san_juan_aculco_2.jpg",
           "year": "1610",
           "startDate": "1610-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 19,
@@ -667,11 +639,11 @@
           ],
           "title": "Cerro del mapa de San Juan Aculco_3",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_san_juan_aculco_3.jpg",
           "year": "1610",
           "startDate": "1610-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 19,
@@ -679,13 +651,13 @@
             20.1196927199217,
             -99.6574403850437
           ],
-          "title": "Cerro del mapa de San Juan Aculco_4",
+          "title": "Cerro del San Martín",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_san_juan_aculco_4.jpg",
           "year": "1610",
           "startDate": "1610-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 19,
@@ -695,11 +667,11 @@
           ],
           "title": "Cerro del mapa de San Juan Aculco_5",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_san_juan_aculco_5.jpg",
           "year": "1610",
           "startDate": "1610-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         }
       ],
       "routes": []
@@ -743,7 +715,7 @@
           "year": "1611",
           "startDate": "1611-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         },
         {
           "id": 18,
@@ -751,13 +723,13 @@
             20.3588071475806,
             -99.3771049659094
           ],
-          "title": "Cerro de mapa",
+          "title": "Cerro pelado",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/cerro_alfajayucan.jpg",
           "year": "1611",
           "startDate": "1611-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         }
       ],
       "routes": []
@@ -801,7 +773,7 @@
           "year": "1611",
           "startDate": "1611-01-01",
           "endDate": "",
-          "type":"Pueblo"
+          "type": "Pueblo"
         },
         {
           "id": 18,
@@ -811,11 +783,11 @@
           ],
           "title": "Estancia de ganado",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/estancia_ganado_san_juan_azguatepec.jpg",
           "year": "1611",
           "startDate": "1611-01-01",
           "endDate": "",
-          "type":"Estancia de ganado"
+          "type": "Estancia de ganado"
         }
       ],
       "routes": [
@@ -894,7 +866,7 @@
           "year": "1614",
           "startDate": "1614-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         },
         {
           "id": 18,
@@ -904,17 +876,17 @@
           ],
           "title": "Estancia de ganado",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/estancia_de_ganado_alfajayucan2.jpg",
           "year": "1614",
           "startDate": "1614-01-01",
           "endDate": "",
-          "type":"Estancia de ganado"
+          "type": "Estancia de ganado"
         }
       ],
       "routes": [
         {
           "id": 7,
-          "name": "Camino de Alfajayucan a Iximiquilpan",
+          "name": "Camino de Alfajayucan a Ixmiquilpan",
           "positions": [
             [
               20.4149199113088,
@@ -981,13 +953,13 @@
             20.4823802038494,
             -99.392641568418
           ],
-          "title": "Estancia de ganado",
+          "title": "Caballerias de tierra.",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/caballerias_de_tierra_el_mezquital.jpg",
           "year": "1617",
           "startDate": "1617-01-01",
           "endDate": "",
-          "type":"Estancia de ganado"
+          "type": "Caballerias de tierra"
         },
         {
           "id": 18,
@@ -995,13 +967,13 @@
             20.4812862401267,
             -99.3857826859723
           ],
-          "title": "Estancia de ganado",
+          "title": "Caballerias de tierra.",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/caballerias_de_tierra_el_mezquital.jpg",
           "year": "1617",
           "startDate": "1617-01-01",
           "endDate": "1617-01-01",
-          "type":"Estancia de ganado"
+          "type": "Caballerias de tierra"
         }
       ],
       "routes": []
@@ -1041,11 +1013,11 @@
           ],
           "title": "Cerros de mapa 1",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro1_rio_tlascalilla.jpg",
           "year": "1620",
           "startDate": "1620-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 18,
@@ -1055,11 +1027,11 @@
           ],
           "title": "Cerros de mapa 2",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro2_rio_tlascalilla.jpg",
           "year": "1620",
           "startDate": "2023-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         },
         {
           "id": 18,
@@ -1069,11 +1041,11 @@
           ],
           "title": "Cerros de mapa 3",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro3_rio_tlascalilla.jpg",
           "year": "1620",
           "startDate": "1620-01-01",
           "endDate": "",
-          "type":"Cerro"
+          "type": "Cerro"
         }
       ],
       "routes": []
@@ -1117,7 +1089,7 @@
           "year": "1622",
           "startDate": "1622-01-01",
           "endDate": "",
-          "type":"Estancia de ganado"
+          "type": "Estancia de ganado"
         }
       ],
       "routes": [
@@ -1175,11 +1147,11 @@
           ],
           "title": "Acambay",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/el_palmar_acambay.jpg",
           "year": "1625",
           "startDate": "1625-01-01",
           "endDate": "",
-          "type":"Pueblo de cabecera"
+          "type": "Pueblo de cabecera"
         },
         {
           "id": 17,
@@ -1189,11 +1161,11 @@
           ],
           "title": "Ojo de agua",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/el_palmar_ojo_de_agua_1.jpg",
           "year": "1625",
           "startDate": "1625-01-01",
           "endDate": "",
-          "type":"Ojo de agua"
+          "type": "Ojo de agua"
         },
         {
           "id": 17,
@@ -1203,11 +1175,11 @@
           ],
           "title": "Ojo de agua ",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/el_palmar_ojo_de_agua_2.jpg",
           "year": "1625",
           "startDate": "1625-01-01",
           "endDate": "",
-          "type":"Ojo de agua"
+          "type": "Ojo de agua"
         }
       ],
       "routes": []
