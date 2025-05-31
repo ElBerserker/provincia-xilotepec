@@ -33,20 +33,32 @@ const caminoReal = [
 
 const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
   // Función para verificar si una fecha está en el rango
-  const isDateInRange = (startDate, endDate) => {
+  const isDateInRange = (startDate, endDate, year) => {
     if (!dateRange || !dateRange[0] || !dateRange[1]) return true;
+
+    const rangeStartYear = dateRange[0].getFullYear();
+    const rangeEndYear = dateRange[1].getFullYear();
+
+    // Preferir el campo year si está disponible
+    if (year) {
+      const itemYear = parseInt(year);
+      return itemYear >= rangeStartYear && itemYear <= rangeEndYear;
+    }
+
+    // Fallback a startDate/endDate si year no está disponible
     if (!startDate) return false;
 
-    const rangeStart = dateRange[0];
-    const rangeEnd = dateRange[1];
-    const startInRange = new Date(startDate) >= rangeStart && new Date(startDate) <= rangeEnd;
-    const endInRange = endDate ? new Date(endDate) >= rangeStart && new Date(endDate) <= rangeEnd : false;
-    const spansRange = new Date(startDate) <= rangeStart && (endDate ? new Date(endDate) >= rangeEnd : true);
+    const startYear = new Date(startDate).getFullYear();
+    const endYear = endDate ? new Date(endDate).getFullYear() : startYear;
 
-    return startInRange || endInRange || spansRange;
+    return (
+      (startYear >= rangeStartYear && startYear <= rangeEndYear) ||
+      (endYear >= rangeStartYear && endYear <= rangeEndYear) ||
+      (startYear <= rangeStartYear && endYear >= rangeEndYear)
+    );
   };
 
-  // Calculate center based on selected polygons or default to Teotihuacán
+  // Calculate center based on selected polygons
   const calculateCenter = () => {
     if (selectedPolygons.length > 0) {
       const firstPolygon = selectedPolygons[0];
@@ -99,7 +111,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
 
       {/* Mostrar solo polígonos seleccionados y dentro del rango de fechas */}
       {selectedPolygons
-        .filter(polygon => isDateInRange(polygon.startDate, polygon.endDate))
+        .filter(polygon => isDateInRange(polygon.startDate, polygon.endDate, polygon.year))
         .map((polygon) => (
           <Polygon
             key={polygon.id}
@@ -115,7 +127,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
       {selectedPolygons.map((polygon) => (
         <>
           {polygon.routes
-            .filter(route => isDateInRange(route.startDate, route.endDate))
+            .filter(route => isDateInRange(route.startDate, route.endDate, route.year))
             .map((route) => (
               <Polyline
                 key={`${polygon.id}-${route.id}`}
@@ -135,7 +147,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
             ))}
 
           {polygon.markers
-            .filter(marker => isDateInRange(marker.startDate, marker.endDate))
+            .filter(marker => isDateInRange(marker.startDate, marker.endDate, marker.year))
             .map((marker) => (
               <Marker key={`${polygon.id}-${marker.id}`} position={marker.position}>
                 <Popup>
@@ -149,17 +161,13 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                       />
                     )}
                     {/*<p className="text-sm">{marker.description}</p>*/}
-                    <div className="text-xs text-gray-500 mt-2">
-                      {marker.year && (<p><b>Año:</b> {marker.year}</p>)}
-                      {marker.type && (<p><b>Tipo:</b> {marker.type}</p>)}
-                      {/* 
-                      {marker.startDate && (
-                        <p>Desde: {new Date(marker.startDate).toLocaleDateString('es-ES')}</p>
-                      )}
-                      {marker.endDate && (
-                        <p>Hasta: {new Date(marker.endDate).toLocaleDateString('es-ES')}</p>
-                      )}
-                      */}
+                    <div className="text-xs text-gray-500 mt-2 flex">
+                      <div className='text-left w-[30%]'>
+                        {marker.year && (<p><b>Año:</b> {marker.year}</p>)}
+                      </div>
+                      <div className='text-right w-full'>
+                        {marker.type && (<p><b>Tipo:</b> {marker.type}</p>)}
+                      </div>
                     </div>
                   </div>
                 </Popup>

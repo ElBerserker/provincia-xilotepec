@@ -74,7 +74,7 @@ const CaptureButton = () => {
       ) : (
         <>
           <MdOutlinePhotoCamera className="h-6 w-6 text-gray-700" />
-          <span className="hidden md:inline ml-2">Capturar Mapa</span>
+          <span className="hidden md:inline ml-2">Capturar imagen</span>
         </>
       )}
     </button>

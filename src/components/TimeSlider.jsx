@@ -1,52 +1,37 @@
 import { useState, useEffect } from 'react';
 import { Slider } from '@mui/material';
-import { format, parseISO } from 'date-fns';
-import { es } from 'date-fns/locale';
 
 const TimeSlider = ({ polygons, onDateRangeChange }) => {
-  // Obtener todas las fechas relevantes de los datos
-  const allDates = [];
+  // Obtener todos los años relevantes de los datos
+  const allYears = [];
   
   polygons.forEach(polygon => {
-    if (polygon.startDate) allDates.push(new Date(polygon.startDate));
-    if (polygon.endDate) allDates.push(new Date(polygon.endDate));
+    if (polygon.year) allYears.push(parseInt(polygon.year));
     
     polygon.markers.forEach(marker => {
-      if (marker.startDate) allDates.push(new Date(marker.startDate));
-      if (marker.endDate) allDates.push(new Date(marker.endDate));
+      if (marker.year) allYears.push(parseInt(marker.year));
     });
     
     polygon.routes.forEach(route => {
-      if (route.startDate) allDates.push(new Date(route.startDate));
-      if (route.endDate) allDates.push(new Date(route.endDate));
+      if (route.year) allYears.push(parseInt(route.year));
     });
   });
 
-  // Encontrar fechas mínima y máxima
-  const minDate = new Date(Math.min(...allDates));
-  const maxDate = new Date(Math.max(...allDates));
-  
-  // Convertir fechas a timestamps para el slider
-  const minTimestamp = minDate.getTime();
-  const maxTimestamp = maxDate.getTime();
+  // Encontrar años mínimo y máximo
+  const minYear = Math.min(...allYears);
+  const maxYear = Math.max(...allYears);
   
   // Estado para el rango seleccionado
-  const [value, setValue] = useState([minTimestamp, maxTimestamp]);
-
-  // Formateador de fechas
-  const formatDate = (timestamp) => {
-    const date = new Date(timestamp);
-    return {
-      short: format(date, 'MMM yyyy', { locale: es }),
-      long: format(date, 'd MMMM yyyy', { locale: es }),
-      year: format(date, 'yyyy', { locale: es })
-    };
-  };
+  const [value, setValue] = useState([minYear, maxYear]);
 
   // Manejar cambio en el slider
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    onDateRangeChange(newValue.map(t => new Date(t)));
+    // Convertir años a fechas (1 de enero de cada año)
+    onDateRangeChange([
+      new Date(newValue[0], 0, 1),
+      new Date(newValue[1], 11, 31) // 31 de diciembre
+    ]);
   };
 
   return (
@@ -54,25 +39,26 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
       <div className="flex flex-col space-y-3">
         <div className="flex justify-between items-center">
           <div className="text-lg font-semibold text-gray-700">
-            Rango de Tiempo
+            Rango de Años
           </div>
-          <div className="bg-blue-50 px-3 py-1 rounded-full text-sm font-medium text-blue-600">
-            {formatDate(value[0]).long} - {formatDate(value[1]).long}
+          <div className="bg-blue-50 px-3 py-1 rounded-full text-sm font-medium text-gray-600">
+            {value[0]} - {value[1]}
           </div>
         </div>
         
         <Slider
           value={value}
           onChange={handleChange}
-          min={minTimestamp}
-          max={maxTimestamp}
-          step={30 * 24 * 60 * 60 * 1000} // Paso de 1 mes en milisegundos
-          marks={[]} // Elimina todas las marcas (incluyendo años)
-          disableTrack // Oculta la barra gris (rail)
+          min={minYear}
+          max={maxYear}
+          step={1}
+          marks={[
+            { value: minYear, label: minYear.toString() },
+            { value: maxYear, label: maxYear.toString() }
+          ]}
           valueLabelDisplay="auto"
-          valueLabelFormat={(v) => formatDate(v).short}
           sx={{
-            color: '#3b82f6', // Color del thumb y riel activo
+            color: '#3b82f6',
             height: 8,
             '& .MuiSlider-thumb': {
               width: 20,
@@ -83,7 +69,10 @@ const TimeSlider = ({ polygons, onDateRangeChange }) => {
                 boxShadow: '0 0 0 6px rgba(59, 130, 246, 0.2)',
               },
             },
-            // Eliminados estilos relacionados con marcas/rail
+            '& .MuiSlider-markLabel': {
+              fontSize: '0.75rem',
+              color: '#6b7280',
+            },
           }}
         />
       </div>

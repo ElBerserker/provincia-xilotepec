@@ -22,23 +22,19 @@ function App() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Función para filtrar elementos por fecha
+  // Función para filtrar elementos por año
   const filterByDate = (items) => {
     if (!dateRange[0] || !dateRange[1]) return items;
 
+    const rangeStartYear = dateRange[0].getFullYear();
+    const rangeEndYear = dateRange[1].getFullYear();
+
     return items.filter(item => {
-      const startDate = item.startDate ? new Date(item.startDate) : null;
-      const endDate = item.endDate ? new Date(item.endDate) : null;
+      const itemYear = item.year ? parseInt(item.year) : null;
 
-      if (!startDate) return true;
+      if (!itemYear) return true;
 
-      const rangeStart = dateRange[0];
-      const rangeEnd = dateRange[1];
-      const startInRange = startDate >= rangeStart && startDate <= rangeEnd;
-      const endInRange = endDate ? endDate >= rangeStart && endDate <= rangeEnd : false;
-      const spansRange = startDate <= rangeStart && (endDate ? endDate >= rangeEnd : true);
-
-      return startInRange || endInRange || spansRange;
+      return itemYear >= rangeStartYear && itemYear <= rangeEndYear;
     });
   };
 
@@ -48,7 +44,7 @@ function App() {
         {/* Sidebar */}
         <div className={`${showMobileMenu ? 'translate-x-0' : '-translate-x-full'} 
                         md:translate-x-0 transform transition-transform duration-300 ease-in-out
-                        fixed md:static top-0 left-0 w-4/5 md:w-80 h-full bg-gray-50 p-4 
+                        fixed md:static top-0 left-0 w-4/5 md:w-96 h-full bg-gray-50 p-4 
                         overflow-y-auto border-r border-gray-200 z-40 flex flex-col scrollbar-hide overflow-hidden`}>
           {/* Header del menú */}
           <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-200">
@@ -83,14 +79,14 @@ function App() {
           {/* Footer con licencia - Versión mejorada */}
           <div className="mt-auto pt-4 border-t border-gray-200">
             <div className="text-xs text-gray-600 text-center">
-              <p 
-                xmlns:cc="http://creativecommons.org/ns#" 
+              <p
+                xmlns:cc="http://creativecommons.org/ns#"
                 className="mb-2 leading-relaxed"
               >
                 Este trabajo está licenciado bajo {' '}
-                <a 
-                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
-                  target="_blank" 
+                <a
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+                  target="_blank"
                   rel="license noopener noreferrer"
                   className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
                 >
@@ -102,24 +98,24 @@ function App() {
                 Por el Mtro. Alejandro Lovera Limberg
               </p>
               <div className="flex justify-center space-x-1 mb-1">
-                <img 
-                  src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" 
-                  alt="Creative Commons" 
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+                  alt="Creative Commons"
                   className="h-5 w-5"
                 />
-                <img 
-                  src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
-                  alt="Atribución" 
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+                  alt="Atribución"
                   className="h-5 w-5"
                 />
-                <img 
-                  src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" 
-                  alt="No Comercial" 
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+                  alt="No Comercial"
                   className="h-5 w-5"
                 />
-                <img 
-                  src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" 
-                  alt="Compartir Igual" 
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
+                  alt="Compartir Igual"
                   className="h-5 w-5"
                 />
               </div>

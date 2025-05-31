@@ -5,7 +5,8 @@
       "name": "Xilotepec San pablo ",
       "color": "#8e44ad",
       "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
-      "temporality": "Siglo XVL",
+      "temporality": "XVL",
+      "year":"1584",
       "startDate": "1584-01-01",
       "endDate": "",
       "positions": [
@@ -117,8 +118,7 @@
             ]
           ],
           "color": "#e74c3c",
-          "startDate": "1584-01-01",
-          "endDate": ""
+          "year": "1584"        
         }
       ]
     },
@@ -127,7 +127,8 @@
       "name": "Chapa de Mota - San Felipe",
       "color": "#3498db",
       "image": "/map_images/mapa_antiguo_san_felipe.jpg",
-      "temporality": "Siglo XVL",
+      "temporality": "XVL",
+      "year":"1559",
       "startDate": "1559-01-01",
       "endDate": "",
       "positions": [
@@ -249,8 +250,7 @@
             ]
           ],
           "color": "#f39c12",
-          "startDate": "1559-01-01",
-          "endDate": ""
+          "year": "1559"
         }
       ]
     },
@@ -259,7 +259,8 @@
       "name": "Mapa de 1583",
       "color": "#2ecc71",
       "image": "/map_images/mapa_antiguo_1583.jpg",
-      "temporality": "Siglo XVL",
+      "temporality": "XVL",
+      "year":"1583",
       "startDate": "2023-04-01",
       "endDate": "",
       "positions": [
@@ -413,8 +414,7 @@
             ]
           ],
           "color": "#16a085",
-          "startDate": "1583-01-01",
-          "endDate": ""
+          "startDate": "1583"
         }
       ]
     },
@@ -423,7 +423,8 @@
       "name": "Sitio El Potrero",
       "color": "red",
       "image": "/map_images/mapa_antiguo_sitio_el_potrerp.jpg",
-      "temporality": "Siglo XVL",
+      "temporality": "XVL",
+      "year":"1527",
       "startDate": "1527-01-01",
       "endDate": "",
       "positions": [
@@ -509,7 +510,8 @@
       "name": "Tecozautla",
       "color": "red",
       "image": "/map_images/mapa_antiguo_tecozautla.jpg",
-      "temporality": "Siglo XVL",
+      "temporality": "XVL",
+      "year":"1585",
       "startDate": "1585-01-01",
       "endDate": "",
       "positions": [
@@ -581,7 +583,8 @@
       "name": "San Juan Aculco",
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_juan_aculco.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1610",
       "startDate": "1610-01-01",
       "endDate": "",
       "positions": [
@@ -681,7 +684,8 @@
       "name": "San Martín Alfajayucan 1",
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan1.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1611",
       "startDate": "1611-01-01",
       "endDate": "",
       "positions": [
@@ -739,7 +743,8 @@
       "name": "San Juan Azguatepec",
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_juan_azguatepec.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1611",
       "startDate": "1611-01-01",
       "endDate": "",
       "positions": [
@@ -805,8 +810,7 @@
             ]
           ],
           "color": "#16a085",
-          "startDate": "1611-01-01",
-          "endDate": ""
+          "year": "1611"
         },
         {
           "id": 7,
@@ -822,8 +826,7 @@
             ]
           ],
           "color": "#16a085",
-          "startDate": "1611-01-01",
-          "endDate": ""
+          "year": "1611"
         }
       ]
     },
@@ -832,7 +835,8 @@
       "name": "San Martín Alfajayucan 2",
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan2.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1614",      
       "startDate": "1614-01-01",
       "endDate": "",
       "positions": [
@@ -898,8 +902,7 @@
             ]
           ],
           "color": "#16a085",
-          "startDate": "1614-01-01",
-          "endDate": ""
+          "year": "1614"
         },
         {
           "id": 7,
@@ -925,7 +928,8 @@
       "name": "Mezquital de Tecozautla",
       "color": "red",
       "image": "/map_images/mapa_antiguo_mezquital_de_tecozautla.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1617",
       "startDate": "1617-01-01",
       "endDate": "",
       "positions": [
@@ -983,7 +987,8 @@
       "name": "Río Tlascalilla",
       "color": "red",
       "image": "/map_images/mapa_antiguo_rio_lascalilla.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1620",
       "startDate": "1620-01-01",
       "endDate": "",
       "positions": [
@@ -1055,7 +1060,8 @@
       "name": "El Palmar",
       "color": "red",
       "image": "/map_images/mapa_antiguo_el _almar.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1622",
       "startDate": "1622-01-01",
       "endDate": "",
       "positions": [
@@ -1107,8 +1113,7 @@
             ]
           ],
           "color": "#16a085",
-          "startDate": "1622-01-01",
-          "endDate": ""
+          "year": "1622"
         }
       ]
     },
@@ -1117,7 +1122,8 @@
       "name": "San Miguel Quahmanco",
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_miguel_quahmanco.jpg",
-      "temporality": "Siglo XVLL",
+      "temporality": "XVLL",
+      "year":"1625",
       "startDate": "1625-01-01",
       "endDate": "",
       "positions": [
