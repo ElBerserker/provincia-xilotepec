@@ -147,7 +147,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
                       ></span>
                       <span className="text-sm text-gray-600">
                         {polygon.year && `${getCentury(polygon.year)} • ${polygon.year} • `}
-                        {filterByDate(polygon.markers).length} marcadores • {filterByDate(polygon.routes).length} rutas
+                        {filterByDate(polygon.markers).length} puntos • {filterByDate(polygon.routes).length} rutas
                       </span>
                     </div>
                   </div>
@@ -205,7 +205,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
                                 style={{ backgroundColor: polygon.color }}
                               ></span>
                               <span className="text-xs text-gray-600">
-                                {polygon.year} • {filterByDate(polygon.markers).length} marcadores • {filterByDate(polygon.routes).length} rutas
+                                {polygon.year} • {filterByDate(polygon.markers).length} puntos • {filterByDate(polygon.routes).length} líneas
                               </span>
                             </div>
                           </div>

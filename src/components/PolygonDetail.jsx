@@ -77,7 +77,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
 
             {visibleRoutes.length > 0 && (
               <div className="mb-3">
-                <h4 className="font-semibold mb-1">Rutas disponibles ({visibleRoutes.length}):</h4>
+                <h4 className="font-semibold mb-1">Líneas disponibles ({visibleRoutes.length}):</h4>
                 <div className="space-y-1">
                   {visibleRoutes.map((route) => (
                     <div key={route.id} className="flex items-center">

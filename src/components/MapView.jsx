@@ -126,6 +126,37 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
       {/* Mostrar rutas y marcadores dentro del rango de fechas */}
       {selectedPolygons.map((polygon) => (
         <>
+
+          {polygon.sub_polygons
+            .filter(_sub_polygon => isDateInRange(polygon.startDate, polygon.endDate, polygon.year))
+            .map((polygon) => (
+              <Polygon
+                key={polygon.id}
+                positions={polygon.positions}
+                pathOptions={{ color: polygon.color, weight: 5 }}
+
+              >
+                <Popup>
+                  <div className="w-64">
+                    <h3 className="font-bold text-lg">{polygon.name}</h3>
+                    {polygon.image && (
+                      <img
+                        src={polygon.image}
+                        alt={polygon.name}
+                        className="w-full h-32 object-cover mb-2 rounded"
+                      />
+                    )}
+                    {/*<p className="text-sm">{marker.description}</p>*/}
+                    <div className="text-xs text-gray-500 mt-2 flex">
+                      <div className='text-left w-[30%]'>
+                        {polygon.year && (<p><b>Año:</b> {polygon.year}</p>)}
+                      </div>
+                    </div>
+                  </div>
+                </Popup>
+              </Polygon>
+            ))}
+
           {polygon.routes
             .filter(route => isDateInRange(route.startDate, route.endDate, route.year))
             .map((route) => (

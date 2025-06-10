@@ -6,7 +6,7 @@
       "color": "#8e44ad",
       "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
       "temporality": "XVL",
-      "year":"1584",
+      "year": "1584",
       "startDate": "1584-01-01",
       "endDate": "",
       "positions": [
@@ -27,6 +27,7 @@
           -99.5346735807441000
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 1,
@@ -118,7 +119,7 @@
             ]
           ],
           "color": "#e74c3c",
-          "year": "1584"        
+          "year": "1584"
         }
       ]
     },
@@ -128,7 +129,7 @@
       "color": "#3498db",
       "image": "/map_images/mapa_antiguo_san_felipe.jpg",
       "temporality": "XVL",
-      "year":"1559",
+      "year": "1559",
       "startDate": "1559-01-01",
       "endDate": "",
       "positions": [
@@ -149,6 +150,7 @@
           -99.6693060932165
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 7,
@@ -260,7 +262,7 @@
       "color": "#2ecc71",
       "image": "/map_images/mapa_antiguo_1583.jpg",
       "temporality": "XVL",
-      "year":"1583",
+      "year": "1583",
       "startDate": "2023-04-01",
       "endDate": "",
       "positions": [
@@ -281,6 +283,7 @@
           -99.56321903382822
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 11,
@@ -424,7 +427,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_sitio_el_potrerp.jpg",
       "temporality": "XVL",
-      "year":"1527",
+      "year": "1527",
       "startDate": "1527-01-01",
       "endDate": "",
       "positions": [
@@ -445,6 +448,7 @@
           -99.464980
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 18,
@@ -511,7 +515,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_tecozautla.jpg",
       "temporality": "XVL",
-      "year":"1585",
+      "year": "1585",
       "startDate": "1585-01-01",
       "endDate": "",
       "positions": [
@@ -532,6 +536,7 @@
           -99.680732
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -584,7 +589,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_juan_aculco.jpg",
       "temporality": "XVLL",
-      "year":"1610",
+      "year": "1610",
       "startDate": "1610-01-01",
       "endDate": "",
       "positions": [
@@ -605,6 +610,7 @@
           -99.795727
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -685,7 +691,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan1.jpg",
       "temporality": "XVLL",
-      "year":"1611",
+      "year": "1611",
       "startDate": "1611-01-01",
       "endDate": "",
       "positions": [
@@ -706,6 +712,7 @@
           -99.395466
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -744,7 +751,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_juan_azguatepec.jpg",
       "temporality": "XVLL",
-      "year":"1611",
+      "year": "1611",
       "startDate": "1611-01-01",
       "endDate": "",
       "positions": [
@@ -765,6 +772,7 @@
           -99.931082
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -836,7 +844,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan2.jpg",
       "temporality": "XVLL",
-      "year":"1614",      
+      "year": "1614",
       "startDate": "1614-01-01",
       "endDate": "",
       "positions": [
@@ -857,6 +865,7 @@
           -99.382458
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -929,7 +938,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_mezquital_de_tecozautla.jpg",
       "temporality": "XVLL",
-      "year":"1617",
+      "year": "1617",
       "startDate": "1617-01-01",
       "endDate": "",
       "positions": [
@@ -950,6 +959,7 @@
           -99.420354
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -988,7 +998,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_rio_lascalilla.jpg",
       "temporality": "XVLL",
-      "year":"1620",
+      "year": "1620",
       "startDate": "1620-01-01",
       "endDate": "",
       "positions": [
@@ -1009,6 +1019,7 @@
           -99.813940
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -1061,7 +1072,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_el _almar.jpg",
       "temporality": "XVLL",
-      "year":"1622",
+      "year": "1622",
       "startDate": "1622-01-01",
       "endDate": "",
       "positions": [
@@ -1082,6 +1093,7 @@
           -99.571149
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -1123,7 +1135,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_miguel_quahmanco.jpg",
       "temporality": "XVLL",
-      "year":"1625",
+      "year": "1625",
       "startDate": "1625-01-01",
       "endDate": "",
       "positions": [
@@ -1144,6 +1156,7 @@
           -99.853649
         ]
       ],
+      "sub_polygons": [],
       "markers": [
         {
           "id": 17,
@@ -1189,6 +1202,1444 @@
         }
       ],
       "routes": []
-    }
+    },
+    {
+      "id": 14,
+      "name": "San Miguel Quahmanco",
+      "color": "red",
+      "image": "/map_images/mapa_antiguo_san_miguel_quahmanco.jpg",
+      "temporality": "XVLL",
+      "year": "1625",
+      "startDate": "1625-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.963690,
+          -99.855685
+        ],
+        [
+          19.964173,
+          -99.836049
+        ],
+        [
+          19.945128,
+          -99.836681
+        ],
+        [
+          19.942277,
+          -99.853649
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 17,
+          "position": [
+            19.9552413510027,
+            -99.8452690149964
+          ],
+          "title": "Acambay",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_palmar_acambay.jpg",
+          "year": "1625",
+          "startDate": "1625-01-01",
+          "endDate": "",
+          "type": "Pueblo de cabecera"
+        },
+        {
+          "id": 17,
+          "position": [
+            19.9456666548024,
+            -99.8405835505507
+          ],
+          "title": "Ojo de agua",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_palmar_ojo_de_agua_1.jpg",
+          "year": "1625",
+          "startDate": "1625-01-01",
+          "endDate": "",
+          "type": "Ojo de agua"
+        },
+        {
+          "id": 17,
+          "position": [
+            19.9440097949665,
+            -99.8503393742724
+          ],
+          "title": "Ojo de agua ",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_palmar_ojo_de_agua_2.jpg",
+          "year": "1625",
+          "startDate": "1625-01-01",
+          "endDate": "",
+          "type": "Ojo de agua"
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 15,
+      "name": "Estancia de Santiago Maza",
+      "color": "#6c3483",
+      "image": "/map_images/mapa_antiguo_estancia_santiago_maza.jpg",
+      "temporality": "XVLLL",
+      "year": "1754",
+      "startDate": "1754-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.8486211404182,
+          -99.8257048572212
+        ],
+        [
+          19.8570973866489,
+          -99.749151508931
+        ],
+        [
+          19.7993377769342,
+          -99.7559086331655
+        ],
+        [
+          19.787262782335,
+          -99.8277258961357
+        ]
+      ],
+      "sub_polygons": [
+        {
+          "id": 1,
+          "name": "Poligono interior",
+          "color": "#9b59b6",
+          "temporality": "XVLLL",
+          "image": "/map_images/polygon_image/poligono_interior.jpg",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "positions": [
+            [
+              19.793639085703,
+              -99.8192483354102
+            ],
+            [
+              19.8421887421338,
+              -99.805015410108
+            ],
+            [
+              19.8239919950835,
+              -99.7691884448627
+            ],
+            [
+              19.7934983821276,
+              -99.7852459310019
+            ]
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.8206626433478,
+            -99.7641685350337
+          ],
+          "title": "Santiago Maxda",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/santiago_maxda.jpg",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 16,
+      "name": "San Luis de las Peras y Taxhimay",
+      "color": "#2980b9",
+      "image": "/map_images/mapa_antiguo_san_luis_peras_taxhimay.jpg",
+      "temporality": "XVLLL",
+      "year": "1759",
+      "startDate": "1759-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.9242013100766,
+          -99.5459854632342
+        ],
+        [
+          19.9388288436562,
+          -99.4249189192387
+        ],
+        [
+          19.8108668826809,
+          -99.3952140302315
+        ],
+        [
+          19.7969816104091,
+          -99.4885251416563
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.8328696928969,
+            -99.3994056574261
+          ],
+          "title": "San Luis de las Peras",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1759",
+          "startDate": "1759-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 18,
+          "position": [
+            19.8917251603673,
+            -99.4999695615314
+          ],
+          "title": "Cerro de los órganos",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/penia_organos.jpg",
+          "year": "1759",
+          "startDate": "1759-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        }
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Camino de San Luis de las Peras a Xilotepec",
+          "positions": [
+            [
+              19.8335001773548,
+              -99.3997308682184
+            ],
+            [
+              19.9534168859449,
+              -99.5322749355281
+            ],
+            [
+              19.9386064226797,
+              -99.4244405319144
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1759"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Potrero",
+      "color": "#eb984e",
+      "image": "/map_images/mapa_antiguo_san_luis_peras_taxhimay.jpg",
+      "temporality": "XVLLL",
+      "year": "1754",
+      "startDate": "1754-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.984215002908,
+          -99.5173707956824
+        ],
+        [
+          19.9846980652797,
+          -99.4395104547318
+        ],
+        [
+          19.8862968260425,
+          -99.4395846671322
+        ],
+        [
+          19.8875134599696,
+          -99.5153243356927
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.9684948939734,
+            -99.4908343408127
+          ],
+          "title": "San Pablo Huantepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 20,
+          "position": [
+            19.9471664801433,
+            -99.4913836206204
+          ],
+          "title": "Cerro de los Arciniega",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 21,
+          "position": [
+            19.9400104595502,
+            -99.4869291851421
+          ],
+          "title": "Loma de la gallina",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 22,
+          "position": [
+            19.9375621778723,
+            -99.4787576506233
+          ],
+          "title": "Loma larga",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 23,
+          "position": [
+            19.9363569812794,
+            -99.4674552095891
+          ],
+          "title": "Monte solo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 24,
+          "position": [
+            19.9320513162959,
+            -99.4606502685855
+          ],
+          "title": "Cerro de los organos",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1754",
+          "startDate": "1754-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        }
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Camino Xilotepec-San Pablo",
+          "positions": [
+            [
+              19.9871626348982,
+              -99.448227801712
+            ],
+            [
+              19.9694108860001,
+              -99.4872072799357
+            ],
+            [
+              19.9526651691494,
+              -99.5325380881057
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1754"
+        },
+        {
+          "id": 2,
+          "name": "Arroyo de Dexcanie",
+          "positions": [
+            [
+              19.9286776544236,
+              -99.4939506798826
+            ],
+            [
+              19.9428841733128,
+              -99.4949984166993
+            ],
+            [
+              19.9565413002086,
+              -99.4966073618047
+            ]
+          ],
+          "color": "#a9cce3",
+          "year": "1754"
+        },
+        {
+          "id": 3,
+          "name": "Rio de Coscomate a Tlautla",
+          "positions": [
+            [
+              19.9612546454313,
+              -99.4774681508545
+            ],
+            [
+              19.9613060911797,
+              -99.4274360432027
+            ],
+            [
+              19.9628310560182,
+              -99.3730338072919
+            ]
+          ],
+          "color": "#a569bd",
+          "year": "1754"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "San Miguel Acambay",
+      "color": "#d98880",
+      "image": "/map_images/mapa_antiguo_san_miguel_acambay.jpg",
+      "temporality": "XVLLL",
+      "year": "1746",
+      "startDate": "1746-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.9578075341001,
+          -99.8459589883938
+        ],
+        [
+          19.9536277868662,
+          -99.7843107276672
+        ],
+        [
+          19.9085389856393,
+          -99.8431349146897
+        ],
+        [
+          19.9107588540781,
+          -99.845573763004
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.9552413514897,
+            -99.8452690151997
+          ],
+          "title": "Acambay",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/acambay.jpg",
+          "year": "1746",
+          "startDate": "1746-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 20,
+          "position": [
+            19.9317794559536,
+            -99.791861809871
+          ],
+          "title": "Rancho de los indios",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/rancho_indios.jpg",
+          "year": "1746",
+          "startDate": "1746-01-01",
+          "endDate": "",
+          "type": "Rancho"
+        },
+        {
+          "id": 21,
+          "position": [
+            19.9400104595502,
+            -99.4869291851421
+          ],
+          "title": "San Juanico",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_juanico.jpg",
+          "year": "1746",
+          "startDate": "1756-01-01",
+          "endDate": "",
+          "type": "Pueblo de indios"
+        }
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Camino de Acambay a Xilotepec",
+          "positions": [
+            [
+              19.9552413514897,
+              -99.8452690151997
+            ],
+            [
+              19.9526723459806,
+              -99.5325254019282
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1746"
+        },
+        {
+          "id": 2,
+          "name": "Camino de Acambay a Huichapan",
+          "positions": [
+            [
+              19.9480990920702,
+              -99.858800140243
+            ],
+            [
+              20.0591566672032,
+              -99.728587686544
+            ],
+            [
+              19.9832024254608,
+              -99.7444498114999
+            ],
+            [
+              19.9829665179588,
+              -99.7436899812945
+            ]
+          ],
+          "color": "#a9cce3",
+          "year": "1754"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Mapa del rancho de San Antonio Siteje",
+      "color": "#2471a3",
+      "image": "/map_images/mapa_antiguo_san_antonio_siteje.jpg",
+      "temporality": "XVLLL",
+      "year": "1772",
+      "startDate": "1772-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          20.0744473952872,
+          -99.9195618469892
+        ],
+        [
+          20.0739910782322,
+          -99.8493388466394
+        ],
+        [
+          19.9826873319279,
+          -99.8520531567089
+        ],
+        [
+          19.9900346858873,
+          -99.9176821847906
+        ]
+      ],
+      "sub_polygons": [
+        {
+          "id": 1,
+          "name": "Poligono de conflicto",
+          "color": "#9b59b6",
+          "temporality": "XVLLL",
+          "image": "/map_images/polygon_image/poligono_interior_san_antonio.jpg",
+          "year": "1772",
+          "startDate": "1772-01-01",
+          "endDate": "",
+          "positions": [
+            [
+              20.0260027271117,
+              -99.9142580013028
+            ],
+            [
+              20.0361991435925,
+              -99.8950831660569
+            ],
+            [
+              19.9896687070384,
+              -99.910309362396
+            ],
+            [
+              20.012570045042,
+              -99.9146076765652
+            ]
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.9892815479193,
+            -99.8917435024209
+          ],
+          "title": "Cerro Huatepeque",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1772",
+          "startDate": "1772-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 20,
+          "position": [
+            20.0239254219109,
+            -99.8854389304362
+          ],
+          "title": "Cerro de los tepetates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1772",
+          "startDate": "1772-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 21,
+          "position": [
+            20.011314002055,
+            -99.8831060745667
+          ],
+          "title": "Cerro ermitaño",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_juanico.jpg",
+          "year": "1772",
+          "startDate": "1772-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 22,
+          "position": [
+            20.011314002055,
+            -99.8831060745667
+          ],
+          "title": "Cruz de terremoto",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1772",
+          "startDate": "1772-01-01",
+          "endDate": "",
+          "type": "Cruz"
+        },
+        {
+          "id": 23,
+          "position": [
+            20.03627994361,
+            -99.8944717167663
+          ],
+          "title": "Mojonera",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1772",
+          "startDate": "1772-01-01",
+          "endDate": "",
+          "type": "Mojonera"
+        }
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Río",
+          "positions": [
+            [
+              20.0760930718199,
+              -99.8689974803438
+            ],
+            [
+              20.0140574573779,
+              -99.9040250176868
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1772"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "San Luis de las Peras y  hacienda de Taxhimay",
+      "color": "#a569bd",
+      "image": "/map_images/mapa_antiguo_san_luis_peras_hacienda.jpg",
+      "temporality": "XVLLL",
+      "year": "1779",
+      "startDate": "1779-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.878526416165,
+          -99.4170828050429
+        ],
+        [
+          19.8728137524981,
+          -99.3497181063366
+        ],
+        [
+          19.8325927733124,
+          -99.3623304309535
+        ],
+        [
+          19.8276285076769,
+          -99.415787030532
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.8328696928969,
+            -99.3994056574261
+          ],
+          "title": "San Luis de las Peras",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_luis_peras.jpg",
+          "year": "1779",
+          "startDate": "1779-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 20,
+          "position": [
+            19.8346953319132,
+            -99.4067456804906
+          ],
+          "title": "Hacienda de San Luis Taxhimay",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/hacienda_san_luis.jpg",
+          "year": "1779",
+          "startDate": "1779-01-01",
+          "endDate": "",
+          "type": "Hacienda"
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": 21,
+      "name": "La serranía de las cruces",
+      "color": "#5d6d7e",
+      "image": "/map_images/mapa_antiguo_serrania_cruces.jpg",
+      "temporality": "XVLLL",
+      "year": "1784",
+      "startDate": "1784-01-01",
+      "endDate": "",
+      "positions": [
+        [
+          19.9718856680373,
+          -99.5352334606959
+        ],
+        [
+          19.9859206681195,
+          -99.4393788767573
+        ],
+        [
+          19.8961171951689,
+          -99.4395350551631
+        ],
+        [
+          19.8959512086939,
+          -99.5350789498545
+        ]
+      ],
+      "sub_polygons": [
+        {
+          "id": 1,
+          "name": "Poligono de conflicto",
+          "color": "#9b59b6",
+          "temporality": "XVLLL",
+          "image": "/map_images/polygon_image/poligono_conflicto_serrania_cruces.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "positions": [
+            [
+              19.9640752241815,
+              -99.4969478588848
+            ],
+            [
+              19.9643766312841,
+              -99.4590179882412
+            ],
+            [
+              19.9319414193335,
+              -99.4584185697906
+            ],
+            [
+              19.9326518876691,
+              -99.4966809734323
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Centro del litigio",
+          "color": "#45b39d",
+          "temporality": "XVLLL",
+          "image": "/map_images/polygon_image/centro_litigio.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "positions": [
+            [
+              19.9504910323486,
+              -99.480975792702
+            ],
+            [
+              19.9506787691515,
+              -99.4703988180851
+            ],
+            [
+              19.9427091743084,
+              -99.4703752128945
+            ],
+            [
+              19.9427600066261,
+              -99.4811209478793
+            ]
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+            19.9514876859116,
+            -99.5321882884835
+          ],
+          "title": "Xilotepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/xilotepec_serrania.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 20,
+          "position": [
+            19.9684948939734,
+            -99.4908343408127
+          ],
+          "title": "San Pablo Huantepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 21,
+          "position": [
+            19.9790966071567,
+            -99.4478917674222
+          ],
+          "title": "Rancho Thogui",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/rancho_thogui.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Rancho"
+        },
+        {
+          "id": 22,
+          "position": [
+            19.9346507757955,
+            -99.4941796561288
+          ],
+          "title": "Rancho de la Santa Cruz",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/rancho_santa_cruz.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Rancho"
+        },
+        {
+          "id": 23,
+          "position": [
+            19.9569309907456,
+            -99.4896316751248
+          ],
+          "title": "Casa de Don Jose Antonio Arciniega",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/casa_don_jose_arciniega.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Casa"
+        },
+        {
+          "id": 24,
+          "position": [
+            19.9559303957388,
+            -99.4706473750652
+          ],
+          "title": "Casa de los arrendatarios de Thogui",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/casa_arrendarios_thogui.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Casa"
+        },
+        {
+          "id": 25,
+          "position": [
+            19.9490620116452,
+            -99.4935855488289
+          ],
+          "title": "Casa de Juan de Roxas",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/casa_san_juan_rosas.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Casa"
+        },
+        {
+          "id": 25,
+          "position": [
+            19.9471664801433,
+            -99.4913836206204
+          ],
+          "title": "Cerro de los Arciniega",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 27,
+          "position": [19.9400104595502,	-99.4869291851421],
+          "title": "Loma de la gallina",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 28,
+          "position": [19.9375621778723,	-99.4787576506233],
+          "title": "Loma larga",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 29,
+          "position": [19.9363569812794,	-99.4674552095891],
+          "title": "Monte solo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/monte_solo_cerrania_cruces.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 26,
+          "position": [19.9320513162959, -99.4606502685855],
+          "title": "Monte Grande",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 26,
+          "position": [19.9423352886951, -99.4529018477985],
+          "title": "Cerro de la rosa",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/cerro_rosa.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 26,
+          "position": [19.9466670294964, -99.4417468844019],
+          "title": "Cerro de la campana",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/monte_campana.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 27,
+          "position": [19.8979409185834,	-99.5126810440298],
+          "title": "Serranía de Coscomate",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/serrania_coscomate.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Sierra"
+        },
+        {
+          "id": 27,
+          "position": [19.906673177966,	-99.4836327754059],
+          "title": "Serranía de la Santa Cruz",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/serrania_santa_cruz.jpg",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Sierra"
+        },
+        {
+          "id": 28,
+          "position": [19.8917251603673,	-99.4999695615314],
+          "title": "Cerro de los órganos",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1784",
+          "startDate": "1784-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        }                         
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Rio de Coscomate a Tlautla",
+          "positions": [
+            [
+              19.9612546454313,
+              -99.4774681508545
+            ],
+            [
+              19.9613060911797,
+              -99.4274360432027
+            ],
+            [
+              19.9628310560182,
+              -99.3730338072919
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1784"
+        },
+        {
+          "id": 2,
+          "name": "Camino Xilotepec-San Pablo",
+          "positions": [
+            [
+              19.9871626348982,
+              -99.448227801712
+            ],
+            [
+              19.9694108860001,
+              -99.4872072799357
+            ],
+            [
+              19.9526651691494,
+              -99.5325380881057
+            ]
+          ],
+          "color": "#f5b041",
+          "year": "1784"
+        },
+        {
+          "id": 3,
+          "name": "Arroyo de Dexcanie",
+          "positions": [
+            [
+              19.9286776544236,
+              -99.4939506798826
+            ],
+            [
+              19.9428841733128,
+              -99.4949984166993
+            ],
+            [
+              19.9565413002086,
+              -99.4966073618047
+            ]
+          ],
+          "color": "#5499c7",
+          "year": "1784"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Rancho Thogui",
+      "color": "#5d6d7e",
+      "image": "/map_images/mapa_antiguo_rancho_thogui.jpg",
+      "temporality": "XVLLL",
+      "year": "1788",
+      "startDate": "1788-01-01",
+      "endDate": "",
+      "positions": [
+        [
+19.9799150948917,	-99.5362089319776
+        ],
+        [
+20.0163839898422,	-99.4627648717309
+        ],
+        [
+20.0249919791079,	-99.4055556052623
+        ],
+        [
+19.895937445544,	-99.424499226042
+        ],
+        [
+19.8961371196897,	-99.5351890539432
+        ]
+      ],
+      "sub_polygons": [
+        {
+          "id": 1,
+          "name": "Poligono de conflicto",
+          "color": "#9b59b6",
+          "temporality": "XVLLL",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "positions": [
+            [
+19.9587119014399,	-99.4921798067564
+            ],
+            [
+19.960286584574,	-99.4758799061257
+            ],
+            [
+19.950052912868,	-99.4688908606433
+            ],
+            [
+19.9412574215441,	-99.4820526890615
+            ]
+          ]
+        }       
+      ],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+19.9514876859116,	-99.5321882884835
+          ],
+          "title": "Xilotepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/xilotepec_rancho_thogui.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 20,
+          "position": [
+19.9790966071567,	-99.4478917674222
+          ],
+          "title": "Rancho Thogui",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/rancho_thogui_rancho.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Rancho"
+        },
+        {
+          "id": 21,
+          "position": [
+19.9684948939734,	-99.4908343408127
+          ],
+          "title": "San Pablo Huantepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_pablo_huantepec.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 22,
+          "position": [
+19.9810341117527,	-99.4417710814861
+          ],
+          "title": "Corrales",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/corral_rancho_thogui.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Corrales de ganado"
+        },
+        {
+          "id": 23,
+          "position": [
+19.9346507757955,	-99.4941796561288
+          ],
+          "title": "Rancho de la Santa Cruz",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Rancho"
+        },
+        {
+          "id": 24,
+          "position": [
+19.9820914915864,	-99.4522677690621
+          ],
+          "title": "Ojo de agua",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/ojo_agua_rancho_thogui.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Manantial"
+        },
+        {
+          "id": 25,
+          "position": [
+19.9375621778723,	-99.4787576506233
+          ],
+          "title": "Loma larga",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/loma_larga_rancho_thogui.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 25,
+          "position": [
+19.9363569812794,	-99.4674552095891
+          ],
+          "title": "Monte solo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 27,
+          "position": [
+19.9320513162959,	-99.4606502685855
+          ],
+          "title": "Monte grande",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 28,
+          "position": [
+19.9423352886951,	-99.4529018477985
+          ],
+          "title": "Cerro de la rosa",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 29,
+          "position": [
+19.9466670294964,	-99.4417468844019
+          ],
+          "title": "Cerro de la campana",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/cerro_campana_rancho_thogui.jpg",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 26,
+          "position": [
+19.8979409185834,	-99.5126810440298
+          ],
+          "title": "Serranía de Coscomate",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Sierra"
+        },
+        {
+          "id": 26,
+          "position": [
+19.906673177966,	-99.4836327754059
+          ],
+          "title": "Serranía de la Santa Cruz",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "",
+          "year": "1788",
+          "startDate": "1788-01-01",
+          "endDate": "",
+          "type": "Sierra"
+        }                       
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Rio de Coscomate a Tlautla",
+          "positions": [
+            [
+19.9612546454313,	-99.4774681508545
+            ],
+            [
+19.9613060911797,	-99.4274360432027
+            ],
+            [
+19.9628310560182,	-99.3730338072919
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1788"
+        },
+        {
+          "id": 2,
+          "name": "Arroyo de Dexcanie",
+          "positions": [
+            [
+19.9286776544236,	-99.4939506798826
+            ],
+            [
+19.9428841733128,	-99.4949984166993
+            ],
+            [
+19.9565413002086,	-99.4966073618047
+            ]
+          ],
+          "color": "#f5b041",
+          "year": "1788"
+        }
+      ]
+    },
+    
+    {
+      "id": 23,
+      "name": "San Luis de las Peras",
+      "color": "#5d6d7e",
+      "image": "/map_images/mapa_antiguo_san_luis_peras.jpg",
+      "temporality": "XVLLL",
+      "year": "1791",
+      "startDate": "1791-01-01",
+      "endDate": "",
+      "positions": [
+        [
+19.8774064110823,	-99.4017522402385        
+        ],
+        [
+19.8740951961639,	-99.3383252297255
+        ],
+        [
+19.8487173103074,	-99.3392821548042
+        ],
+        [
+19.8309062200781,	-99.3507657533518
+        ],
+        [
+19.8378609179826,	-99.4083906747793
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 18,
+          "position": [
+19.8328696928969,	-99.3994056574261
+          ],
+          "title": "San Luis de las Peras",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/san_luis_peras_peras.jpg",
+          "year": "1791",
+          "startDate": "1791-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 20,
+          "position": [
+19.8346953319132,	-99.4067456804906
+          ],
+          "title": "Hacienda de San Luis Taxhimay",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/hacienda_taxhimay.jpg",
+          "year": "1791",
+          "startDate": "1791-01-01",
+          "endDate": "",
+          "type": "Hacienda"
+        }                 
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Río de los perales",
+          "positions": [
+            [
+19.8047947050673,	-99.3863103536785
+            ],
+            [
+19.9040506971796,	-99.338138443944
+            ]
+          ],
+          "color": "#d4ac0d",
+          "year": "1791"
+        },
+        {
+          "id": 2,
+          "name": "Río de la iglesia",
+          "positions": [
+            [
+19.836809149445,	-99.402860869757
+            ],
+            [
+19.8673290418505,	-99.3978329527906
+            ]
+          ],
+          "color": "#f5b041",
+          "year": "1791"
+        }
+      ]
+    }    
   ]
 }
