@@ -2297,7 +2297,7 @@
     {
       "id": 22,
       "name": "Rancho Thogui",
-      "color": "#5d6d7e",
+      "color": "#d35400",
       "image": "/map_images/mapa_antiguo_rancho_thogui.jpg",
       "temporality": "XVLLL",
       "year": "1788",
@@ -2558,7 +2558,7 @@
     {
       "id": 23,
       "name": "San Luis de las Peras",
-      "color": "#5d6d7e",
+      "color": "#17a589",
       "image": "/map_images/mapa_antiguo_san_luis_peras.jpg",
       "temporality": "XVLLL",
       "year": "1791",
