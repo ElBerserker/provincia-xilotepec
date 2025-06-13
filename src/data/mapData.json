@@ -118,7 +118,7 @@
               -99.4482390232610000
             ]
           ],
-          "color": "#e74c3c",
+          "color": "black",
           "year": "1584"
         }
       ]
@@ -251,7 +251,7 @@
               -99.6393895012977
             ]
           ],
-          "color": "#f39c12",
+          "color": "black",
           "year": "1559"
         }
       ]
@@ -416,7 +416,7 @@
               -99.53227014868982
             ]
           ],
-          "color": "#16a085",
+          "color": "black",
           "startDate": "1583"
         }
       ]
@@ -817,7 +817,7 @@
               -99.7338382273771
             ]
           ],
-          "color": "#16a085",
+          "color": "black",
           "year": "1611"
         },
         {
@@ -833,7 +833,7 @@
               -99.5325253927175
             ]
           ],
-          "color": "#16a085",
+          "color": "black",
           "year": "1611"
         }
       ]
@@ -910,7 +910,7 @@
               -99.2177512301772
             ]
           ],
-          "color": "#16a085",
+          "color": "black",
           "year": "1614"
         },
         {
@@ -926,7 +926,7 @@
               -99.3235302675187
             ]
           ],
-          "color": "#16a085",
+          "color": "black",
           "startDate": "1614-01-01",
           "endDate": ""
         }
@@ -1124,7 +1124,7 @@
               -99.4343247296177
             ]
           ],
-          "color": "#16a085",
+          "color": "black",
           "year": "1622"
         }
       ]
@@ -1428,7 +1428,7 @@
               -99.4244405319144
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "black",
           "year": "1759"
         }
       ]
@@ -1470,7 +1470,7 @@
           ],
           "title": "San Pablo Huantepec",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/potrero_san_pablo.jpg",
           "year": "1754",
           "startDate": "1754-01-01",
           "endDate": "",
@@ -1484,7 +1484,7 @@
           ],
           "title": "Cerro de los Arciniega",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/potrero_cerro_arciniega.jpg",
           "year": "1754",
           "startDate": "1754-01-01",
           "endDate": "",
@@ -1498,7 +1498,7 @@
           ],
           "title": "Loma de la gallina",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/potrero_cerro_gallina.jpg",
           "year": "1754",
           "startDate": "1754-01-01",
           "endDate": "",
@@ -1512,7 +1512,7 @@
           ],
           "title": "Loma larga",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/potrero_loma_larga.jpg",
           "year": "1754",
           "startDate": "1754-01-01",
           "endDate": "",
@@ -1526,7 +1526,7 @@
           ],
           "title": "Monte solo",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/potrero_monte_solo.jpg",
           "year": "1754",
           "startDate": "1754-01-01",
           "endDate": "",
@@ -1540,7 +1540,7 @@
           ],
           "title": "Cerro de los organos",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/potrero_cerro_organos.jpg",
           "year": "1754",
           "startDate": "1754-01-01",
           "endDate": "",
@@ -1565,7 +1565,7 @@
               -99.5325380881057
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "black",
           "year": "1754"
         },
         {
@@ -1585,7 +1585,7 @@
               -99.4966073618047
             ]
           ],
-          "color": "#a9cce3",
+          "color": "#2e86c1",
           "year": "1754"
         },
         {
@@ -1605,7 +1605,7 @@
               -99.3730338072919
             ]
           ],
-          "color": "#a569bd",
+          "color": "#2e86c1",
           "year": "1754"
         }
       ]
@@ -1696,7 +1696,7 @@
               -99.5325254019282
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "black",
           "year": "1746"
         },
         {
@@ -1720,7 +1720,7 @@
               -99.7436899812945
             ]
           ],
-          "color": "#a9cce3",
+          "color": "black",
           "year": "1754"
         }
       ]
@@ -1868,7 +1868,7 @@
               -99.9040250176868
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "#2e86c1",
           "year": "1772"
         }
       ]
@@ -2041,7 +2041,7 @@
           ],
           "title": "San Pablo Huantepec",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/serrania_cruz_san_pablo.jpg",
           "year": "1784",
           "startDate": "1784-01-01",
           "endDate": "",
@@ -2125,7 +2125,7 @@
           ],
           "title": "Cerro de los Arciniega",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/serrania_cerro_arciniega.jpg",
           "year": "1784",
           "startDate": "1784-01-01",
           "endDate": "",
@@ -2136,7 +2136,7 @@
           "position": [19.9400104595502,	-99.4869291851421],
           "title": "Loma de la gallina",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/serrania_loma_gallina.jpg",
           "year": "1784",
           "startDate": "1784-01-01",
           "endDate": "",
@@ -2147,7 +2147,7 @@
           "position": [19.9375621778723,	-99.4787576506233],
           "title": "Loma larga",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/serrania_loma_larga.jpg",
           "year": "1784",
           "startDate": "1784-01-01",
           "endDate": "",
@@ -2169,7 +2169,7 @@
           "position": [19.9320513162959, -99.4606502685855],
           "title": "Monte Grande",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/serrania_monte_grande.jpg",
           "year": "1784",
           "startDate": "1784-01-01",
           "endDate": "",
@@ -2224,7 +2224,7 @@
           "position": [19.8917251603673,	-99.4999695615314],
           "title": "Cerro de los órganos",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/serrania_cerro_organos.jpg",
           "year": "1784",
           "startDate": "1784-01-01",
           "endDate": "",
@@ -2249,7 +2249,7 @@
               -99.3730338072919
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "#2e86c1",
           "year": "1784"
         },
         {
@@ -2269,7 +2269,7 @@
               -99.5325380881057
             ]
           ],
-          "color": "#f5b041",
+          "color": "black",
           "year": "1784"
         },
         {
@@ -2289,7 +2289,7 @@
               -99.4966073618047
             ]
           ],
-          "color": "#5499c7",
+          "color": "#2e86c1",
           "year": "1784"
         }
       ]
@@ -2326,7 +2326,7 @@
           "name": "Poligono de conflicto",
           "color": "#9b59b6",
           "temporality": "XVLLL",
-          "image": "",
+          "image": "/map_images/polygon_image/thogui_poligono_conflicto.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2406,7 +2406,7 @@
           ],
           "title": "Rancho de la Santa Cruz",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/thogui_rancho_santa_cruz.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2445,7 +2445,7 @@
           ],
           "title": "Monte solo",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/thogui_monte_solo.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2458,7 +2458,7 @@
           ],
           "title": "Monte grande",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/thogui_monte_grande.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2471,7 +2471,7 @@
           ],
           "title": "Cerro de la rosa",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/thogi_monte_rosas.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2497,7 +2497,7 @@
           ],
           "title": "Serranía de Coscomate",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/thogi_serrania_coscomate.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2510,7 +2510,7 @@
           ],
           "title": "Serranía de la Santa Cruz",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/thogi_serrania_santa_cruz.jpg",
           "year": "1788",
           "startDate": "1788-01-01",
           "endDate": "",
@@ -2532,7 +2532,7 @@
 19.9628310560182,	-99.3730338072919
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "#2e86c1",
           "year": "1788"
         },
         {
@@ -2549,7 +2549,7 @@
 19.9565413002086,	-99.4966073618047
             ]
           ],
-          "color": "#f5b041",
+          "color": "#2e86c1",
           "year": "1788"
         }
       ]
@@ -2622,7 +2622,7 @@
 19.9040506971796,	-99.338138443944
             ]
           ],
-          "color": "#d4ac0d",
+          "color": "#2e86c1",
           "year": "1791"
         },
         {
@@ -2636,7 +2636,7 @@
 19.8673290418505,	-99.3978329527906
             ]
           ],
-          "color": "#f5b041",
+          "color": "#2e86c1",
           "year": "1791"
         }
       ]
