@@ -1727,7 +1727,7 @@
     },
     {
       "id": 19,
-      "name": "Mapa del rancho de San Antonio Siteje",
+      "name": "Rancho de San Antonio Siteje",
       "color": "#2471a3",
       "image": "/map_images/mapa_antiguo_san_antonio_siteje.jpg",
       "temporality": "XVLLL",
@@ -1758,7 +1758,7 @@
           "name": "Poligono de conflicto",
           "color": "#9b59b6",
           "temporality": "XVLLL",
-          "image": "/map_images/polygon_image/poligono_interior_san_antonio.jpg",
+          "image": "/map_images/polygon_image/poligono_conflicto_san_antonio.jpg",
           "year": "1772",
           "startDate": "1772-01-01",
           "endDate": "",
@@ -1791,7 +1791,7 @@
           ],
           "title": "Cerro Huatepeque",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_san_antonio.jpg",
           "year": "1772",
           "startDate": "1772-01-01",
           "endDate": "",
@@ -1805,7 +1805,7 @@
           ],
           "title": "Cerro de los tepetates",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/cerro_tepetates.jpg",
           "year": "1772",
           "startDate": "1772-01-01",
           "endDate": "",
@@ -1819,7 +1819,7 @@
           ],
           "title": "Cerro ermitaño",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/map_images/marker_image/san_juanico.jpg",
+          "image": "/map_images/marker_image/cerro_ermitanio.jpg",
           "year": "1772",
           "startDate": "1772-01-01",
           "endDate": "",
@@ -1833,7 +1833,7 @@
           ],
           "title": "Cruz de terremoto",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/san_antonio_cruz_terremoto.jpg",
           "year": "1772",
           "startDate": "1772-01-01",
           "endDate": "",
@@ -1847,7 +1847,7 @@
           ],
           "title": "Mojonera",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "",
+          "image": "/map_images/marker_image/majonera.jpg",
           "year": "1772",
           "startDate": "1772-01-01",
           "endDate": "",
@@ -2640,6 +2640,202 @@
           "year": "1791"
         }
       ]
-    }    
+    },
+    {
+      "id": 24,
+      "name": "El potrero",
+      "color": "#8e44ad",
+      "image": "/map_images/mapa_antiguo_potrero2.jpg",
+      "temporality": "XVLLL",
+      "year": "1764",
+      "startDate": "1764-01-01",
+      "endDate": "",
+      "positions": [
+        [
+19.9799150948917,	-99.5362089319776
+        ],
+        [
+20.0163839898422,	-99.4627648717309
+        ],
+        [
+20.0249919791079,	-99.4055556052623
+        ],
+        [
+19.895937445544,	-99.424499226042
+        ],
+        [
+19.8961371196897,	-99.5351890539432
+        ]
+      ],
+      "sub_polygons": [],
+      "markers": [
+        {
+          "id": 22,
+          "position": [
+19.8917251603673,	-99.4999695615314
+          ],
+          "title": "Cerro de los órganos",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_cerro_organos.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 23,
+          "position": [
+19.9393608314885,	-99.455056242714
+          ],
+          "title": "Cerro de la Cruz",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_cerro_cruz.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 24,
+          "position": [
+19.9423352886951,	-99.4529018477985
+          ],
+          "title": "Cerro de la rosa",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_cerro_rosas.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 25,
+          "position": [
+19.9320513162959,	-99.4606502685855
+          ],
+          "title": "Cerro grande",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_cerro_grande.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 26,
+          "position": [
+19.9375621778723,	-99.4787576506233
+          ],
+          "title": "Loma larga",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_loma_larga.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Loma"
+        },
+        {
+          "id": 27,
+          "position": [
+19.9400104595502,	-99.4869291851421
+          ],
+          "title": "Loma de la gallina",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_loma_gallina.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Loma"
+        },        
+        {
+          "id": 28,
+          "position": [
+19.9471664801433,	-99.4913836206204
+          ],
+          "title": "Cerro de Arciniega",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_cerro_arciniega.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Cerro"
+        },
+        {
+          "id": 29,
+          "position": [
+19.9334463789926,	-99.4855298331141
+          ],
+          "title": "Piedra larga",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_piedra_larga.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Peña"
+        },
+        {
+          "id": 30,
+          "position": [
+19.9684948939734,	-99.4908343408127
+          ],
+          "title": "San Pablo Huantepec",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_san_pablo.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Pueblo"
+        },
+        {
+          "id": 31,
+          "position": [
+19.9810341117527,	-99.4417710814861
+          ],
+          "title": "Tierra de los Castillo",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/map_images/marker_image/el_potrero_tierras_castillo.jpg",
+          "year": "1764",
+          "startDate": "1764-01-01",
+          "endDate": "",
+          "type": "Rancho"
+        }                                
+      ],
+      "routes": [
+        {
+          "id": 1,
+          "name": "Rio de Coscomate a Tlautla",
+          "positions": [
+            [
+19.9612546454313,	-99.4774681508545
+            ],
+            [
+19.9613060911797,	-99.4274360432027
+            ],
+            [
+19.9628310560182,	-99.3730338072919
+            ]
+          ],
+          "color": "#2e86c1",
+          "year": "1764"
+        },
+        {
+          "id": 2,
+          "name": "Arroyo de Dexcanie",
+          "positions": [
+            [
+19.9286776544236,	-99.4939506798826
+            ],
+            [
+19.9428841733128,	-99.4949984166993
+            ],
+            [
+19.9565413002086,	-99.4966073618047
+            ]
+          ],
+          "color": "#2e86c1",
+          "year": "1764"
+        }
+      ]
+    }     
   ]
 }
