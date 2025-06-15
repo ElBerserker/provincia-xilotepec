@@ -100,7 +100,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                 <img
                   src={polygon.image}
                   alt={polygon.name}
-                  className="w-full h-32 object-cover rounded-md mb-3 cursor-zoom-in transition-transform duration-200 hover:opacity-90"
+                  className="w-full h-42 object-cover rounded-md mb-3 cursor-zoom-in transition-transform duration-200 hover:opacity-90"
                   onClick={() => handleImageClick(polygon.image)}
                   onMouseEnter={() => setHoveredImage(polygon.id)}
                   onMouseLeave={() => setHoveredImage(null)}

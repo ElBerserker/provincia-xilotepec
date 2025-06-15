@@ -29,9 +29,9 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
       { value: 4, symbol: 'IV' },
       { value: 1, symbol: 'I' }
     ];
-    
+
     if (num <= 0) return '';
-    
+
     let result = '';
     for (let i = 0; i < romanNumerals.length; i++) {
       while (num >= romanNumerals[i].value) {
@@ -46,6 +46,14 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
   const getCentury = (year) => {
     if (!year) return 'Sin fecha';
     const yearNum = parseInt(year);
+
+    // Manejar años a.C. (negativos)
+    if (yearNum < 0) {
+      const century = Math.ceil(Math.abs(yearNum) / 100);
+      return `Siglo ${toRoman(century)} a.C.`;
+    }
+
+    // Manejar años d.C. (positivos)
     const century = Math.ceil(yearNum / 100);
     return `Siglo ${toRoman(century)}`;
   };
@@ -71,10 +79,10 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
       if (!match) return 0;
       const roman = match[1];
       // Conversión simple de romano a número para ordenar
-      const romanMap = { I:1, V:5, X:10, L:50, C:100, D:500, M:1000 };
+      const romanMap = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
       let num = 0;
       for (let i = 0; i < roman.length; i++) {
-        if (romanMap[roman[i]] < romanMap[roman[i+1]]) {
+        if (romanMap[roman[i]] < romanMap[roman[i + 1]]) {
           num -= romanMap[roman[i]];
         } else {
           num += romanMap[roman[i]];
@@ -82,7 +90,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
       }
       return num;
     };
-    
+
     return extractNumber(a) - extractNumber(b);
   });
 
@@ -106,7 +114,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
     <div className="bg-white p-4 rounded-lg shadow-md max-h-64 overflow-y-auto overflow-hidden scrollbar-hide">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold">Poligonos ({totalVisiblePolygons})</h2>
-        <button 
+        <button
           onClick={toggleShowAll}
           className="text-xs text-gray-700 bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
         >
@@ -121,27 +129,26 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
           {visiblePolygons.map((polygon) => {
             const isSelected = selectedPolygons.some(p => p.id === polygon.id);
             return (
-              <div 
+              <div
                 key={polygon.id}
                 onClick={() => togglePolygonSelection(polygon)}
-                className={`p-3 rounded-md cursor-pointer transition-colors ${
-                  isSelected
-                    ? 'bg-blue-100 border-l-4 border-blue-500' 
+                className={`p-3 rounded-md cursor-pointer transition-colors ${isSelected
+                    ? 'bg-blue-100 border-l-4 border-blue-500'
                     : 'hover:bg-gray-100'
-                }`}
+                  }`}
               >
                 <div className="flex items-start">
                   <input
                     type="checkbox"
                     checked={isSelected}
-                    onChange={() => {}}
+                    onChange={() => { }}
                     className="mt-1 mr-2"
                     onClick={(e) => e.stopPropagation()}
                   />
                   <div>
                     <h3 className="font-medium">{polygon.name}</h3>
                     <div className="flex items-center mt-1">
-                      <span 
+                      <span
                         className="inline-block w-3 h-3 rounded-full mr-2"
                         style={{ backgroundColor: polygon.color }}
                       ></span>
@@ -160,7 +167,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
         <div className="space-y-3">
           {sortedCenturies.map((century) => (
             <div key={century} className="space-y-1">
-              <div 
+              <div
                 onClick={() => toggleCentury(century)}
                 className="flex justify-between items-center p-2 bg-gray-50 rounded cursor-pointer hover:bg-gray-100"
               >
@@ -168,39 +175,38 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
                   {century}
                 </h3>
                 <span className="text-xs text-gray-500">
-                  {groupedPolygons[century].length} mapas • 
+                  {groupedPolygons[century].length} mapas •
                   <span className="ml-1">
                     {expandedCenturies[century] ? '▲' : '▼'}
                   </span>
                 </span>
               </div>
-              
+
               {expandedCenturies[century] && (
                 <div className="space-y-2 pl-2 border-l-2 border-gray-200 ml-2">
                   {groupedPolygons[century].map((polygon) => {
                     const isSelected = selectedPolygons.some(p => p.id === polygon.id);
                     return (
-                      <div 
+                      <div
                         key={polygon.id}
                         onClick={() => togglePolygonSelection(polygon)}
-                        className={`p-2 rounded-md cursor-pointer transition-colors ${
-                          isSelected
-                            ? 'bg-blue-100 border-l-4 border-blue-500' 
+                        className={`p-2 rounded-md cursor-pointer transition-colors ${isSelected
+                            ? 'bg-blue-100 border-l-4 border-blue-500'
                             : 'hover:bg-gray-100'
-                        }`}
+                          }`}
                       >
                         <div className="flex items-start">
                           <input
                             type="checkbox"
                             checked={isSelected}
-                            onChange={() => {}}
+                            onChange={() => { }}
                             className="mt-1 mr-2"
                             onClick={(e) => e.stopPropagation()}
                           />
                           <div>
                             <h3 className="font-medium text-sm">{polygon.name}</h3>
                             <div className="flex items-center mt-1">
-                              <span 
+                              <span
                                 className="inline-block w-2 h-2 rounded-full mr-2"
                                 style={{ backgroundColor: polygon.color }}
                               ></span>

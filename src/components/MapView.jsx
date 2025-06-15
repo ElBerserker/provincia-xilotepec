@@ -120,7 +120,26 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
             eventHandlers={{
               click: () => onPolygonClick(polygon),
             }}
-          />
+          >
+            <Popup>
+              <div className="w-64">
+                <h3 className="font-bold text-lg">{polygon.name}</h3>
+                {polygon.image && (
+                  <img
+                    src={polygon.image}
+                    alt={polygon.name}
+                    className="w-full h-42 object-cover mb-2 rounded"
+                  />
+                )}
+                {/*<p className="text-sm">{marker.description}</p>*/}
+                <div className="text-xs text-gray-500 mt-2 flex">
+                  <div className='text-left w-[30%]'>
+                    {polygon.year && (<p><b>Año:</b> {polygon.year}</p>)}
+                  </div>
+                </div>
+              </div>
+            </Popup>
+          </Polygon>
         ))}
 
       {/* Mostrar rutas y marcadores dentro del rango de fechas */}
