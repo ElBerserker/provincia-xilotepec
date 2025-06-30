@@ -1,35 +1,40 @@
 {
-    "Layers": [
-      {
-        "name": "Esri World Imagery",
-        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-        "previewUrl": "./map_preview/Esri.jpg",
-        "attribution": "Tiles © Esri — Source: Esri, USGS, TANA, DeLorme, and NPS"
-      },
-      {
-        "name": "CartoDB Dark Matter",
-        "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
-        "previewUrl": "./map_preview/CartoDark.jpg",
-        "attribution": "© <a href=\"https://www.carto.com\">CARTO</a>"
-      },
-      {
-        "name": "Esri National Geographic",
-        "previewUrl": "./map_preview/EsriNational.jpg",
-        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
-        "attribution": "Tiles © Esri — National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC"
-      },
-      {
-        "name": "OpenStreetMap",
-        "previewUrl": "./map_preview/OpenStreet.jpg",
-        "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-        "attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
-      },
-      {
-        "name": "CartoDB Positron",
-        "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
-        "previewUrl": "./map_preview/CartoPositron.jpg",
-        "attribution": "© <a href=\"https://www.carto.com\">CARTO</a>"
-      }
-    ]
-  }
-  
+  "Layers": [
+    {
+      "name": "Esri World Imagery",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "previewUrl": "./map_preview/Esri.jpg",
+      "attribution": "Tiles © Esri — Source: Esri, USGS, TANA, DeLorme, and NPS"
+    },
+    {
+      "name": "CartoDB Dark Matter",
+      "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+      "previewUrl": "./map_preview/CartoDark.jpg",
+      "attribution": "© <a href=\"https://www.carto.com\">CARTO</a>"
+    },
+    {
+      "name": "Esri National Geographic",
+      "previewUrl": "./map_preview/EsriNational.jpg",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+      "attribution": "Tiles © Esri — National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC"
+    },
+    {
+      "name": "OpenStreetMap",
+      "previewUrl": "./map_preview/OpenStreet.jpg",
+      "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+    },
+    {
+      "name": "CartoDB Positron",
+      "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+      "previewUrl": "./map_preview/CartoPositron.jpg",
+      "attribution": "© <a href=\"https://www.carto.com\">CARTO</a>"
+    },
+    {
+      "name": "OpenTopoMap",
+      "url": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+      "previewUrl": "./map_preview/OpenTopo.jpg",
+      "attribution": "© <a href=\"https://opentopomap.org\">OpenTopoMap</a> contributors"
+    }
+  ]
+}

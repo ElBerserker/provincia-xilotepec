@@ -76,52 +76,53 @@ function App() {
             </div>
           </div>
 
-          {/* Footer con licencia - Versión mejorada */}
+          {/* Footer reorganizado */}
           <div className="mt-auto pt-4 border-t border-gray-200">
-            <div className="text-xs text-gray-600 text-center">
-              <p
-                xmlns:cc="http://creativecommons.org/ns#"
-                className="mb-2 leading-relaxed"
-              >
-                Este trabajo está licenciado bajo {' '}
-                <a
-                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
-                  target="_blank"
-                  rel="license noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
-                >
-                  CC BY-NC-SA 4.0
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-                Por el Mtro. Alejandro Lovera Limberg
-              </p>
-              <div className="flex justify-center space-x-1 mb-1">
-                <img
-                  src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-                  alt="Creative Commons"
-                  className="h-5 w-5"
-                />
-                <img
-                  src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-                  alt="Atribución"
-                  className="h-5 w-5"
-                />
-                <img
-                  src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
-                  alt="No Comercial"
-                  className="h-5 w-5"
-                />
-                <img
-                  src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
-                  alt="Compartir Igual"
-                  className="h-5 w-5"
-                />
+            <div className="text-xs text-gray-600 space-y-2">
+              {/* Línea 1: Director del proyecto */}
+              <div className="text-center">
+                <span className="text-gray-500">Proyecto dirigido por el </span>
+                <span className="font-medium">Mtro. Alejandro Lovera Limberg</span>
+                <span className="text-gray-500"> y desarrollado por </span>
+                <span className="font-medium">Raúl Hernández López</span>
               </div>
-              <p className="text-gray-500 text-xxs">Atribución - No Comercial - Compartir Igual</p>
+
+              {/* Línea 3: Contacto */}
+              <div className="text-center">
+                <span className="text-gray-500">Comentarios y contribuciones al correo: </span>
+                <a
+                  href="mailto:tuemail@ejemplo.com"
+                  className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center justify-center"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  alejandrolimberg@gmail.com
+                </a>
+              </div>
+
+              {/* Línea 4: Íconos de licencia */}
+              <div className="flex justify-center space-x-1 pt-1">
+                {['cc', 'by', 'nc', 'sa'].map((icon) => (
+                  <img
+                    key={icon}
+                    src={`https://mirrors.creativecommons.org/presskit/icons/${icon}.svg`}
+                    alt={icon === 'cc' ? 'Creative Commons' :
+                      icon === 'by' ? 'Atribución' :
+                        icon === 'nc' ? 'No Comercial' : 'Compartir Igual'}
+                    className="h-4 w-4"
+                  />
+                ))}
+              </div>
+
+              {/* Línea 5: Texto de licencia */}
+              <div className="text-center text-xxs text-gray-500">
+                Atribución - No Comercial - Compartir Igual
+              </div>
             </div>
           </div>
+
+
         </div>
 
         {/* Overlay for mobile */}
