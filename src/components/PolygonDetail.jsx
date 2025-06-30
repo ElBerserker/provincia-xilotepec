@@ -41,7 +41,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold mb-4">Poligonos seleccionados ({visiblePolygons.length})</h2>
+      <h2 className="text-xl font-bold mb-4">Polígonos seleccionados ({visiblePolygons.length})</h2>
 
       {visiblePolygons.map((polygon) => {
         const visibleMarkers = filterByDate(polygon.markers);
