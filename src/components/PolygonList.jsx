@@ -113,7 +113,7 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
   return (
     <div className="bg-white p-4 rounded-lg shadow-md max-h-64 overflow-y-auto overflow-hidden scrollbar-hide">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">Poligonos ({totalVisiblePolygons})</h2>
+        <h2 className="text-xl font-bold">Polígonos ({totalVisiblePolygons})</h2>
         <button
           onClick={toggleShowAll}
           className="text-xs text-gray-700 bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
