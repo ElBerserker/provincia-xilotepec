@@ -1,4 +1,3 @@
-// netlify/functions/get-visits.js
 const { createClient } = require('@supabase/supabase-js');
 
 exports.handler = async () => {
@@ -8,16 +7,16 @@ exports.handler = async () => {
   );
 
   try {
-    // Llama a tu función PostgreSQL existente
-    const { data, error } = await supabase
-      .rpc('get_visits_by_country');
-
+    const { data, error } = await supabase.rpc('get_visits_by_country');
+    
     if (error) throw error;
+
+    const totalVisits = data.reduce((total, item) => total + item.visit_count, 0);
 
     return {
       statusCode: 200,
       body: JSON.stringify({
-        totalVisits: data.reduce((sum, item) => sum + item.count, 0),
+        totalVisits,
         countries: data
       })
     };
