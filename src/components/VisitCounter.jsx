@@ -279,3 +279,5 @@ const VisitCounter = () => {
     border-bottom: 1px dashed #333;
   }
 `}</style>
+
+export default VisitCounter;
