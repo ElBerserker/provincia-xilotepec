@@ -1,39 +1,39 @@
-// src/components/VisitCounter.jsx
 import { useEffect, useState } from 'react';
-import ccl from 'country-code-lookup';
-
-
-export const getCountryCode = (countryName) => {
-  if (!countryName) return '';
-  
-  try {
-    // Busca por nombre en inglés o español
-    const country = ccl.byCountry(countryName) || 
-                    ccl.byCountrySpanish(countryName);
-    return country?.iso2 || '';
-  } catch {
-    return '';
-  }
-};
 
 const VisitCounter = () => {
-  const [stats, setStats] = useState({ total: 0, countries: [] });
+  const [stats, setStats] = useState({
+    total: 0, // Valor inicial seguro
+    countries: []
+  });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Primero registra la visita
+        // 1. Primero registra la visita
         await fetch('/.netlify/functions/track-visit', { method: 'POST' });
         
-        // Luego obtiene los datos
-        const res = await fetch('/.netlify/functions/get-visits');
-        if (!res.ok) throw new Error('Error al obtener visitas');
+        // 2. Luego obtiene los datos
+        const response = await fetch('/.netlify/functions/get-visits');
         
-        const data = await res.json();
-        setStats(data);
+        if (!response.ok) {
+          throw new Error('Error al obtener visitas');
+        }
+        
+        const data = await response.json();
+        
+        // Validación adicional
+        if (typeof data.totalVisits !== 'number') {
+          throw new Error('Formato de datos inválido');
+        }
+        
+        setStats({
+          total: data.totalVisits || 0, // Fallback a 0 si es undefined/null
+          countries: data.countries || []
+        });
       } catch (err) {
+        console.error('Error:', err);
         setError(err.message);
       } finally {
         setLoading(false);
@@ -43,7 +43,7 @@ const VisitCounter = () => {
     fetchData();
   }, []);
 
-  if (loading) return <div>Cargando...</div>;
+  if (loading) return <div>Cargando estadísticas...</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
@@ -60,7 +60,7 @@ const VisitCounter = () => {
       boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
     }}>
       <h3 style={{ marginTop: 0, borderBottom: '1px solid #444', paddingBottom: '8px' }}>
-        🌎 Visitas totales: <strong>{stats.total.toLocaleString()}</strong>
+        🌎 Visitas totales: <strong>{(stats.total || 0).toLocaleString()}</strong>
       </h3>
       
       <div style={{ maxHeight: '200px', overflowY: 'auto' }}>
@@ -71,8 +71,6 @@ const VisitCounter = () => {
             padding: '4px 0',
             borderBottom: index === stats.countries.length - 1 ? 'none' : '1px dashed #333'
           }}>
-            <ReactCountryFlag countryCode={getCountryCode(country.country)} svg />
-
             <span>📍 {country.country || 'Desconocido'}:</span>
             <strong>{country.count}</strong>
           </div>
@@ -80,6 +78,4 @@ const VisitCounter = () => {
       </div>
     </div>
   );
-};  
-
-export default VisitCounter;
+};
