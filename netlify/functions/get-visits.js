@@ -1,33 +1,26 @@
+// netlify/functions/get-visits.js
 const { createClient } = require('@supabase/supabase-js');
 
 exports.handler = async () => {
   const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+  
+  // Obtener conteo total
+  const { count: total } = await supabase
+    .from('visits')
+    .select('*', { count: 'exact' });
 
-  try {
-    // 1. Total de visitas
-    const { count: total, error: countError } = await supabase
-      .from('visits')
-      .select('*', { count: 'exact', head: true });
+  // Obtener conteo por país
+  const { data: countries } = await supabase
+    .from('visits')
+    .select('country, count(*)')
+    .groupBy('country')
+    .order('count', { ascending: false });
 
-    if (countError) throw countError;
-
-    // 2. Conteo por país (agrupado)
-    const { data: countries, error: countriesError } = await supabase
-      .rpc('get_visits_by_country');
-
-    if (countriesError) throw countriesError;
-
-    return {
-      statusCode: 200,
-      body: JSON.stringify({
-        totalVisits: total,
-        countries: countries || []
-      }),
-    };
-  } catch (err) {
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: err.message }),
-    };
-  }
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ 
+      totalVisits: total,
+      countries: countries || []
+    })
+  };
 };
