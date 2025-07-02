@@ -47,3 +47,12 @@
     display: none;             /* Chrome, Safari and Opera */
   }
 }
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #666; 
+  border-radius: 3px;
+}

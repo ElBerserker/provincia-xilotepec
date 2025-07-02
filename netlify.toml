@@ -1,0 +1,4 @@
+[functions]
+  [functions.geo_ip]
+    country = "x-country"
+    city = "x-city"
