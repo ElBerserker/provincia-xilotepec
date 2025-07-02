@@ -1,3 +1,4 @@
+// netlify/functions/get-visits.js
 const { createClient } = require('@supabase/supabase-js');
 
 exports.handler = async () => {
@@ -7,33 +8,17 @@ exports.handler = async () => {
   );
 
   try {
-    // Obtener conteo total
-    const { count: total } = await supabase
-      .from('visits')
-      .select('*', { count: 'exact', head: true });
+    // Llama a tu función PostgreSQL existente
+    const { data, error } = await supabase
+      .rpc('get_visits_by_country');
 
-    // Obtener conteo por país (usando la sintaxis correcta)
-    const { data: countries } = await supabase
-      .from('visits')
-      .select('country')
-      .then(response => {
-        // Agrupación manual
-        const counts = {};
-        response.data.forEach(visit => {
-          const country = visit.country || 'Desconocido';
-          counts[country] = (counts[country] || 0) + 1;
-        });
-        return Object.entries(counts).map(([country, count]) => ({
-          country,
-          count
-        })).sort((a, b) => b.count - a.count);
-      });
+    if (error) throw error;
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ 
-        totalVisits: total,
-        countries
+      body: JSON.stringify({
+        totalVisits: data.reduce((sum, item) => sum + item.count, 0),
+        countries: data
       })
     };
   } catch (error) {
@@ -41,7 +26,7 @@ exports.handler = async () => {
       statusCode: 500,
       body: JSON.stringify({ 
         error: error.message,
-        details: "Error al procesar los datos de visitas"
+        details: "Error al obtener datos de visitas"
       })
     };
   }
