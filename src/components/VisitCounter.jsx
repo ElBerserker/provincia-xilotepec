@@ -1,5 +1,7 @@
 // src/components/VisitCounter.jsx
 import { useEffect, useState } from 'react';
+import ReactCountryFlag from 'react-country-flag';
+
 
 const VisitCounter = () => {
   const [stats, setStats] = useState({
@@ -19,12 +21,12 @@ const VisitCounter = () => {
   }, []);
 
   return (
-    <div style={{
+    <div className='top-80' style={{
       position: 'fixed',
-      bottom: '20px',
+      
       right: '20px',
-      background: 'rgba(0, 0, 0, 0.85)',
-      color: 'white',
+      background: 'rgba(255, 255, 255)',
+      color: 'black',
       padding: '16px',
       borderRadius: '10px',
       zIndex: 1000,
@@ -34,16 +36,16 @@ const VisitCounter = () => {
       <h3 style={{ marginTop: 0, borderBottom: '1px solid #444', paddingBottom: '8px' }}>
         🌎 Visitas totales: <strong>{stats.total.toLocaleString()}</strong>
       </h3>
-      
+
       <div style={{ maxHeight: '200px', overflowY: 'auto' }}>
         {stats.countries.map((country, index) => (
-          <div key={index} style={{ 
-            display: 'flex', 
+          <div key={index} style={{
+            display: 'flex',
             justifyContent: 'space-between',
             padding: '4px 0',
             borderBottom: index === stats.countries.length - 1 ? 'none' : '1px dashed #333'
           }}>
-            <span>📍 {country.country || 'Desconocido'}:</span>
+            <ReactCountryFlag countryCode={getCountryCode(country.country)} svg />
             <strong>{country.count}</strong>
           </div>
         ))}
