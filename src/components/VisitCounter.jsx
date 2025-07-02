@@ -1,19 +1,15 @@
 import { useEffect, useState } from 'react';
 import ReactCountryFlag from 'react-country-flag';
 
-// Mapeo de países a códigos ISO
-const getCountryCode = (countryName) => {
-  const countryMap = {
-    'méxico': 'MX', 'mexico': 'MX',
-    'españa': 'ES', 'spain': 'ES',
-    'colombia': 'CO', 'argentina': 'AR',
-    'perú': 'PE', 'peru': 'PE',
-    'chile': 'CL', 'venezuela': 'VE',
-    'estados unidos': 'US', 'united states': 'US',
-    'desconocido': 'UN'
+// Mapeo mejorado de códigos de país a nombres completos
+const getCountryName = (code) => {
+  const countryNames = {
+    US: 'Estados Unidos',
+    MX: 'México',
+    RO: 'Rumania',
+    // Agrega más según necesites
   };
-
-  return countryMap[countryName?.toLowerCase()] || '';
+  return countryNames[code] || code; // Si no está en el mapa, muestra el código
 };
 
 const VisitCounter = () => {
@@ -22,29 +18,27 @@ const VisitCounter = () => {
     countries: [] 
   });
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Registrar visita
+        // 1. Registrar nueva visita
         await fetch('/.netlify/functions/track-visit', { method: 'POST' });
         
-        // Obtener estadísticas
-        const res = await fetch('/.netlify/functions/get-visits');
-        const data = await res.json();
+        // 2. Obtener estadísticas
+        const response = await fetch('/.netlify/functions/get-visits');
+        const data = await response.json();
         
-        if (!res.ok) throw new Error(data.error || "Error al cargar visitas");
-
         setStats({
           total: data.totalVisits,
-          countries: data.countries.map(c => ({
-            ...c,
-            code: getCountryCode(c.country)
+          countries: data.countries.map(item => ({
+            code: item.country, // US, MX, etc.
+            name: getCountryName(item.country),
+            count: item.visit_count
           }))
         });
-      } catch (err) {
-        setError(err.message);
+      } catch (error) {
+        console.error("Error fetching visits:", error);
       } finally {
         setLoading(false);
       }
@@ -53,27 +47,36 @@ const VisitCounter = () => {
     fetchData();
   }, []);
 
-  if (loading) return <div className="loading">Cargando estadísticas...</div>;
-  if (error) return <div className="error">Error: {error}</div>;
+  if (loading) return <div style={{ color: '#666' }}>Cargando estadísticas...</div>;
 
   return (
     <div style={{
       position: 'fixed',
       bottom: '20px',
       right: '20px',
-      background: 'rgba(0, 0, 0, 0.9)',
+      background: 'rgba(0, 0, 0, 0.85)',
       color: 'white',
       padding: '16px',
       borderRadius: '10px',
       zIndex: 1000,
-      maxWidth: '300px',
-      boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+      maxWidth: '280px',
+      boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+      fontFamily: 'Arial, sans-serif'
     }}>
-      <h3 style={{ margin: '0 0 12px 0', borderBottom: '1px solid #444', paddingBottom: '8px' }}>
+      <h3 style={{ 
+        margin: '0 0 12px 0',
+        fontSize: '1.1em',
+        borderBottom: '1px solid #444',
+        paddingBottom: '8px'
+      }}>
         🌍 Visitas totales: <strong>{stats.total.toLocaleString()}</strong>
       </h3>
       
-      <div style={{ maxHeight: '250px', overflowY: 'auto', paddingRight: '8px' }}>
+      <div style={{ 
+        maxHeight: '200px',
+        overflowY: 'auto',
+        paddingRight: '8px'
+      }}>
         {stats.countries.map((country, index) => (
           <div key={index} style={{
             display: 'flex',
@@ -83,17 +86,19 @@ const VisitCounter = () => {
             borderBottom: index === stats.countries.length - 1 ? 'none' : '1px dashed #444'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              {country.code && (
-                <ReactCountryFlag
-                  countryCode={country.code}
-                  svg
-                  style={{ width: '1.4em', height: '1em' }}
-                  title={country.country}
-                />
-              )}
-              <span>{country.country}</span>
+              <ReactCountryFlag
+                countryCode={country.code}
+                svg
+                style={{
+                  width: '1.4em',
+                  height: '1em',
+                  boxShadow: '0 0 1px rgba(0,0,0,0.5)'
+                }}
+                title={country.name}
+              />
+              <span>{country.name}</span>
             </div>
-            <strong>{country.visit_count}</strong>
+            <strong>{country.count}</strong>
           </div>
         ))}
       </div>
