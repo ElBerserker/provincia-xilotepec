@@ -5,7 +5,9 @@ import LayerSelector from './LayerSelector';
 import Compass from './Compass';
 import CaptureButton from './CaptureButton';
 import CenterMapButton from './CenterMapButton';
-import VisitStats from './VisitStats';
+import { trackPageView } from '../utils/analytics';
+import { useEffect } from 'react';
+import VisitCounter from './VisitCounter';
 
 // Fix for default marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -33,6 +35,11 @@ const caminoReal = [
 ];
 
 const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
+
+  useEffect(() => {
+    trackPageView(window.location.pathname); // Rastrea la página actual
+  }, []);
+
   // Función para verificar si una fecha está en el rango
   const isDateInRange = (startDate, endDate, year) => {
     if (!dateRange || !dateRange[0] || !dateRange[1]) return true;
@@ -74,7 +81,6 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
       zoom={14}
       className="h-[100%] w-[100%] z-0"
     >
-      
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -85,8 +91,9 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
       <div className="absolute top-24 right-4 z-[1000] flex flex-col gap-3">
         <LayerSelector />
         <CenterMapButton selectedPolygons={selectedPolygons} dateRange={dateRange} />
-        <CaptureButton />
-        <VisitStats />
+        <CaptureButton />            
+        <VisitCounter />
+
       </div>
 
       {/* Brújula (mantenemos su posición absoluta individual) */}
