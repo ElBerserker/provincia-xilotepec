@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import ccl from 'country-code-lookup';
 
+
 export const getCountryCode = (countryName) => {
   if (!countryName) return '';
   
@@ -16,21 +17,34 @@ export const getCountryCode = (countryName) => {
 };
 
 const VisitCounter = () => {
-  const [stats, setStats] = useState({
-    total: 0,
-    countries: []
-  });
+  const [stats, setStats] = useState({ total: 0, countries: [] });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/.netlify/functions/get-visits')
-      .then(res => res.json())
-      .then(data => {
-        setStats({
-          total: data.totalVisits,
-          countries: data.countries
-        });
-      });
+    const fetchData = async () => {
+      try {
+        // Primero registra la visita
+        await fetch('/.netlify/functions/track-visit', { method: 'POST' });
+        
+        // Luego obtiene los datos
+        const res = await fetch('/.netlify/functions/get-visits');
+        if (!res.ok) throw new Error('Error al obtener visitas');
+        
+        const data = await res.json();
+        setStats(data);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
+
+  if (loading) return <div>Cargando...</div>;
+  if (error) return <div>Error: {error}</div>;
 
   return (
     <div style={{
