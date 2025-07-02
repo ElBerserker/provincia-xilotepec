@@ -51,3 +51,5 @@ const VisitCounter = () => {
     </div>
   );
 };
+
+export default VisitCounter;
