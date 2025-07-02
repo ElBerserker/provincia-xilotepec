@@ -8,7 +8,7 @@ const VisitCounter = () => {
   });
 
   useEffect(() => {
-    fetch('/.netlify/functions/get-visits')
+    fetch('/.netlify/functions/get_visits_by_country')
       .then(res => res.json())
       .then(data => {
         setStats({
