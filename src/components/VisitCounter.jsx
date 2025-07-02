@@ -1,5 +1,19 @@
 // src/components/VisitCounter.jsx
 import { useEffect, useState } from 'react';
+import ccl from 'country-code-lookup';
+
+export const getCountryCode = (countryName) => {
+  if (!countryName) return '';
+  
+  try {
+    // Busca por nombre en inglés o español
+    const country = ccl.byCountry(countryName) || 
+                    ccl.byCountrySpanish(countryName);
+    return country?.iso2 || '';
+  } catch {
+    return '';
+  }
+};
 
 const VisitCounter = () => {
   const [stats, setStats] = useState({
@@ -8,7 +22,7 @@ const VisitCounter = () => {
   });
 
   useEffect(() => {
-    fetch('/.netlify/functions/get_visits_by_country')
+    fetch('/.netlify/functions/get-visits')
       .then(res => res.json())
       .then(data => {
         setStats({
@@ -43,6 +57,8 @@ const VisitCounter = () => {
             padding: '4px 0',
             borderBottom: index === stats.countries.length - 1 ? 'none' : '1px dashed #333'
           }}>
+            <ReactCountryFlag countryCode={getCountryCode(country.country)} svg />
+
             <span>📍 {country.country || 'Desconocido'}:</span>
             <strong>{country.count}</strong>
           </div>
@@ -50,6 +66,4 @@ const VisitCounter = () => {
       </div>
     </div>
   );
-};
-
-export default VisitCounter;
+};  
