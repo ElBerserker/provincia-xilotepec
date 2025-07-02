@@ -5,6 +5,7 @@ import LayerSelector from './LayerSelector';
 import Compass from './Compass';
 import CaptureButton from './CaptureButton';
 import CenterMapButton from './CenterMapButton';
+import VisitStats from './VisitStats';
 
 // Fix for default marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -73,6 +74,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
       zoom={14}
       className="h-[100%] w-[100%] z-0"
     >
+      
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -84,6 +86,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
         <LayerSelector />
         <CenterMapButton selectedPolygons={selectedPolygons} dateRange={dateRange} />
         <CaptureButton />
+        <VisitStats />
       </div>
 
       {/* Brújula (mantenemos su posición absoluta individual) */}
