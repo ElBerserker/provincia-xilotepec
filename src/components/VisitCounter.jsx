@@ -236,8 +236,8 @@ const VisitCounter = () => {
     <div className={`
       fixed top-80 right-5 z-50 shadow-md transition-all duration-300 ease-in-out
       ${expanded ?
-        'rounded-xl bg-white/90 w-72' :
-        'rounded-full bg-white/80 w-12 h-12'}
+        'rounded-xl bg-black/90 w-72' :
+        'rounded-full bg-black/80 w-12 h-12'}
     `}>
       {/* Botón principal */}
       <button
@@ -246,14 +246,14 @@ const VisitCounter = () => {
         aria-label={expanded ? "Ocultar estadísticas" : "Mostrar estadísticas"}
       >
         {expanded ? (
-          <FaTimes className="text-black text-xl" />
+          <FaTimes className="text-white text-xl" />
         ) : (
           <>
-            <FaChartBar className="text-black text-xl" />
+            <FaChartBar className="text-white text-xl" />
             {!loading && (
               <span className="
                 absolute -bottom-1 -right-1 bg-green-500 rounded-full
-                w-5 h-5 flex items-center justify-center text-xs text-black
+                w-5 h-5 flex items-center justify-center text-xs text-white
               ">
                 {stats.total}
               </span>
@@ -267,7 +267,7 @@ const VisitCounter = () => {
         <div className="p-4">
           <h3 className="
             flex items-center gap-2 mb-3 pb-2 border-b border-gray-600
-            text-black text-sm font-medium
+            text-white text-sm font-medium
           ">
             <FaChartBar />
             <span>Visitas totales: <strong>{stats.total.toLocaleString()}</strong></span>
@@ -290,9 +290,9 @@ const VisitCounter = () => {
                     className="w-5 h-4 shadow-[0_0_1px_rgba(0,0,0,0.5)]"
                     title={country.name}
                   />
-                  <span className="text-black text-sm">{country.name}</span>
+                  <span className="text-white text-sm">{country.name}</span>
                 </div>
-                <strong className="text-black">{country.count}</strong>
+                <strong className="text-white">{country.count}</strong>
               </div>
             ))}
           </div>
