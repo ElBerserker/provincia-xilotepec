@@ -27,7 +27,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
     const hasVisibleMarkers = filterByDate(polygon.markers).length > 0;
     const hasVisibleRoutes = filterByDate(polygon.routes).length > 0;
     const isPolygonVisible = filterByDate([polygon]).length > 0;
-    
+
     return isPolygonVisible || hasVisibleMarkers || hasVisibleRoutes;
   });
 
@@ -127,12 +127,12 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
               maxScale={5}
               wheel={{ step: 0.2 }}
               doubleClick={{ disabled: true }}
-              panning={{ velocityDisabled: true }}            
+              panning={{ velocityDisabled: true }}
             >
               {({ zoomIn, zoomOut, resetTransform }) => (
                 <div className="relative">
                   <div className="absolute top-4 right-4 z-10 flex space-x-2">
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.stopPropagation();
                         zoomIn();
@@ -141,7 +141,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                     >
                       +
                     </button>
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.stopPropagation();
                         zoomOut();
@@ -150,7 +150,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                     >
                       -
                     </button>
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.stopPropagation();
                         resetTransform();
@@ -159,7 +159,7 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                     >
                       ⟲
                     </button>
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.stopPropagation();
                         handleCloseImage();
@@ -174,9 +174,9 @@ const PolygonDetail = ({ selectedPolygons, filterByDate }) => {
                     wrapperClass="w-full h-full flex items-center justify-center"
                     contentClass="flex items-center justify-center"
                   >
-                    <img 
-                      src={selectedImage} 
-                      alt="Zoomable" 
+                    <img
+                      src={selectedImage}
+                      alt="Zoomable"
                       className="max-w-[90vw] max-h-[90vh] object-contain rounded shadow-xl"
                       onContextMenu={(e) => e.preventDefault()}
                     />

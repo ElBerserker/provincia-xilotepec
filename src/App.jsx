@@ -40,12 +40,12 @@ function App() {
 
   return (
     <div className="h-screen flex flex-col">
-      <div className="flex flex-1 flex-col md:flex-row overflow-hidden scrollbar-hide">
+      <div className="flex flex-1 flex-col md:flex-row overflow-hidden">
         {/* Sidebar */}
         <div className={`${showMobileMenu ? 'translate-x-0' : '-translate-x-full'} 
                         md:translate-x-0 transform transition-transform duration-300 ease-in-out
                         fixed md:static top-0 left-0 w-4/5 md:w-96 h-full bg-gray-50 p-4 
-                        overflow-y-auto border-r border-gray-200 z-40 flex flex-col scrollbar-hide overflow-hidden`}>
+                        overflow-y-auto border-r border-gray-200 z-40 flex flex-col overflow-hidden`}>
           {/* Header del menú */}
           <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-200">
             <h2 className="text-xl font-bold text-gray-800">Provincia de Xilotepec</h2>
@@ -68,7 +68,17 @@ function App() {
               filterByDate={filterByDate}
             />
 
-            <div className="mt-4">
+            <div className="flex items-center p-3 bg-white border-b border-gray-200 rounded">
+              <span
+                className="inline-block w-6 h-2 rounded mr-2 bg-red"
+                style={{ backgroundColor: 'red' }}
+              ></span>
+              <span className="text-sm">
+                Camino real de tierra adentro
+              </span>
+            </div>
+
+            <div className="mt-1">
               <PolygonDetail
                 selectedPolygons={selectedPolygons}
                 filterByDate={filterByDate}
@@ -91,7 +101,7 @@ function App() {
               <div className="text-center">
                 <span className="text-gray-500">Comentarios y contribuciones al correo: </span>
                 <a
-                  href="mailto:tuemail@ejemplo.com"
+                  href="mailto:alejandrolimberg@gmail.com"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center justify-center"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
