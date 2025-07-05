@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Xilotepec San pablo ",
-      "color": "#8e44ad",
+      "color": "red",
       "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
       "temporality": "XVI",
       "year": "1584",
@@ -126,7 +126,7 @@
     {
       "id": 2,
       "name": "Chapa de Mota - San Felipe",
-      "color": "#3498db",
+      "color": "red",
       "image": "/map_images/mapa_antiguo_san_felipe.jpg",
       "temporality": "XVI",
       "year": "1559",
@@ -259,7 +259,7 @@
     {
       "id": 4,
       "name": "Mapa de 1583",
-      "color": "#2ecc71",
+      "color": "red",
       "image": "/map_images/mapa_antiguo_1583.jpg",
       "temporality": "XVI",
       "year": "1583",
@@ -586,7 +586,7 @@
     {
       "id": 6,
       "name": "San Juan Aculco",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_juan_aculco.jpg",
       "temporality": "XVII",
       "year": "1610",
@@ -688,7 +688,7 @@
     {
       "id": 7,
       "name": "San Martín Alfajayucan 1",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan1.jpg",
       "temporality": "XVII",
       "year": "1611",
@@ -748,7 +748,7 @@
     {
       "id": 8,
       "name": "San Juan Azguatepec",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_juan_azguatepec.jpg",
       "temporality": "XVII",
       "year": "1611",
@@ -841,7 +841,7 @@
     {
       "id": 9,
       "name": "San Martín Alfajayucan 2",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan2.jpg",
       "temporality": "XVII",
       "year": "1614",
@@ -935,7 +935,7 @@
     {
       "id": 10,
       "name": "Mezquital de Tecozautla",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_mezquital_de_tecozautla.jpg",
       "temporality": "XVII",
       "year": "1617",
@@ -995,7 +995,7 @@
     {
       "id": 11,
       "name": "Río Tlascalilla",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_rio_lascalilla.jpg",
       "temporality": "XVII",
       "year": "1620",
@@ -1069,7 +1069,7 @@
     {
       "id": 12,
       "name": "El Palmar",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_el _almar.jpg",
       "temporality": "XVII",
       "year": "1622",
@@ -1132,7 +1132,7 @@
     {
       "id": 13,
       "name": "San Miguel Quahmanco",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_miguel_quahmanco.jpg",
       "temporality": "XVII",
       "year": "1625",
@@ -1206,7 +1206,7 @@
     {
       "id": 14,
       "name": "San Miguel Quahmanco",
-      "color": "red",
+      "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_miguel_quahmanco.jpg",
       "temporality": "XVII",
       "year": "1625",
@@ -1280,7 +1280,7 @@
     {
       "id": 15,
       "name": "Estancia de Santiago Maza",
-      "color": "#6c3483",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_estancia_santiago_maza.jpg",
       "temporality": "XVIII",
       "year": "1754",
@@ -1355,7 +1355,7 @@
     {
       "id": 16,
       "name": "San Luis de las Peras y Taxhimay",
-      "color": "#2980b9",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_san_luis_peras_taxhimay.jpg",
       "temporality": "XVIII",
       "year": "1759",
@@ -1436,7 +1436,7 @@
     {
       "id": 17,
       "name": "Potrero",
-      "color": "#eb984e",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_potrero.jpg",
       "temporality": "XVIII",
       "year": "1754",
@@ -1613,7 +1613,7 @@
     {
       "id": 18,
       "name": "San Miguel Acambay",
-      "color": "#d98880",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_san_miguel_acambay.jpg",
       "temporality": "XVIII",
       "year": "1746",
@@ -1728,7 +1728,7 @@
     {
       "id": 19,
       "name": "Rancho de San Antonio Siteje",
-      "color": "#2471a3",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_san_antonio_siteje.jpg",
       "temporality": "XVIII",
       "year": "1772",
@@ -1756,7 +1756,7 @@
         {
           "id": 1,
           "name": "Poligono de conflicto",
-          "color": "#9b59b6",
+          "color": "black",
           "temporality": "XVIII",
           "image": "/map_images/polygon_image/poligono_conflicto_san_antonio.jpg",
           "year": "1772",
@@ -1876,7 +1876,7 @@
     {
       "id": 20,
       "name": "San Luis de las Peras y  hacienda de Taxhimay",
-      "color": "#a569bd",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_san_luis_peras_hacienda.jpg",
       "temporality": "XVIII",
       "year": "1779",
@@ -1936,7 +1936,7 @@
     {
       "id": 21,
       "name": "La serranía de las cruces",
-      "color": "#5d6d7e",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_serrania_cruces.jpg",
       "temporality": "XVIII",
       "year": "1784",
@@ -2297,7 +2297,7 @@
     {
       "id": 22,
       "name": "Rancho Thogui",
-      "color": "#d35400",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_rancho_thogui.jpg",
       "temporality": "XVIII",
       "year": "1788",
@@ -2558,7 +2558,7 @@
     {
       "id": 23,
       "name": "San Luis de las Peras",
-      "color": "#17a589",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_san_luis_peras.jpg",
       "temporality": "XVIII",
       "year": "1791",
@@ -2644,7 +2644,7 @@
     {
       "id": 24,
       "name": "El potrero",
-      "color": "#8e44ad",
+      "color": "black",
       "image": "/map_images/mapa_antiguo_potrero2.jpg",
       "temporality": "XVIII",
       "year": "1764",
