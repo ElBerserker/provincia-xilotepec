@@ -234,7 +234,7 @@ const VisitCounter = () => {
 
   return (
     <div className={`
-      fixed top-80 right-5 z-50 shadow-md transition-all duration-300 ease-in-out
+      fixed top-80 right-5 z-50 shadow-md transition-all duration-300 ease-in-out controls-personal
       ${expanded ?
         'rounded-xl bg-black/90 w-72' :
         'rounded-full bg-black/80 w-12 h-12'}
