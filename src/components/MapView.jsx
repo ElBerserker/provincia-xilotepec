@@ -91,7 +91,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
       <div className="absolute top-24 right-4 z-[1000] flex flex-col gap-3">
         <LayerSelector />
         <CenterMapButton selectedPolygons={selectedPolygons} dateRange={dateRange} />
-        <CaptureButton />            
+        <CaptureButton />
         <VisitCounter />
 
       </div>
@@ -141,7 +141,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                     className="w-full h-42 object-cover mb-2 rounded"
                   />
                 )}
-                {/*<p className="text-sm">{marker.description}</p>*/}
+                <p className="text-sm text-justify max-h-48 overflow-auto pr-2">{polygon.description}</p>
                 <div className="text-xs text-gray-500 mt-2 flex">
                   <div className='text-left w-[30%]'>
                     {polygon.year && (<p><b>Año:</b> {polygon.year}</p>)}

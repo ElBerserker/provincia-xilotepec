@@ -62,9 +62,9 @@ const CenterMapButton = ({ selectedPolygons, dateRange }) => {
     
     // Ajustar el zoom con un padding para mejor visualización
     map.fitBounds(bounds, {
-      padding: [50, 50], // Padding en píxeles
-      maxZoom: 16, // Zoom máximo permitido
-      duration: 2
+      padding: [100,100], // Padding en píxeles
+      maxZoom: 15, // Zoom máximo permitido
+      duration: 1
     });
   };
 

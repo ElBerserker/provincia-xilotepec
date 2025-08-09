@@ -6,6 +6,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_xilotepec_san_pablo.jpg",
       "temporality": "XVI",
+      "description": "Los mapas antiguos clasificados en MAPILU con los números 2068F, 2229F y 2229V, del año 1584  que pertenecen al ramo de Tierras, vol. 2812, exp. 15, representan al pueblo de Xilotepec, San Pablo Huantepec y San Luis Atongo, así como un camino, dos corrientes de agua y un río, está orientado al norte y no tiene color. Es parte de un expediente en el que Pedro de Quezada, encomendero de la provincia de Xilotepec, solicita a la autoridad local, Martín López, 2 mercedes de tierra en los términos del pueblo de Xilotepec, San Pablo Huantepec y San Luis Atongo.  Los tres mapas están separados y rotos, por lo que mediante un procesador de imagen logramos unirlos para obtener una panorámica y entender los elementos que se representaron",
       "year": "1584",
       "startDate": "1584-01-01",
       "endDate": "",
@@ -129,6 +130,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_san_felipe.jpg",
       "temporality": "XVI",
+      "description": "El mapa de Santa Elena y San Felipe,  tiene la clasificación 1096 de MAPILU y es parte del expediente de Tierras vol. 1530, exp. 4. Fue elaborado en 1559 y conserva varios elementos de la tradición pictórica mesoamericana como los colores, la representación de vegetación y la forma de los cerros. No tiene una orientación determinada, pero integra referencias cardinales como el norte. Hace referencia a pueblos mediante la representación de una iglesia con campanario: San Gregorio, San Bartolomé de las Tunas, Pueblo viejo (Dongu), San Phelipe, San Xuan, y Santa Elena",
       "year": "1559",
       "startDate": "1559-01-01",
       "endDate": "",
@@ -153,7 +155,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 7,
+          "id": 6,
           "position": [
             19.8668759345129,
             -99.5872907878733
@@ -167,7 +169,7 @@
           "type": "Estancia de ganado"
         },
         {
-          "id": 8,
+          "id": 7,
           "position": [
             19.8639948286071,
             -99.6188849863877
@@ -181,7 +183,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 9,
+          "id": 8,
           "position": [
             19.8574241658102,
             -99.6113717085467
@@ -195,7 +197,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 10,
+          "id": 9,
           "position": [
             19.8467597379682,
             -99.5930614582443
@@ -209,7 +211,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 11,
+          "id": 10,
           "position": [
             19.78251,
             -99.66669
@@ -223,7 +225,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 12,
+          "id": 11,
           "position": [
             19.782734,
             -99.643509
@@ -239,7 +241,7 @@
       ],
       "routes": [
         {
-          "id": 4,
+          "id": 2,
           "name": "Camino nuevo a San Felipe",
           "positions": [
             [
@@ -257,11 +259,12 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Mapa de 1583",
       "color": "red",
       "image": "/map_images/mapa_antiguo_1583.jpg",
       "temporality": "XVI",
+      "description": "El mapa está clasificado en MAPILU con el número 1623 y es parte del expediente de Tierras vol. 2684, exp. 18. El espacio que corresponde a lo representado en el mapa de 1583 se encuentra entre los pueblos de Xilotepec, Soyaniquilpan y el camino que iba para las Zacatecas desde Tepeji del Río. Se puede apreciar el cerro que nombrado como “San Agustín”, la venta de Martín de Salinas y el camino local que iba de Xilotepec a San Bartolomé por Soyaniquilpan.",
       "year": "1583",
       "startDate": "2023-04-01",
       "endDate": "",
@@ -286,7 +289,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 11,
+          "id": 12,
           "position": [
             20.011871177613838,
             -99.52567247290914
@@ -300,7 +303,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 12,
+          "id": 13,
           "position": [
             19.950301552751302,
             -99.53227014868982
@@ -314,7 +317,7 @@
           "type": "Pueblo de cabecera"
         },
         {
-          "id": 13,
+          "id": 14,
           "position": [
             19.945744085982803,
             -99.38721035485585
@@ -328,7 +331,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 14,
+          "id": 15,
           "position": [
             20.039468381401097,
             -99.55107227293632
@@ -342,7 +345,7 @@
           "type": "Venta"
         },
         {
-          "id": 15,
+          "id": 16,
           "position": [
             20.044400612354817,
             -99.48448834936259
@@ -370,7 +373,7 @@
           "type": "Cerro"
         },
         {
-          "id": 19,
+          "id": 18,
           "position": [
             20.169888,
             -99.535732
@@ -384,7 +387,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 19,
           "position": [
             19.954539,
             -99.488403
@@ -400,7 +403,7 @@
       ],
       "routes": [
         {
-          "id": 7,
+          "id": 3,
           "name": "Ruta 1583",
           "positions": [
             [
@@ -422,11 +425,12 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Sitio El Potrero",
       "color": "red",
       "image": "/map_images/mapa_antiguo_sitio_el_potrerp.jpg",
       "temporality": "XVI",
+      "description": "El mapa de 1551 está clasificado con el número 1365 en el registro de MAPILU del AGN  y forma parte del expediente de Tierras, vol. 2167, exp. 3. Está orientado al noreste e indica un río, quizás el Coscomate, la loma de la gallina y la loma larga, un monte solo y un monte grande. Fue elaborado por un litigio de tierras entre Juan de Roxas y los Castillo, en las inmediaciones de Potrero.",
       "year": "1559",
       "startDate": "1559-01-01",
       "endDate": "",
@@ -451,7 +455,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 18,
+          "id": 20,
           "position": [
             19.911943,
             -99.432005
@@ -465,7 +469,7 @@
           "type": "Cerro"
         },
         {
-          "id": 19,
+          "id": 21,
           "position": [
             19.909556,
             -99.423884
@@ -479,7 +483,7 @@
           "type": "Cerro"
         },
         {
-          "id": 20,
+          "id": 22,
           "position": [
             19.908296,
             -99.41219
@@ -493,7 +497,7 @@
           "type": "Cerro"
         },
         {
-          "id": 21,
+          "id": 23,
           "position": [
             19.903806,
             -99.40517
@@ -515,6 +519,7 @@
       "color": "red",
       "image": "/map_images/mapa_antiguo_tecozautla.jpg",
       "temporality": "XVI",
+      "description": "El mapa de Santiago Tecozautla está clasificado con el número 1263 en MAPILU y es parte de un expediente de Tierras del vol. 1876, exp. 1. Fue elaborado en 1585 y es parte de la petición de un sitio de ganado menor entre el pueblo de Tecozautla y Alfajayucan. Está firmado por Juan Clemente J. de Chiapa, escribano público y tiene como referencia un paraje denominado “Chachguautla” que sirve ubicar el paraje solicitado. No tiene una representación cardinal y el camino entre los pueblos tiene huellas de pies humanos",
       "year": "1585",
       "startDate": "1585-01-01",
       "endDate": "",
@@ -539,7 +544,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 24,
           "position": [
             20.534074,
             -99.633177
@@ -553,7 +558,7 @@
           "type": "Pueblo de cabecera"
         },
         {
-          "id": 18,
+          "id": 25,
           "position": [
             20.408298,
             -99.348406
@@ -567,7 +572,7 @@
           "type": "Pueblo de cabecera"
         },
         {
-          "id": 19,
+          "id": 26,
           "position": [
             20.439439,
             -99.532656
@@ -589,6 +594,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_juan_aculco.jpg",
       "temporality": "XVII",
+      "description": "El mapa de San Juan Aculco representa un espacio en el que se encuentra el cerro de San Martín, el Camino Real que va a Zacatecas, el arroyo que viene de la laguna de Huapango y tres cerros que están en Aculco.  El mapa de 1610, registrado en MAPILU con el número 2555, del expediente en Tierras con el vol. 3673, exp.16. Forma parte de un documento en el que los indios de Xilotepec piden a la corona una estancia de ganado mayor cercana al pueblo de San Juan Aculco, así como un sitio de venta yerma de San Juan Aculco y el Camino Real que va de este pueblo a Zacatecas y otras partes. ",
       "year": "1610",
       "startDate": "1610-01-01",
       "endDate": "",
@@ -613,7 +619,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 27,
           "position": [
             20.047308,
             -99.75289
@@ -627,7 +633,7 @@
           "type": "Cerro"
         },
         {
-          "id": 18,
+          "id": 28,
           "position": [
             20.0504940440605,
             -99.7396539085838
@@ -641,7 +647,7 @@
           "type": "Cerro"
         },
         {
-          "id": 19,
+          "id": 29,
           "position": [
             20.0460701959313,
             -99.758868725876
@@ -655,7 +661,7 @@
           "type": "Cerro"
         },
         {
-          "id": 19,
+          "id": 30,
           "position": [
             20.1196927199217,
             -99.6574403850437
@@ -669,7 +675,7 @@
           "type": "Cerro"
         },
         {
-          "id": 19,
+          "id": 31,
           "position": [
             20.1322074071078,
             -99.659524260898
@@ -691,6 +697,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan1.jpg",
       "temporality": "XVII",
+      "description": "El mapa de San Martín Alfajayucan de 1611, imagen 25, está en MAPILU con el número 1669, pertenece al ramo de Tierras, vol. 2678, exp. 18, en el que se solicita un sitio de estancia de ganado menor “el paso que llaman Hueyanopaltitlán en términos del dicho pueblo de Alfaxayuca, donde hay mezquites y cardones. En el mapa antiguo hay una paleta de colores café en el fondo que pretende dar el aspecto de tierra seca. Con glosas se encuentran indicados los puntos cardinales, al sur está la imagen de un cerro que se lee como “este es un cerro pelado”, en el poniente está la representación de un río cuya glosa dice “este es un arroio seco”, también hay representaciones de nopaleras y arbustos con un tono de café más obscuro. Hay una glosa que indica “tierra baldía”. Al norte se encuentra representado el pueblo de San Martín Alfajayucan con una iglesia y a un costado un río con una glosa que dice “río que viene de Chapatango hacia Alfaxaiuca”.",
       "year": "1611",
       "startDate": "1611-01-01",
       "endDate": "",
@@ -715,7 +722,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 32,
           "position": [
             20.4102034959995,
             -99.348282140998
@@ -729,7 +736,7 @@
           "type": "Pueblo de cabecera"
         },
         {
-          "id": 18,
+          "id": 33,
           "position": [
             20.3588071475806,
             -99.3771049659094
@@ -751,6 +758,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_juan_azguatepec.jpg",
       "temporality": "XVII",
+      "description": "El mapa de San Azguatepec de 1611,  está registrado en MAPILU con el número 2060, pertenece al ramo de Tierras, vol. 2763, exp. 23. En éste el indio principal de la provincia de Xilotepec, Calixto de Luna, solicita al alcalde mayor, Don Andrés de Tapia y Sosa, un sitio de estancia para ganado mayor y dos caballerías de tierra en los términos de los pueblos San Andrés Timilpan y Acambay.  En el mapa antiguo se puede observar que está orientado hacia el norte y el este está marcado por la salida del sol. Tiene una paleta de colores entre verdes y mate, los cuales indican los montes y árboles. Las líneas representan los caminos locales; el que está al norte es el camino de San Miguel Acambay a Xilotepec, mientras que el del sur es el camino de San Andrés Timilpan a Acambay, las otras líneas indican arroyos de temporal. Al oeste de color azul está indicado el sitio de estancia caballería de tierra. ",
       "year": "1611",
       "startDate": "1611-01-01",
       "endDate": "",
@@ -775,7 +783,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 34,
           "position": [
             19.926833834714,
             -99.7898738641319
@@ -789,7 +797,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 18,
+          "id": 35,
           "position": [
             19.9228133632773,
             -99.8037572027909
@@ -805,7 +813,7 @@
       ],
       "routes": [
         {
-          "id": 7,
+          "id": 4,
           "name": "Camino de Acambay a Timilpan",
           "positions": [
             [
@@ -821,7 +829,7 @@
           "year": "1611"
         },
         {
-          "id": 7,
+          "id": 5,
           "name": "Camino de Acambay a Xilotepec",
           "positions": [
             [
@@ -844,6 +852,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_martin_alfajayucan2.jpg",
       "temporality": "XVII",
+      "description": "El mapa de Alfajayucan y Tasquillo de 1614 se encuentra en el mismo volumen que el mapa anterior, pero en el expediente 17, con la clasificación en MAPILU 1568, pues en este caso se pide un sitio de ganado menor y una caballería de tierra al norte del pueblo de San Martín Alfajayucan en la parte que llaman Tepetongo que pidió Don José de Avalos,  está orientado hacia el oriente. El mapa tiene al fondo dos colores de color café; obscuro y claro. Los cerros, mezquites y cactáceas están de tono en color verde. Los puntos cardinales están marcados con una glosa, al oriente se encuentra la firma del escribano público Alonso Yañez quien además 'da por verdadera esta pintura'. En el mismo cuadrante al sur escrito dice 'mezquites cardones y lechuguillas'. Abajo junto a la glosa del sur está representado con arquitectura que indica una iglesia el pueblo de San Martín Alfajayucan, enfrente sale un camino cuya glosa dice 'este camino va al pueblo de Tasquillo'. Abajo dice 'estos son cardones, mezquites y lechuguillas', al poniente sale un camino que atraviesa por el centro y dice 'este camino viene de Guichapan y va al pueblo de Ixmiquilpan'",
       "year": "1614",
       "startDate": "1614-01-01",
       "endDate": "",
@@ -868,7 +877,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 36,
           "position": [
             20.4102034959995,
             -99.348282140998
@@ -882,7 +891,7 @@
           "type": "Pueblo de cabecera"
         },
         {
-          "id": 18,
+          "id": 37,
           "position": [
             20.4355925172578,
             -99.3328888399691
@@ -898,7 +907,7 @@
       ],
       "routes": [
         {
-          "id": 7,
+          "id": 6,
           "name": "Camino de Alfajayucan a Ixmiquilpan",
           "positions": [
             [
@@ -938,6 +947,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_mezquital_de_tecozautla.jpg",
       "temporality": "XVII",
+      "description": "El mapa de Santiago Tecozautla fue elaborado en 1617 con la finalidad de solicitar dos caballerías de tierra sobre la meseta de un cerro y está firmado por Alonso Yáñez. Se encuentra clasificado en MAPILU con el número 1797 y es parte del ramo de tierras del volumen 2717, expediente 23. En el mapa está representado el camino que va de Huichapan a el sitio del Palmar, mezquites, nopales y en color rosa las peñas, las cuales se encuentran en el borde la plataforma. En la parte baja de la plataforma hay arroyos formados por canales de riego, campos de cultivo y algunas casas. Las caballerías de tierra solicitas se encuentran en el borde de la plataforma a fin de aprovechar una ladera del lado oeste, en la cual se encuentra parte del arroyo de riego.",
       "year": "1617",
       "startDate": "1617-01-01",
       "endDate": "",
@@ -962,7 +972,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 38,
           "position": [
             20.4823802038494,
             -99.392641568418
@@ -976,7 +986,7 @@
           "type": "Caballerias de tierra"
         },
         {
-          "id": 18,
+          "id": 39,
           "position": [
             20.4812862401267,
             -99.3857826859723
@@ -998,6 +1008,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_rio_lascalilla.jpg",
       "temporality": "XVII",
+      "description": "El mapa del río de Tlascalilla de 1620,  está registrado en MAPILU con el número 2061, se encuentra en el ramo de Tierras, vol, 2763, exp. 25, indica que Francisco Sánchez Guerrero solicita licencia para sembrar tres caballerías de tierra que tiene en un sitio de estancia para ganado menor, el cual colinda con una parte del arroyo que viene de Tlascalilla y con el camino que viene de San Juan del Río. El mapa está orientado al norte, tiene un color gris de fondo, el color verde está en los cerros y como pequeños puntos a un costado del río.",
       "year": "1620",
       "startDate": "1620-01-01",
       "endDate": "",
@@ -1022,7 +1033,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 40,
           "position": [
             20.3620240285208,
             -99.7752759276888
@@ -1036,7 +1047,7 @@
           "type": "Cerro"
         },
         {
-          "id": 18,
+          "id": 41,
           "position": [
             20.3518343545814,
             -99.7619930903258
@@ -1050,7 +1061,7 @@
           "type": "Cerro"
         },
         {
-          "id": 18,
+          "id": 42,
           "position": [
             20.3458876503089,
             -99.7550693573779
@@ -1072,6 +1083,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_el _almar.jpg",
       "temporality": "XVII",
+      "description":"El sitio de El Palmar está representado en el mapa antiguo clasificado con el número 1777 de MAPILU, es parte del documento de tierras, volumen 2711, expediente 10.  Es reclamado en 1620 por Diego de Chabes para hacer uso de cuatro caballerías de tierra y sembrar maíz, trigo y otras legumbres, así mismo aprovechar los pastos para sus haciendas y gentes. En el mapa  se observan tres cerros de mayor tamaño en el horizonte de la imagen, líneas que hacen referencia a arroyos y puntos que asemejan nopales y las palmas. Está orientado al oriente, al norte se encuentran un conjunto de cerros, que no aparecen en la imagen, pero que la población los conoce como “Las Tres hermanas”, desde uno de ellos es probable que se haya subido el pintor para plasmar el paisaje. ",
       "year": "1622",
       "startDate": "1622-01-01",
       "endDate": "",
@@ -1096,7 +1108,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 43,
           "position": [
             20.5044628564304,
             -99.433273958049
@@ -1112,7 +1124,7 @@
       ],
       "routes": [
         {
-          "id": 7,
+          "id": 8,
           "name": "Camino de Huichapan a El Palmar",
           "positions": [
             [
@@ -1135,6 +1147,7 @@
       "color": "#784212",
       "image": "/map_images/mapa_antiguo_san_miguel_quahmanco.jpg",
       "temporality": "XVII",
+      "description":"Al oriente se encuentra una construcción que puede ser una mojonera, en la cual la glosa dice “aquí se pide el sitio de estancia de ganado menor”. En ese mismo punto hay un camino de color café marcado con pies que se bifurca hacia el poniente. Hacia la derecha de color verde y con unos trazos a manera de pincelazos está un cerro con representaciones de árboles, el cual dice “cerro Yolotepec”, y a un costado otro cerro con el mismo tipo de representación. Al sur hay un cerro que no tiene vegetación y con línea azul está un río que en la glosa dice que está seco. Por ese mismo lado hay dos caminos de color café, en uno de ellos se alcanza a leer que va para Xilotepec, mientras que en el otro solo se lee “este camino va…”",
       "year": "1625",
       "startDate": "1625-01-01",
       "endDate": "",
@@ -1159,7 +1172,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 17,
+          "id": 44,
           "position": [
             19.9552413510027,
             -99.8452690149964
@@ -1173,7 +1186,7 @@
           "type": "Pueblo de cabecera"
         },
         {
-          "id": 17,
+          "id": 45,
           "position": [
             19.9456666548024,
             -99.8405835505507
@@ -1187,7 +1200,7 @@
           "type": "Ojo de agua"
         },
         {
-          "id": 17,
+          "id": 46,
           "position": [
             19.9440097949665,
             -99.8503393742724
@@ -1203,13 +1216,13 @@
       ],
       "routes": []
     },
-
     {
-      "id": 15,
+      "id": 14,
       "name": "Estancia de Santiago Maza",
       "color": "black",
       "image": "/map_images/mapa_antiguo_estancia_santiago_maza.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de la estancia de Santiago Maza de 1754, clasificado en MAPILU con el número 1354, de un documento del fondo de tierras del volumen 2163, expediente 1, es parte de la solicitud que en 1748 había presentado Teodora de Navarrete por el rancho de su fallecido esposo Juan González de Cabañas. Tiene color, en la parte superior derecha tiene una flecha que indica el norte, se representó la sierra que delimita el pueblo de Santiago Maza, sujeto de Acambay, del pueblo cabecera de San Andrés Timilpan que está hacia el noreste. " ,
       "year": "1754",
       "startDate": "1754-01-01",
       "endDate": "",
@@ -1263,7 +1276,7 @@
       ],
       "markers": [
         {
-          "id": 18,
+          "id": 47,
           "position": [
             19.8206626433478,
             -99.7641685350337
@@ -1280,11 +1293,12 @@
       "routes": []
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "San Luis de las Peras y Taxhimay",
       "color": "black",
       "image": "/map_images/mapa_antiguo_san_luis_peras_taxhimay.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de Taxhimay y San Luis de las Peras de 1759, clasificado en MAPILU con el número 861, del documento del fondo de Tierras, volumen 860, expediente 33, presenta un polígono que se encuentra en disputa en la parte central, no tiene color y está orientado al norte, hacia el este está señalizado el Peñas órganos, el cual es uno de los cerros más altos con una altura aproximada de 3,400 m.s.n.m. El expediente indica el proceso para dotar de limites la propiedad de Joseph Leonel, pues ésta cae en el sitio de los terrenos de Don Antonio de Silva",
       "year": "1759",
       "startDate": "1759-01-01",
       "endDate": "",
@@ -1309,7 +1323,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 18,
+          "id": 48,
           "position": [
             19.8328696928969,
             -99.3994056574261
@@ -1323,7 +1337,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 18,
+          "id": 49,
           "position": [
             19.8917251603673,
             -99.4999695615314
@@ -1339,7 +1353,7 @@
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 9,
           "name": "Camino de San Luis de las Peras a Xilotepec",
           "positions": [
             [
@@ -1361,11 +1375,12 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Potrero",
       "color": "black",
       "image": "/map_images/mapa_antiguo_potrero.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de 1754 del sitio El Potrero,  clasificado en MAPILU con el número 1367, es parte del mismo volumen 2167 y expediente 4 en donde se encuentra la representación del mismo sitio de 1551, pues el litigio iniciado en 1752 retoma el mapa del XVI y anexa este otro documento para reafirmar la posesión de las dos caballerías de tierra del sitio el Potrero que en 1574 otorgó el virrey Don Martin Enríquez de Almansa. El mapa en cuestión tiene color, está orientado al norte con firmas de Cayetano ¿Banje?, Ana del Castillo y Manuel Joseph del Castillo, quienes son los tres testigos que dan por verdadero los límites de las caballerías. En el mapa al norte se representó un rio en color azul que marca el lindero con la Comunidad, sitio que es probablemente el pueblo de San Pablo Huantepec.",
       "year": "1754",
       "startDate": "1754-01-01",
       "endDate": "",
@@ -1390,7 +1405,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 18,
+          "id": 50,
           "position": [
             19.9684948939734,
             -99.4908343408127
@@ -1404,7 +1419,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 51,
           "position": [
             19.9471664801433,
             -99.4913836206204
@@ -1418,7 +1433,7 @@
           "type": "Cerro"
         },
         {
-          "id": 21,
+          "id": 52,
           "position": [
             19.9400104595502,
             -99.4869291851421
@@ -1432,7 +1447,7 @@
           "type": "Cerro"
         },
         {
-          "id": 22,
+          "id": 53,
           "position": [
             19.9375621778723,
             -99.4787576506233
@@ -1446,7 +1461,7 @@
           "type": "Cerro"
         },
         {
-          "id": 23,
+          "id": 54,
           "position": [
             19.9363569812794,
             -99.4674552095891
@@ -1460,7 +1475,7 @@
           "type": "Cerro"
         },
         {
-          "id": 24,
+          "id": 56,
           "position": [
             19.9320513162959,
             -99.4606502685855
@@ -1476,7 +1491,7 @@
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 10,
           "name": "Camino Xilotepec-San Pablo",
           "positions": [
             [
@@ -1496,7 +1511,7 @@
           "year": "1754"
         },
         {
-          "id": 2,
+          "id":11,
           "name": "Arroyo de Dexcanie",
           "positions": [
             [
@@ -1516,7 +1531,7 @@
           "year": "1754"
         },
         {
-          "id": 3,
+          "id": 12,
           "name": "Rio de Coscomate a Tlautla",
           "positions": [
             [
@@ -1538,11 +1553,12 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "San Miguel Acambay",
       "color": "black",
       "image": "/map_images/mapa_antiguo_san_miguel_acambay.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de San Miguel Acambay fue elaborado en 1746,  está clasificado en MAPILU con el número 1101, forma parte de un documento del fondo de Tierras, volumen 1538, expediente 10. El mapa antiguo está firmado por el escribano real y público Antonio Reyes del Castillo, el expediente indica que en el que el pueblo de San Juan Huastepeque,  pueblo de indios sujeto a San Miguel Acambay cuya cabecera forma parte de la provincia de Xilotepec, los hermanos Santiago Eusebio y Phelipe Navarrete, quienes han empeñado sus tierras a María Flores por seiscientos pesos y pretenden recuperarlas para venderlas, sin embargo, los habitantes de San Juan se apropiaron de espacios de la hacienda, los hermanos Navarrete argumentan que los terrenos de la hacienda no fueron abandonados y que con la delimitación podrán obtener los títulos de la propiedad",
       "year": "1746",
       "startDate": "1746-01-01",
       "endDate": "",
@@ -1567,7 +1583,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 18,
+          "id": 57,
           "position": [
             19.9552413514897,
             -99.8452690151997
@@ -1581,7 +1597,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 58,
           "position": [
             19.9317794559536,
             -99.791861809871
@@ -1595,7 +1611,7 @@
           "type": "Rancho"
         },
         {
-          "id": 21,
+          "id": 59,
           "position": [
             19.9400104595502,
             -99.4869291851421
@@ -1611,7 +1627,7 @@
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 13,
           "name": "Camino de Acambay a Xilotepec",
           "positions": [
             [
@@ -1627,7 +1643,7 @@
           "year": "1746"
         },
         {
-          "id": 2,
+          "id": 14,
           "name": "Camino de Acambay a Huichapan",
           "positions": [
             [
@@ -1653,11 +1669,12 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Rancho de San Antonio Siteje",
       "color": "black",
       "image": "/map_images/mapa_antiguo_san_antonio_siteje.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de 1772 del rancho de San Antonio Siteje, está registrado en MAPILU con el número 1741, forma parte de un documento del expediente de Tierras del volumen 2703, expediente 21, representa un espacio que se encuentra al norte del pueblo de San Miguel Acambay. En el expediente se solicita por parte de Don Alonso González, español dueño del rancho San Antonio, el deslinde su propiedad, ya que los límites de éste se encuentran con los pueblos de indios de Santa María Ixtamadehe, San Andrés Timilpan y Dongu, así como del rancho llamado Caximo. Los pueblos de indios argumentan en Don Alonso ha usado parte de sus tierras y se las ha anexado al rancho, haciendo uso de pastos y agua. Para ello en el mapa se muestran 7 mojoneras que pretenden ser los límites de la propiedad y demostrar que no hay intervención hacia otros espacios",
       "year": "1772",
       "startDate": "1772-01-01",
       "endDate": "",
@@ -1681,7 +1698,7 @@
       ],
       "sub_polygons": [
         {
-          "id": 1,
+          "id": 2,
           "name": "Poligono de conflicto",
           "color": "black",
           "temporality": "XVIII",
@@ -1711,7 +1728,7 @@
       ],
       "markers": [
         {
-          "id": 18,
+          "id": 60,
           "position": [
             19.9892815479193,
             -99.8917435024209
@@ -1725,7 +1742,7 @@
           "type": "Cerro"
         },
         {
-          "id": 20,
+          "id": 61,
           "position": [
             20.0239254219109,
             -99.8854389304362
@@ -1739,7 +1756,7 @@
           "type": "Cerro"
         },
         {
-          "id": 21,
+          "id": 62,
           "position": [
             20.011314002055,
             -99.8831060745667
@@ -1753,7 +1770,7 @@
           "type": "Cerro"
         },
         {
-          "id": 22,
+          "id": 63,
           "position": [
             20.011314002055,
             -99.8831060745667
@@ -1767,7 +1784,7 @@
           "type": "Cruz"
         },
         {
-          "id": 23,
+          "id": 64,
           "position": [
             20.03627994361,
             -99.8944717167663
@@ -1783,7 +1800,7 @@
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 15,
           "name": "Río",
           "positions": [
             [
@@ -1801,11 +1818,12 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "San Luis de las Peras y  hacienda de Taxhimay",
       "color": "black",
       "image": "/map_images/mapa_antiguo_san_luis_peras_hacienda.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de San Luis de las Peras y la hacienda de Taxhimay de 1779 está clasificado en MAPILU con el número 908, de la documentación del ramo de Tierras, volumen 1040, exp. 2, en el que se indica que se delimiten los espacios que corresponde a la hacienda Taxhimay y al pueblo de San Luis de las Peras. El mapa tiene colores en tonos verde y amarillo, está orientado al sur y en la parte inferior derecha tiene la descripción de los 12 números del mapa. El número 1 indica el monte de la Bufa que se encuentra en la parte superior derecha, el 2 el río que sale del cerro y va hacia el pueblo, el 3 el camino que va hacia Santa Ana, en Tepeji del Río, el 4 es el pueblo de San Luis que se puede observar con una torre y una construcción de dos aguas,  el 5 es la taza de agua que se realizó del río que viene de la Bufa, el 6 es la toma de agua del mismo río, el 7 es el albarradón,  el 8 la cuchilla, el 9 una segunda toma de agua, el 10 una cerca de piedra y bosque, el 11 un arroyo seco, el 12 la hacienda de Taxhimay al centro y 13 los campo de labor.",
       "year": "1779",
       "startDate": "1779-01-01",
       "endDate": "",
@@ -1830,7 +1848,7 @@
       "sub_polygons": [],
       "markers": [
         {
-          "id": 18,
+          "id": 65,
           "position": [
             19.8328696928969,
             -99.3994056574261
@@ -1844,7 +1862,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 66,
           "position": [
             19.8346953319132,
             -99.4067456804906
@@ -1861,11 +1879,12 @@
       "routes": []
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "La serranía de las cruces",
       "color": "black",
       "image": "/map_images/mapa_antiguo_serrania_cruces.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de la serranía de las cruces fue elaborado en 1784, está registrado en MAPILU con el número 1362, forma parte del documento del fondo de Tierras del volumen 2162, expediente 1, tiene color y su versión original está orientado hacia el sur. En la parte central se colocó una retícula que indica límites y 9 mojoneras enumeradas, al oeste se encuentra el pueblo de Xilotepec, al norte el camino de herradura, el pueblo de San Pablo Huantepec y al este el rancho Thogui. La serranía que está representada es la de Coscomate y algunos cerros como la Campana, la Rosa, cerro Solo y el Azul, además, con un ligero rasgo se representaron unas peñas, las cuales fueron usadas como referencia geográfica",
       "year": "1784",
       "startDate": "1784-01-01",
       "endDate": "",
@@ -1889,7 +1908,7 @@
       ],
       "sub_polygons": [
         {
-          "id": 1,
+          "id": 3,
           "name": "Poligono de conflicto",
           "color": "#9b59b6",
           "temporality": "XVIII",
@@ -1917,7 +1936,7 @@
           ]
         },
         {
-          "id": 2,
+          "id": 4,
           "name": "Centro del litigio",
           "color": "#45b39d",
           "temporality": "XVIII",
@@ -1947,7 +1966,7 @@
       ],
       "markers": [
         {
-          "id": 18,
+          "id": 67,
           "position": [
             19.9514876859116,
             -99.5321882884835
@@ -1961,7 +1980,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 68,
           "position": [
             19.9684948939734,
             -99.4908343408127
@@ -1975,7 +1994,7 @@
           "type": "Pueblo"
         },
         {
-          "id": 21,
+          "id": 69,
           "position": [
             19.9790966071567,
             -99.4478917674222
@@ -1989,7 +2008,7 @@
           "type": "Rancho"
         },
         {
-          "id": 22,
+          "id": 70,
           "position": [
             19.9346507757955,
             -99.4941796561288
@@ -2003,7 +2022,7 @@
           "type": "Rancho"
         },
         {
-          "id": 23,
+          "id": 71,
           "position": [
             19.9569309907456,
             -99.4896316751248
@@ -2017,7 +2036,7 @@
           "type": "Casa"
         },
         {
-          "id": 24,
+          "id": 72,
           "position": [
             19.9559303957388,
             -99.4706473750652
@@ -2031,7 +2050,7 @@
           "type": "Casa"
         },
         {
-          "id": 25,
+          "id": 73,
           "position": [
             19.9490620116452,
             -99.4935855488289
@@ -2045,7 +2064,7 @@
           "type": "Casa"
         },
         {
-          "id": 25,
+          "id": 74,
           "position": [
             19.9471664801433,
             -99.4913836206204
@@ -2059,8 +2078,11 @@
           "type": "Cerro"
         },
         {
-          "id": 27,
-          "position": [19.9400104595502,	-99.4869291851421],
+          "id": 75,
+          "position": [
+            19.9400104595502,
+            -99.4869291851421
+          ],
           "title": "Loma de la gallina",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/serrania_loma_gallina.jpg",
@@ -2070,8 +2092,11 @@
           "type": "Cerro"
         },
         {
-          "id": 28,
-          "position": [19.9375621778723,	-99.4787576506233],
+          "id": 76,
+          "position": [
+            19.9375621778723,
+            -99.4787576506233
+          ],
           "title": "Loma larga",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/serrania_loma_larga.jpg",
@@ -2081,8 +2106,11 @@
           "type": "Cerro"
         },
         {
-          "id": 29,
-          "position": [19.9363569812794,	-99.4674552095891],
+          "id": 77,
+          "position": [
+            19.9363569812794,
+            -99.4674552095891
+          ],
           "title": "Monte solo",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/monte_solo_cerrania_cruces.jpg",
@@ -2092,8 +2120,11 @@
           "type": "Cerro"
         },
         {
-          "id": 26,
-          "position": [19.9320513162959, -99.4606502685855],
+          "id": 78,
+          "position": [
+            19.9320513162959,
+            -99.4606502685855
+          ],
           "title": "Monte Grande",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/serrania_monte_grande.jpg",
@@ -2103,8 +2134,11 @@
           "type": "Cerro"
         },
         {
-          "id": 26,
-          "position": [19.9423352886951, -99.4529018477985],
+          "id": 79,
+          "position": [
+            19.9423352886951,
+            -99.4529018477985
+          ],
           "title": "Cerro de la rosa",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/cerro_rosa.jpg",
@@ -2114,8 +2148,11 @@
           "type": "Cerro"
         },
         {
-          "id": 26,
-          "position": [19.9466670294964, -99.4417468844019],
+          "id": 80,
+          "position": [
+            19.9466670294964,
+            -99.4417468844019
+          ],
           "title": "Cerro de la campana",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/monte_campana.jpg",
@@ -2125,8 +2162,11 @@
           "type": "Cerro"
         },
         {
-          "id": 27,
-          "position": [19.8979409185834,	-99.5126810440298],
+          "id": 81,
+          "position": [
+            19.8979409185834,
+            -99.5126810440298
+          ],
           "title": "Serranía de Coscomate",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/serrania_coscomate.jpg",
@@ -2136,8 +2176,11 @@
           "type": "Sierra"
         },
         {
-          "id": 27,
-          "position": [19.906673177966,	-99.4836327754059],
+          "id": 82,
+          "position": [
+            19.906673177966,
+            -99.4836327754059
+          ],
           "title": "Serranía de la Santa Cruz",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/serrania_santa_cruz.jpg",
@@ -2147,8 +2190,11 @@
           "type": "Sierra"
         },
         {
-          "id": 28,
-          "position": [19.8917251603673,	-99.4999695615314],
+          "id": 83,
+          "position": [
+            19.8917251603673,
+            -99.4999695615314
+          ],
           "title": "Cerro de los órganos",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           "image": "/map_images/marker_image/serrania_cerro_organos.jpg",
@@ -2156,11 +2202,11 @@
           "startDate": "1784-01-01",
           "endDate": "",
           "type": "Cerro"
-        }                         
+        }
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 16,
           "name": "Rio de Coscomate a Tlautla",
           "positions": [
             [
@@ -2180,7 +2226,7 @@
           "year": "1784"
         },
         {
-          "id": 2,
+          "id": 17,
           "name": "Camino Xilotepec-San Pablo",
           "positions": [
             [
@@ -2200,7 +2246,7 @@
           "year": "1784"
         },
         {
-          "id": 3,
+          "id": 18,
           "name": "Arroyo de Dexcanie",
           "positions": [
             [
@@ -2222,34 +2268,40 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Rancho Thogui",
       "color": "black",
       "image": "/map_images/mapa_antiguo_rancho_thogui.jpg",
       "temporality": "XVIII",
+      "description":"El mapa del rancho el Thogui fue elaborado en 1788, está clasificado en MAPILU con el número 1363 y es parte del documento del fondo de Tierras, vol. 2162, expediente 1 y representa al sur la serranía de Coscomate. El mapa tiene una escala de dos mil varas castellanas y está firmado por José del Mazo y Arlice en Arroyozarco el 2 de septiembre de 1788. El mapa está orientado al norte, pues en la esquina superior derecha se encuentra una rosa de los vientos. Esta cartografía pertenece a un expediente de Tierras en el que los dueños del racho Thogui solicitan a la justicia mayor que deslinde sus propiedades de los arrendatarios de otros ranchos.",
       "year": "1788",
       "startDate": "1788-01-01",
       "endDate": "",
       "positions": [
         [
-19.9799150948917,	-99.5362089319776
+          19.9799150948917,
+          -99.5362089319776
         ],
         [
-20.0163839898422,	-99.4627648717309
+          20.0163839898422,
+          -99.4627648717309
         ],
         [
-20.0249919791079,	-99.4055556052623
+          20.0249919791079,
+          -99.4055556052623
         ],
         [
-19.895937445544,	-99.424499226042
+          19.895937445544,
+          -99.424499226042
         ],
         [
-19.8961371196897,	-99.5351890539432
+          19.8961371196897,
+          -99.5351890539432
         ]
       ],
       "sub_polygons": [
         {
-          "id": 1,
+          "id": 5,
           "name": "Poligono de conflicto",
           "color": "#9b59b6",
           "temporality": "XVIII",
@@ -2259,25 +2311,30 @@
           "endDate": "",
           "positions": [
             [
-19.9587119014399,	-99.4921798067564
+              19.9587119014399,
+              -99.4921798067564
             ],
             [
-19.960286584574,	-99.4758799061257
+              19.960286584574,
+              -99.4758799061257
             ],
             [
-19.950052912868,	-99.4688908606433
+              19.950052912868,
+              -99.4688908606433
             ],
             [
-19.9412574215441,	-99.4820526890615
+              19.9412574215441,
+              -99.4820526890615
             ]
           ]
-        }       
+        }
       ],
       "markers": [
         {
-          "id": 18,
+          "id": 84,
           "position": [
-19.9514876859116,	-99.5321882884835
+            19.9514876859116,
+            -99.5321882884835
           ],
           "title": "Xilotepec",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2288,9 +2345,10 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 85,
           "position": [
-19.9790966071567,	-99.4478917674222
+            19.9790966071567,
+            -99.4478917674222
           ],
           "title": "Rancho Thogui",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2301,9 +2359,10 @@
           "type": "Rancho"
         },
         {
-          "id": 21,
+          "id": 86,
           "position": [
-19.9684948939734,	-99.4908343408127
+            19.9684948939734,
+            -99.4908343408127
           ],
           "title": "San Pablo Huantepec",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2314,9 +2373,10 @@
           "type": "Pueblo"
         },
         {
-          "id": 22,
+          "id": 87,
           "position": [
-19.9810341117527,	-99.4417710814861
+            19.9810341117527,
+            -99.4417710814861
           ],
           "title": "Corrales",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2327,9 +2387,10 @@
           "type": "Corrales de ganado"
         },
         {
-          "id": 23,
+          "id": 88,
           "position": [
-19.9346507757955,	-99.4941796561288
+            19.9346507757955,
+            -99.4941796561288
           ],
           "title": "Rancho de la Santa Cruz",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2340,9 +2401,10 @@
           "type": "Rancho"
         },
         {
-          "id": 24,
+          "id": 89,
           "position": [
-19.9820914915864,	-99.4522677690621
+            19.9820914915864,
+            -99.4522677690621
           ],
           "title": "Ojo de agua",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2353,9 +2415,10 @@
           "type": "Manantial"
         },
         {
-          "id": 25,
+          "id": 90,
           "position": [
-19.9375621778723,	-99.4787576506233
+            19.9375621778723,
+            -99.4787576506233
           ],
           "title": "Loma larga",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2366,9 +2429,10 @@
           "type": "Cerro"
         },
         {
-          "id": 25,
+          "id": 91,
           "position": [
-19.9363569812794,	-99.4674552095891
+            19.9363569812794,
+            -99.4674552095891
           ],
           "title": "Monte solo",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2379,9 +2443,10 @@
           "type": "Cerro"
         },
         {
-          "id": 27,
+          "id": 92,
           "position": [
-19.9320513162959,	-99.4606502685855
+            19.9320513162959,
+            -99.4606502685855
           ],
           "title": "Monte grande",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2392,9 +2457,10 @@
           "type": "Cerro"
         },
         {
-          "id": 28,
+          "id": 93,
           "position": [
-19.9423352886951,	-99.4529018477985
+            19.9423352886951,
+            -99.4529018477985
           ],
           "title": "Cerro de la rosa",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2405,9 +2471,10 @@
           "type": "Cerro"
         },
         {
-          "id": 29,
+          "id": 94,
           "position": [
-19.9466670294964,	-99.4417468844019
+            19.9466670294964,
+            -99.4417468844019
           ],
           "title": "Cerro de la campana",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2418,9 +2485,10 @@
           "type": "Cerro"
         },
         {
-          "id": 26,
+          "id": 95,
           "position": [
-19.8979409185834,	-99.5126810440298
+            19.8979409185834,
+            -99.5126810440298
           ],
           "title": "Serranía de Coscomate",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2431,9 +2499,10 @@
           "type": "Sierra"
         },
         {
-          "id": 26,
+          "id": 96,
           "position": [
-19.906673177966,	-99.4836327754059
+            19.906673177966,
+            -99.4836327754059
           ],
           "title": "Serranía de la Santa Cruz",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2442,38 +2511,44 @@
           "startDate": "1788-01-01",
           "endDate": "",
           "type": "Sierra"
-        }                       
+        }
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 19,
           "name": "Rio de Coscomate a Tlautla",
           "positions": [
             [
-19.9612546454313,	-99.4774681508545
+              19.9612546454313,
+              -99.4774681508545
             ],
             [
-19.9613060911797,	-99.4274360432027
+              19.9613060911797,
+              -99.4274360432027
             ],
             [
-19.9628310560182,	-99.3730338072919
+              19.9628310560182,
+              -99.3730338072919
             ]
           ],
           "color": "#2e86c1",
           "year": "1788"
         },
         {
-          "id": 2,
+          "id": 20,
           "name": "Arroyo de Dexcanie",
           "positions": [
             [
-19.9286776544236,	-99.4939506798826
+              19.9286776544236,
+              -99.4939506798826
             ],
             [
-19.9428841733128,	-99.4949984166993
+              19.9428841733128,
+              -99.4949984166993
             ],
             [
-19.9565413002086,	-99.4966073618047
+              19.9565413002086,
+              -99.4966073618047
             ]
           ],
           "color": "#2e86c1",
@@ -2481,39 +2556,45 @@
         }
       ]
     },
-    
     {
-      "id": 23,
+      "id": 22,
       "name": "San Luis de las Peras",
       "color": "black",
       "image": "/map_images/mapa_antiguo_san_luis_peras.jpg",
       "temporality": "XVIII",
+      "description":"El mapa de 1791 de San Luis de las Peras está clasificado en MAPILU con el número 1198 y es parte del documento del fondo de Tierras, volumen 1698, expediente. El mapa es parte del litigio formado desde 1556 por la extensión del pueblo en relación con los particulares que fueron llegando, en un primer momento para deslindar los terrenos de una estancia de ganado entre los cerros Costepec, Petobtle y Mexgilo  y luego sobre los terrenos de la hacienda de Taxhimay. Para este segundo caso el mapa es parte de la solicitud que el señor Valentín Suarez, indio principal de San Luis Peras, a través de su apoderado Marcelino Elías de Tapia, presentan ante el subdelegado de la jurisdicción de Huichapan Don Manuel de Valenzuela la posesión de las tierras.  El mapa tiene un fonde de color café con dos líneas en color blanco que representan los dos ríos que están cerca del pueblo. La leyenda de un costado hace referencia a parajes y predios de particulares. ",
       "year": "1791",
       "startDate": "1791-01-01",
       "endDate": "",
       "positions": [
         [
-19.8774064110823,	-99.4017522402385        
+          19.8774064110823,
+          -99.4017522402385
         ],
         [
-19.8740951961639,	-99.3383252297255
+          19.8740951961639,
+          -99.3383252297255
         ],
         [
-19.8487173103074,	-99.3392821548042
+          19.8487173103074,
+          -99.3392821548042
         ],
         [
-19.8309062200781,	-99.3507657533518
+          19.8309062200781,
+          -99.3507657533518
         ],
         [
-19.8378609179826,	-99.4083906747793
+          19.8378609179826,
+          -99.4083906747793
         ]
       ],
       "sub_polygons": [],
       "markers": [
         {
-          "id": 18,
+          "id": 97,
           "position": [
-19.8328696928969,	-99.3994056574261
+            19.8328696928969,
+            -99.3994056574261
           ],
           "title": "San Luis de las Peras",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2524,9 +2605,10 @@
           "type": "Pueblo"
         },
         {
-          "id": 20,
+          "id": 98,
           "position": [
-19.8346953319132,	-99.4067456804906
+            19.8346953319132,
+            -99.4067456804906
           ],
           "title": "Hacienda de San Luis Taxhimay",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2535,32 +2617,36 @@
           "startDate": "1791-01-01",
           "endDate": "",
           "type": "Hacienda"
-        }                 
+        }
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 21,
           "name": "Río de los perales",
           "positions": [
             [
-19.8047947050673,	-99.3863103536785
+              19.8047947050673,
+              -99.3863103536785
             ],
             [
-19.9040506971796,	-99.338138443944
+              19.9040506971796,
+              -99.338138443944
             ]
           ],
           "color": "#2e86c1",
           "year": "1791"
         },
         {
-          "id": 2,
+          "id": 22,
           "name": "Río de la iglesia",
           "positions": [
             [
-19.836809149445,	-99.402860869757
+              19.836809149445,
+              -99.402860869757
             ],
             [
-19.8673290418505,	-99.3978329527906
+              19.8673290418505,
+              -99.3978329527906
             ]
           ],
           "color": "#2e86c1",
@@ -2569,37 +2655,44 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "El potrero",
       "color": "black",
       "image": "/map_images/mapa_antiguo_potrero2.jpg",
       "temporality": "XVIII",
+      "description":"El mapa del sitio el potrero de 1764,  está registrado en MAPILU con el número 1366, forma parte del documento del expediente de Tierras, volumen 2167, expediente 4, representa un espacio similar en longitud al que está en el mapa 1367 de 1754 llamado también del potrero, pues los intereses que se representaron tienen vecindad en ambos mapas. El mapa está orientado al sur cuyo horizonte se marca por los cerros que llevan nombre, de izquierda a derecha: cerro grande, cerro de la rosa, cerro de la cruz, cerro de los órganos, por debajo se indican cañadas, loma larga, loma de las gallinas, cerro de los Arciniega y la piedra larga. Por debajo de la imagen se encuentra la carteleta con la simbología que está en el mapa.",
       "year": "1764",
       "startDate": "1764-01-01",
       "endDate": "",
       "positions": [
         [
-19.9799150948917,	-99.5362089319776
+          19.9799150948917,
+          -99.5362089319776
         ],
         [
-20.0163839898422,	-99.4627648717309
+          20.0163839898422,
+          -99.4627648717309
         ],
         [
-20.0249919791079,	-99.4055556052623
+          20.0249919791079,
+          -99.4055556052623
         ],
         [
-19.895937445544,	-99.424499226042
+          19.895937445544,
+          -99.424499226042
         ],
         [
-19.8961371196897,	-99.5351890539432
+          19.8961371196897,
+          -99.5351890539432
         ]
       ],
       "sub_polygons": [],
       "markers": [
         {
-          "id": 22,
+          "id": 99,
           "position": [
-19.8917251603673,	-99.4999695615314
+            19.8917251603673,
+            -99.4999695615314
           ],
           "title": "Cerro de los órganos",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2610,9 +2703,10 @@
           "type": "Cerro"
         },
         {
-          "id": 23,
+          "id": 100,
           "position": [
-19.9393608314885,	-99.455056242714
+            19.9393608314885,
+            -99.455056242714
           ],
           "title": "Cerro de la Cruz",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2623,9 +2717,10 @@
           "type": "Cerro"
         },
         {
-          "id": 24,
+          "id": 101,
           "position": [
-19.9423352886951,	-99.4529018477985
+            19.9423352886951,
+            -99.4529018477985
           ],
           "title": "Cerro de la rosa",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2636,9 +2731,10 @@
           "type": "Cerro"
         },
         {
-          "id": 25,
+          "id": 102,
           "position": [
-19.9320513162959,	-99.4606502685855
+            19.9320513162959,
+            -99.4606502685855
           ],
           "title": "Cerro grande",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2649,9 +2745,10 @@
           "type": "Cerro"
         },
         {
-          "id": 26,
+          "id": 103,
           "position": [
-19.9375621778723,	-99.4787576506233
+            19.9375621778723,
+            -99.4787576506233
           ],
           "title": "Loma larga",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2662,9 +2759,10 @@
           "type": "Loma"
         },
         {
-          "id": 27,
+          "id": 104,
           "position": [
-19.9400104595502,	-99.4869291851421
+            19.9400104595502,
+            -99.4869291851421
           ],
           "title": "Loma de la gallina",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2673,11 +2771,12 @@
           "startDate": "1764-01-01",
           "endDate": "",
           "type": "Loma"
-        },        
+        },
         {
-          "id": 28,
+          "id": 105,
           "position": [
-19.9471664801433,	-99.4913836206204
+            19.9471664801433,
+            -99.4913836206204
           ],
           "title": "Cerro de Arciniega",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2688,9 +2787,10 @@
           "type": "Cerro"
         },
         {
-          "id": 29,
+          "id": 106,
           "position": [
-19.9334463789926,	-99.4855298331141
+            19.9334463789926,
+            -99.4855298331141
           ],
           "title": "Piedra larga",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2701,9 +2801,10 @@
           "type": "Peña"
         },
         {
-          "id": 30,
+          "id": 107,
           "position": [
-19.9684948939734,	-99.4908343408127
+            19.9684948939734,
+            -99.4908343408127
           ],
           "title": "San Pablo Huantepec",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2714,9 +2815,10 @@
           "type": "Pueblo"
         },
         {
-          "id": 31,
+          "id": 108,
           "position": [
-19.9810341117527,	-99.4417710814861
+            19.9810341117527,
+            -99.4417710814861
           ],
           "title": "Tierra de los Castillo",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -2725,44 +2827,50 @@
           "startDate": "1764-01-01",
           "endDate": "",
           "type": "Rancho"
-        }                                
+        }
       ],
       "routes": [
         {
-          "id": 1,
+          "id": 23,
           "name": "Rio de Coscomate a Tlautla",
           "positions": [
             [
-19.9612546454313,	-99.4774681508545
+              19.9612546454313,
+              -99.4774681508545
             ],
             [
-19.9613060911797,	-99.4274360432027
+              19.9613060911797,
+              -99.4274360432027
             ],
             [
-19.9628310560182,	-99.3730338072919
+              19.9628310560182,
+              -99.3730338072919
             ]
           ],
           "color": "#2e86c1",
           "year": "1764"
         },
         {
-          "id": 2,
+          "id": 24,
           "name": "Arroyo de Dexcanie",
           "positions": [
             [
-19.9286776544236,	-99.4939506798826
+              19.9286776544236,
+              -99.4939506798826
             ],
             [
-19.9428841733128,	-99.4949984166993
+              19.9428841733128,
+              -99.4949984166993
             ],
             [
-19.9565413002086,	-99.4966073618047
+              19.9565413002086,
+              -99.4966073618047
             ]
           ],
           "color": "#2e86c1",
           "year": "1764"
         }
       ]
-    }     
+    }
   ]
 }

@@ -10,7 +10,6 @@ function App() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [dateRange, setDateRange] = useState([null, null]);
 
-  // Cerrar el menú al cambiar el tamaño de la pantalla si es mayor a md
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -89,7 +88,7 @@ function App() {
           {/* Footer reorganizado */}
           <div className="mt-auto pt-4 border-t border-gray-200">
             <div className="text-xs text-gray-600 space-y-2">
-              {/* Línea 1: Director del proyecto */}
+              {/* Línea 1: Involucrados del proyecto */}
               <div className="text-center">
                 <span className="text-gray-500">Proyecto dirigido por el </span>
                 <span className="font-medium">Mtro. Alejandro Lovera Limberg</span>
@@ -97,7 +96,7 @@ function App() {
                 <span className="font-medium">Raúl Hernández López</span>
               </div>
 
-              {/* Línea 3: Contacto */}
+              {/* Línea 2: Contacto */}
               <div className="text-center">
                 <span className="text-gray-500">Comentarios y contribuciones al correo: </span>
                 <a
@@ -111,7 +110,7 @@ function App() {
                 </a>
               </div>
 
-              {/* Línea 4: Íconos de licencia */}
+              {/* Línea 3: Licencia */}
               <div className="flex justify-center space-x-1 pt-1">
                 {['cc', 'by', 'nc', 'sa'].map((icon) => (
                   <img
@@ -124,8 +123,6 @@ function App() {
                   />
                 ))}
               </div>
-
-              {/* Línea 5: Texto de licencia */}
               <div className="text-center text-xxs text-gray-500">
                 Atribución - No Comercial - Compartir Igual
               </div>
@@ -135,7 +132,6 @@ function App() {
 
         </div>
 
-        {/* Overlay for mobile */}
         {showMobileMenu && (
           <div
             className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
