@@ -246,14 +246,14 @@ const VisitCounter = () => {
         aria-label={expanded ? "Ocultar estadísticas" : "Mostrar estadísticas"}
       >
         {expanded ? (
-          <FaTimes className="text-white text-xl" />
+          <FaTimes className="text-black text-xl" />
         ) : (
           <>
-            <FaChartBar className="text-white text-xl" />
+            <FaChartBar className="text-black text-xl" />
             {!loading && (
               <span className="
                 absolute -bottom-1 -right-1 bg-green-500 rounded-full
-                w-5 h-5 flex items-center justify-center text-xs text-white
+                w-5 h-5 flex items-center justify-center text-xs text-black
               ">
                 {stats.total}
               </span>
@@ -267,7 +267,7 @@ const VisitCounter = () => {
         <div className="p-4">
           <h3 className="
             flex items-center gap-2 mb-3 pb-2 border-b border-gray-600
-            text-white text-sm font-medium
+            text-black text-sm font-medium
           ">
             <FaChartBar />
             <span>Visitas totales: <strong>{stats.total.toLocaleString()}</strong></span>
@@ -290,9 +290,9 @@ const VisitCounter = () => {
                     className="w-5 h-4 shadow-[0_0_1px_rgba(0,0,0,0.5)]"
                     title={country.name}
                   />
-                  <span className="text-white text-sm">{country.name}</span>
+                  <span className="text-black text-sm">{country.name}</span>
                 </div>
-                <strong className="text-white">{country.count}</strong>
+                <strong className="text-black">{country.count}</strong>
               </div>
             ))}
           </div>

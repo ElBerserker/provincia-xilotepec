@@ -35,6 +35,7 @@
 
 .controls-personal {
   background-color: white;
+  color: black;
 }
 
 @layer utilities {
