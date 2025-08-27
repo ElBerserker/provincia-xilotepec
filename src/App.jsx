@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-[100dvh] flex flex-col">
       <div className="flex flex-1 flex-col md:flex-row overflow-hidden">
         {/* Sidebar */}
         <div className={`${showMobileMenu ? 'translate-x-0' : '-translate-x-full'} 
