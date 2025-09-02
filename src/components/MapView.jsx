@@ -264,7 +264,7 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                       <h3 className="font-bold text-lg">{marker.title}</h3>
                       {browserSupportsSpeech && marker.description && (
                         <SpeechButton 
-                          text={`${marker.title}. ${marker.description}`} 
+                          text={`${marker.title}`} 
                           disabled={!browserSupportsSpeech}
                         />
                       )}
