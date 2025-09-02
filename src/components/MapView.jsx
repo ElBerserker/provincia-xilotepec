@@ -6,9 +6,9 @@ import Compass from './Compass';
 import CaptureButton from './CaptureButton';
 import CenterMapButton from './CenterMapButton';
 import { trackPageView } from '../utils/analytics';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import VisitCounter from './VisitCounter';
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+import { FaVolumeUp, FaStop } from 'react-icons/fa';
 
 // Fix for default marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -33,11 +33,25 @@ const caminoReal = [
   },
 ];
 
-// Componente para el botón de lectura de voz
-const SpeechButton = ({ text, disabled }) => {
+// Componente para el botón de lectura de voz simplificado
+const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   
-  const handleSpeech = () => {
+  const sizeClasses = {
+    small: "p-1 text-sm",
+    medium: "p-2 text-base",
+    large: "p-3 text-lg"
+  };
+
+  const iconSize = {
+    small: 14,
+    medium: 18,
+    large: 22
+  };
+
+  const handleSpeech = (e) => {
+    e.stopPropagation(); // Prevenir que el evento se propague y cierre el popup
+    
     if (isSpeaking) {
       // Detener la lectura
       window.speechSynthesis.cancel();
@@ -45,8 +59,13 @@ const SpeechButton = ({ text, disabled }) => {
     } else {
       // Iniciar la lectura
       const utterance = new SpeechSynthesisUtterance(text);
+      utterance.rate = 0.9;
+      utterance.pitch = 1.0;
+      utterance.volume = 0.8;
+      
       utterance.onend = () => setIsSpeaking(false);
       utterance.onerror = () => setIsSpeaking(false);
+      
       window.speechSynthesis.speak(utterance);
       setIsSpeaking(true);
     }
@@ -56,30 +75,32 @@ const SpeechButton = ({ text, disabled }) => {
     <button
       onClick={handleSpeech}
       disabled={disabled}
-      className={`p-2 rounded-full ${
-        disabled 
-          ? 'bg-gray-300 cursor-not-allowed' 
+      className={`
+        flex items-center justify-center rounded-full transition-all duration-200
+        ${disabled 
+          ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
           : isSpeaking 
-            ? 'bg-red-500 hover:bg-red-600' 
-            : 'bg-blue-300 hover:bg-blue-400'
-      } text-white transition-colors`}
+            ? 'bg-red-500 hover:bg-red-600 text-white shadow-md' 
+            : 'bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white shadow hover:shadow-lg'
+        }
+        ${sizeClasses[size]}
+      `}
       title={disabled ? 'Reconocimiento de voz no disponible' : isSpeaking ? 'Detener lectura' : 'Leer descripción'}
     >
-      {isSpeaking ? '⏹️' : '🔊'}
+      {isSpeaking ? <FaStop size={iconSize[size]} /> : <FaVolumeUp size={iconSize[size]} />}
     </button>
   );
 };
 
 const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
   const [browserSupportsSpeech, setBrowserSupportsSpeech] = useState(false);
-  const [selectedPolygonForSpeech, setSelectedPolygonForSpeech] = useState(null);
+  const popupRef = useRef(null);
 
   // Verificar si el navegador soporta la API de speech
   useEffect(() => {
     const checkSpeechSupport = () => {
       const hasSpeechSynthesis = 'speechSynthesis' in window;
-      const hasSpeechRecognition = 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window;
-      setBrowserSupportsSpeech(hasSpeechSynthesis || hasSpeechRecognition);
+      setBrowserSupportsSpeech(hasSpeechSynthesis);
     };
 
     checkSpeechSupport();
@@ -170,13 +191,19 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
             }}
           >
             <Popup>
-              <div className="w-64">
-                <div className="flex justify-between items-center mb-2">
-                  <h3 className="font-bold text-lg">{polygon.name}</h3>
+              <div 
+                className="w-72" 
+                ref={popupRef}
+                onClick={(e) => e.stopPropagation()} // Prevenir cierre al hacer clic dentro del popup
+              >
+                <div className="flex justify-between items-start mb-3">
+                  <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{polygon.name}</h3>
                   {browserSupportsSpeech && (
                     <SpeechButton 
                       text={`${polygon.name}. ${polygon.description}`} 
                       disabled={!browserSupportsSpeech}
+                      size="medium"
+                      popupRef={popupRef}
                     />
                   )}
                 </div>
@@ -184,13 +211,19 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                   <img
                     src={polygon.image}
                     alt={polygon.name}
-                    className="w-full h-42 object-cover mb-2 rounded"
+                    className="w-full h-42 object-cover mb-3 rounded-lg shadow-md"
                   />
                 )}
-                <p className="text-sm text-justify max-h-48 overflow-auto pr-2">{polygon.description}</p>
-                <div className="text-xs text-gray-500 mt-2 flex">
+                <p className="text-sm text-justify text-gray-700 max-h-48 overflow-auto pr-2 leading-relaxed">
+                  {polygon.description}
+                </p>
+                <div className="text-xs text-gray-500 mt-3 flex border-t pt-2">
                   <div className='text-left w-[30%]'>
-                    {polygon.year && (<p><b>Año:</b> {polygon.year}</p>)}
+                    {polygon.year && (
+                      <p className="font-semibold">
+                        <span className="text-blue-600">Año:</span> {polygon.year}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
@@ -209,13 +242,17 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                 pathOptions={{ color: subPolygon.color, weight: 5 }}
               >
                 <Popup>
-                  <div className="w-64">
-                    <div className="flex justify-between items-center mb-2">
-                      <h3 className="font-bold text-lg">{subPolygon.name}</h3>
+                  <div 
+                    className="w-72"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <div className="flex justify-between items-start mb-3">
+                      <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{subPolygon.name}</h3>
                       {browserSupportsSpeech && (
                         <SpeechButton 
                           text={`${subPolygon.name}. ${subPolygon.description || ''}`} 
                           disabled={!browserSupportsSpeech}
+                          size="medium"
                         />
                       )}
                     </div>
@@ -223,12 +260,16 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                       <img
                         src={subPolygon.image}
                         alt={subPolygon.name}
-                        className="w-full h-32 object-cover mb-2 rounded"
+                        className="w-full h-32 object-cover mb-3 rounded-lg shadow-md"
                       />
                     )}
-                    <div className="text-xs text-gray-500 mt-2 flex">
+                    <div className="text-xs text-gray-500 mt-3 flex border-t pt-2">
                       <div className='text-left w-[30%]'>
-                        {subPolygon.year && (<p><b>Año:</b> {subPolygon.year}</p>)}
+                        {subPolygon.year && (
+                          <p className="font-semibold">
+                            <span className="text-blue-600">Año:</span> {subPolygon.year}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>
@@ -259,13 +300,17 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
             .map((marker) => (
               <Marker key={`${polygon.id}-${marker.id}`} position={marker.position}>
                 <Popup>
-                  <div className="w-64">
-                    <div className="flex justify-between items-center mb-2">
-                      <h3 className="font-bold text-lg">{marker.title}</h3>
+                  <div 
+                    className="w-72"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <div className="flex justify-between items-start mb-3">
+                      <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{marker.title}</h3>
                       {browserSupportsSpeech && marker.description && (
                         <SpeechButton 
                           text={`${marker.title}`} 
                           disabled={!browserSupportsSpeech}
+                          size="small"
                         />
                       )}
                     </div>
@@ -273,15 +318,23 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                       <img
                         src={marker.image}
                         alt={marker.title}
-                        className="w-full h-32 object-cover mb-2 rounded"
+                        className="w-full h-32 object-cover mb-3 rounded-lg shadow-md"
                       />
                     )}
-                    <div className="text-xs text-gray-500 mt-2 flex">
+                    <div className="text-xs text-gray-500 mt-3 flex border-t pt-2">
                       <div className='text-left w-[30%]'>
-                        {marker.year && (<p><b>Año:</b> {marker.year}</p>)}
+                        {marker.year && (
+                          <p className="font-semibold">
+                            <span className="text-blue-600">Año:</span> {marker.year}
+                          </p>
+                        )}
                       </div>
-                      <div className='text-right w-full'>
-                        {marker.type && (<p><b>Tipo:</b> {marker.type}</p>)}
+                      <div className='text-right flex-1'>
+                        {marker.type && (
+                          <p className="font-semibold">
+                            <span className="text-blue-600">Tipo:</span> {marker.type}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>
