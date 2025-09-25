@@ -21,7 +21,7 @@ L.Icon.Default.mergeOptions({
 const caminoReal = [
   {
     name: 'Camino Real',
-    description: 'Camino real de tierra adentro.',
+    description: 'Camino Real de Tierra Adentro.',
     coords_route: [
       { latitude: 19.4382788294, longitude: -99.1340476016348, mapType: 'Jurisdiccion de Xilotepec-Chichimecas' },
       { latitude: 19.9491878389946, longitude: -99.3624454999214, mapType: 'Jurisdiccion de Xilotepec-Chichimecas' },

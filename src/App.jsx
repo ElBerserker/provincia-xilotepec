@@ -73,7 +73,7 @@ function App() {
                 style={{ backgroundColor: 'red' }}
               ></span>
               <span className="text-sm">
-                Camino real de tierra adentro
+                Camino Real de Tierra Adentro
               </span>
             </div>
 
@@ -92,8 +92,9 @@ function App() {
               <div className="text-center">
                 <span className="text-gray-500">Proyecto dirigido por el </span>
                 <span className="font-medium">Mtro. Alejandro Lovera Limberg</span>
-                <span className="text-gray-500"> y desarrollado por </span>
-                <span className="font-medium">Raúl Hernández López</span>
+                <span className="text-gray-500"> ( Doctorado en Historia, El Colegio de San Luis A.C ) y desarrollado por </span>
+                <span className="font-medium">Raúl Hernández López </span>
+                <span className="text-gray-500"> (Licenciatura en ISIC, Tecnológico de Estudios Superiores de Jilotepec) </span>
               </div>
 
               {/* Línea 2: Contacto */}
