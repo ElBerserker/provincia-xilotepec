@@ -33,38 +33,10 @@ const caminoReal = [
   },
 ];
 
-// Crear iconos personalizados
-const customIcon = new L.Icon({
-  iconUrl: '/icons/marker.png',
-  iconSize: [25, 25],
-  iconAnchor: [12, 12],
-  popupAnchor: [1, -34],
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-  shadowSize: [41, 41]
-});
-
-const customIconHover = new L.Icon({
-  iconUrl: '/icons/marker_hover.png', // Icono para hover
-  iconSize: [30, 30], // Un poco más grande para efecto
-  iconAnchor: [15, 15],
-  popupAnchor: [1, -34],
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-  shadowSize: [41, 41]
-});
-
-const customIconActive = new L.Icon({
-  iconUrl: '/icons/marker_select.png', // Icono para seleccionado
-  iconSize: [28, 28],
-  iconAnchor: [14, 14],
-  popupAnchor: [1, -34],
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-  shadowSize: [41, 41]
-});
-
 // Componente para el botón de lectura de voz simplificado
 const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
-
+  
   const sizeClasses = {
     small: "p-1 text-sm",
     medium: "p-2 text-base",
@@ -79,7 +51,7 @@ const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
 
   const handleSpeech = (e) => {
     e.stopPropagation(); // Prevenir que el evento se propague y cierre el popup
-
+    
     if (isSpeaking) {
       // Detener la lectura
       window.speechSynthesis.cancel();
@@ -90,10 +62,10 @@ const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
       utterance.rate = 0.9;
       utterance.pitch = 1.0;
       utterance.volume = 0.8;
-
+      
       utterance.onend = () => setIsSpeaking(false);
       utterance.onerror = () => setIsSpeaking(false);
-
+      
       window.speechSynthesis.speak(utterance);
       setIsSpeaking(true);
     }
@@ -105,10 +77,10 @@ const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
       disabled={disabled}
       className={`
         flex items-center justify-center rounded-full transition-all duration-200
-        ${disabled
-          ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-          : isSpeaking
-            ? 'bg-red-500 hover:bg-red-600 text-white shadow-md'
+        ${disabled 
+          ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+          : isSpeaking 
+            ? 'bg-red-500 hover:bg-red-600 text-white shadow-md' 
             : 'bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white shadow hover:shadow-lg'
         }
         ${sizeClasses[size]}
@@ -117,128 +89,6 @@ const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
     >
       {isSpeaking ? <FaStop size={iconSize[size]} /> : <FaVolumeUp size={iconSize[size]} />}
     </button>
-  );
-};
-
-// Componente Marker personalizado con estados de hover y activo
-const CustomMarker = ({ marker, polygon, browserSupportsSpeech }) => {
-  const [isHovered, setIsHovered] = useState(false);
-  const [isActive, setIsActive] = useState(false);
-  const markerRef = useRef();
-
-  // Determinar qué icono usar basado en el estado
-  const getCurrentIcon = () => {
-    if (isActive) return customIconActive;
-    if (isHovered) return customIconHover;
-    return customIcon;
-  };
-
-  // Manejar eventos del marcador
-  const eventHandlers = {
-    mouseover: () => {
-      setIsHovered(true);
-    },
-    mouseout: () => {
-      setIsHovered(false);
-    },
-    click: () => {
-      setIsActive(true);
-    },
-    popupopen: () => {
-      setIsActive(true);
-    },
-    popupclose: () => {
-      setIsActive(false);
-      setIsHovered(false);
-    }
-  };
-
-  // Efecto para detectar clics fuera del marcador
-  useEffect(() => {
-    const handleMapClick = (e) => {
-      // Si el marcador está activo y se hace clic en el mapa (no en el marcador)
-      if (isActive && markerRef.current) {
-        const markerElement = markerRef.current.getElement();
-        if (markerElement && !markerElement.contains(e.originalEvent?.target)) {
-          setIsActive(false);
-          setIsHovered(false);
-        }
-      }
-    };
-
-    if (markerRef.current) {
-      const map = markerRef.current._map;
-      if (map) {
-        map.on('click', handleMapClick);
-        return () => {
-          map.off('click', handleMapClick);
-        };
-      }
-    }
-  }, [isActive]);
-
-  return (
-    <Marker
-      key={`${polygon.id}-${marker.id}`}
-      position={marker.position}
-      icon={getCurrentIcon()}
-      eventHandlers={eventHandlers}
-      ref={markerRef}
-    >
-      <Popup
-        onOpen={() => setIsActive(true)}
-        onClose={() => {
-          setIsActive(false);
-          setIsHovered(false);
-        }}
-      >
-        <div
-          className="w-72"
-          onClick={(e) => e.stopPropagation()}
-        >
-          <div className="flex justify-between items-start mb-3">
-            <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{marker.title}</h3>
-            {browserSupportsSpeech && marker.description && (
-              <SpeechButton
-                text={`${marker.title}. ${marker.description || ''}`}
-                disabled={!browserSupportsSpeech}
-                size="small"
-              />
-            )}
-          </div>
-          {marker.image && (
-            <img
-              src={marker.image}
-              alt={marker.title}
-              className="w-full h-32 object-cover mb-3 rounded-lg shadow-md"
-            />
-          )}
-          {/*
-          {marker.description && (
-            <p className="text-sm text-justify text-gray-700 max-h-32 overflow-auto pr-2 leading-relaxed mb-3">
-              {marker.description}
-            </p>
-          )}
-            */}
-          <div className="text-xs text-gray-500 mt-3 flex border-t pt-2">
-            <div className='text-left w-[30%]'>
-              {marker.year && (
-                <p className="font-semibold">
-                  <span className="text-blue-600">Año:</span> {marker.year}
-                </p>
-              )}
-            </div>
-            <div className='text-right flex-1'>
-              {marker.type && (
-                <p className="font-semibold">
-                  <span className="text-blue-600">Tipo:</span> {marker.type}
-                </p>
-              )}
-            </div>
-          </div>
-        </div>
-      </Popup>
-    </Marker>
   );
 };
 
@@ -341,16 +191,16 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
             }}
           >
             <Popup>
-              <div
-                className="w-72"
+              <div 
+                className="w-72" 
                 ref={popupRef}
                 onClick={(e) => e.stopPropagation()} // Prevenir cierre al hacer clic dentro del popup
               >
                 <div className="flex justify-between items-start mb-3">
                   <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{polygon.name}</h3>
                   {browserSupportsSpeech && (
-                    <SpeechButton
-                      text={`${polygon.name}. ${polygon.description}`}
+                    <SpeechButton 
+                      text={`${polygon.name}. ${polygon.description}`} 
                       disabled={!browserSupportsSpeech}
                       size="medium"
                       popupRef={popupRef}
@@ -392,15 +242,15 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
                 pathOptions={{ color: subPolygon.color, weight: 5 }}
               >
                 <Popup>
-                  <div
+                  <div 
                     className="w-72"
                     onClick={(e) => e.stopPropagation()}
                   >
                     <div className="flex justify-between items-start mb-3">
                       <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{subPolygon.name}</h3>
                       {browserSupportsSpeech && (
-                        <SpeechButton
-                          text={`${subPolygon.name}. ${subPolygon.description || ''}`}
+                        <SpeechButton 
+                          text={`${subPolygon.name}. ${subPolygon.description || ''}`} 
                           disabled={!browserSupportsSpeech}
                           size="medium"
                         />
@@ -448,12 +298,48 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
           {polygon.markers
             .filter(marker => isDateInRange(marker.startDate, marker.endDate, marker.year))
             .map((marker) => (
-              <CustomMarker
-                key={`${polygon.id}-${marker.id}`}
-                marker={marker}
-                polygon={polygon}
-                browserSupportsSpeech={browserSupportsSpeech}
-              />
+              <Marker key={`${polygon.id}-${marker.id}`} position={marker.position}>
+                <Popup>
+                  <div 
+                    className="w-72"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <div className="flex justify-between items-start mb-3">
+                      <h3 className="font-bold text-lg text-gray-800 flex-1 mr-2">{marker.title}</h3>
+                      {browserSupportsSpeech && marker.description && (
+                        <SpeechButton 
+                          text={`${marker.title}`} 
+                          disabled={!browserSupportsSpeech}
+                          size="small"
+                        />
+                      )}
+                    </div>
+                    {marker.image && (
+                      <img
+                        src={marker.image}
+                        alt={marker.title}
+                        className="w-full h-32 object-cover mb-3 rounded-lg shadow-md"
+                      />
+                    )}
+                    <div className="text-xs text-gray-500 mt-3 flex border-t pt-2">
+                      <div className='text-left w-[30%]'>
+                        {marker.year && (
+                          <p className="font-semibold">
+                            <span className="text-blue-600">Año:</span> {marker.year}
+                          </p>
+                        )}
+                      </div>
+                      <div className='text-right flex-1'>
+                        {marker.type && (
+                          <p className="font-semibold">
+                            <span className="text-blue-600">Tipo:</span> {marker.type}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </Popup>
+              </Marker>
             ))}
         </>
       ))}
