@@ -33,6 +33,63 @@ const caminoReal = [
   },
 ];
 
+// Función para crear iconos personalizados basados en el tipo
+const createCustomIcon = (type) => {
+  // Colores por tipo
+  const typeColors = {
+    'Cerro': '#8B4513', // Marrón
+    'Loma': '#8B4513', // Marrón
+    'Ciudad': '#DC2626', // Rojo
+    'Pueblo': '#2563EB', // Azul
+    'Hacienda': '#059669', // Verde
+    'Rancho': '#7C3AED', // Púrpura
+    'Rio': '#0891B2', // Cyan
+    'Valle': '#D97706', // Ámbar
+    'default': '#6B7280' // Gris por defecto
+  };
+
+  const color = typeColors[type] || typeColors.default;
+
+  if (type === 'Cerro' || type === 'Loma') {
+    // Icono triangular para cerros y lomas
+    return L.divIcon({
+      className: 'triangle-marker',
+      html: `<div style="
+        width: 0; 
+        height: 0; 
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 20px solid ${color};
+        filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
+      "></div>`,
+      iconSize: [24, 20],
+      iconAnchor: [12, 20],
+      popupAnchor: [0, -20]
+    });
+  } else {
+    // Icono de marcador estándar con color personalizado (como Google Maps)
+    return L.divIcon({
+      className: 'custom-marker',
+      html: `<div style="
+        position: relative;
+        width: 22px;
+        height: 32px;
+      ">
+        <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 0C5.477 0 1 4.477 1 10C1 17 11 32 11 32S21 17 21 10C21 4.477 16.523 0 11 0Z" 
+                fill="${color}" 
+                stroke="white" 
+                stroke-width="2"/>
+          <circle cx="11" cy="10" r="3" fill="white"/>
+        </svg>
+      </div>`,
+      iconSize: [22, 32],
+      iconAnchor: [11, 32],
+      popupAnchor: [0, -32]
+    });
+  }
+};
+
 // Componente para el botón de lectura de voz simplificado
 const SpeechButton = ({ text, disabled, size = "medium", popupRef }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -298,7 +355,11 @@ const MapView = ({ polygons, selectedPolygons, onPolygonClick, dateRange }) => {
           {polygon.markers
             .filter(marker => isDateInRange(marker.startDate, marker.endDate, marker.year))
             .map((marker) => (
-              <Marker key={`${polygon.id}-${marker.id}`} position={marker.position}>
+              <Marker 
+                key={`${polygon.id}-${marker.id}`} 
+                position={marker.position}
+                icon={createCustomIcon(marker.type)} // Usar icono personalizado basado en el tipo
+              >
                 <Popup>
                   <div 
                     className="w-72"
