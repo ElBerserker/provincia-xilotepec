@@ -164,7 +164,7 @@ function App() {
       {/* Mobile toggle button */}
       <div className="md:hidden fixed top-64 right-4 z-50">
         <button
-          className="bg-blue-600 text-white p-4 rounded shadow-lg hover:bg-blue-700 transition-colors"
+          className="bg-gray-600 text-white p-4 rounded shadow-lg hover:bg-gray-700 transition-colors"
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
           {showMobileMenu ? (
