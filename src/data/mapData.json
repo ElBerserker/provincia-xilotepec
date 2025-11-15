@@ -2871,42 +2871,6 @@
           "year": "1764"
         }
       ]
-    },
-    {
-      "id": 24,
-      "name": "Batalla de Calpulalpan",
-      "color": "black",
-      "image": "/map_images/batalla_calpulalpan.jpg",
-      "temporality": "XIX",
-      "description": "",
-      "year": "1860",
-      "startDate": "1860-01-01",
-      "endDate": "",
-      "positions": [
-        [
-          20.063624,
-          -99.645410
-        ],
-        [
-          20.071113,
-          -99.633765
-        ],
-        [
-          20.066132,
-          -99.624012
-        ],
-        [
-          20.058503,
-          -99.624754
-        ],
-        [
-          20.046694,
-          -99.634581
-        ]
-      ],
-      "sub_polygons": [],
-      "markers": [],
-      "routes": []
     }
   ]
 }

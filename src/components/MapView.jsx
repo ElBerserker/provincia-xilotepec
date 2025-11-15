@@ -39,8 +39,8 @@ const createCustomIcon = (type) => {
   const typeColors = {
     'Cerro': '#8B4513', // Marrón
     'Loma': '#8B4513', // Marrón
-    'Ciudad': '#DC2626', // Rojo
-    'Pueblo': '#2563EB', // Azul
+    'Pueblo': '#DC2626', // Rojo
+    'Ciudad': '#2563EB', // Azul
     'Hacienda': '#059669', // Verde
     'Rancho': '#7C3AED', // Púrpura
     'Rio': '#0891B2', // Cyan

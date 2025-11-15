@@ -12,6 +12,37 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
     }
   };
 
+  // FUNCIONALIDAD 1: Seleccionar todos los elementos visibles
+  const selectAllVisible = () => {
+    let polygonsToSelect = [];
+
+    if (showAll) {
+      // Modo "Mostrar todos" - seleccionar todos los polígonos visibles
+      polygonsToSelect = visiblePolygons;
+    } else {
+      // Modo "Agrupar por siglo" - seleccionar solo los polígonos de siglos expandidos
+      polygonsToSelect = visiblePolygons.filter(polygon => {
+        const century = getCentury(polygon.year);
+        return expandedCenturies[century]; // Solo si el siglo está expandido
+      });
+    }
+
+    // Filtrar para evitar duplicados
+    const newSelection = [...selectedPolygons];
+    polygonsToSelect.forEach(polygon => {
+      if (!newSelection.some(p => p.id === polygon.id)) {
+        newSelection.push(polygon);
+      }
+    });
+
+    onSelectPolygon(newSelection);
+  };
+
+  // FUNCIONALIDAD 2: Borrar elementos seleccionados
+  const clearSelection = () => {
+    onSelectPolygon([]);
+  };
+
   // Función para convertir a número romano
   const toRoman = (num) => {
     const romanNumerals = [
@@ -73,12 +104,10 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
 
   // Ordenar los siglos de más antiguo a más reciente
   const sortedCenturies = Object.keys(groupedPolygons).sort((a, b) => {
-    // Extraer el número del siglo para comparar
     const extractNumber = (str) => {
       const match = str.match(/Siglo ([A-Z]+)/);
       if (!match) return 0;
       const roman = match[1];
-      // Conversión simple de romano a número para ordenar
       const romanMap = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
       let num = 0;
       for (let i = 0; i < roman.length; i++) {
@@ -110,15 +139,45 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
   // Contar el total de polígonos visibles
   const totalVisiblePolygons = visiblePolygons.length;
 
+  // Contar polígonos seleccionados
+  const selectedCount = selectedPolygons.length;
+
   return (
     <div className="bg-white p-4 m-1 rounded-lg shadow-md max-h-64 overflow-y-auto overflow-hidden">
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-2">
         <h2 className="text-xl font-bold">Polígonos ({totalVisiblePolygons})</h2>
         <button
           onClick={toggleShowAll}
           className="text-xs text-gray-700 bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
         >
           {showAll ? 'Agrupar por siglo' : 'Mostrar todos'}
+        </button>
+      </div>
+
+      {/* Botones de selección masiva */}
+      <div className="flex justify-between mb-4">
+        <button
+          onClick={selectAllVisible}
+          disabled={totalVisiblePolygons === 0}
+          className={`text-xs px-3 py-1 rounded ${
+            totalVisiblePolygons === 0 
+              ? 'bg-gray-200 text-gray-400 cursor-not-allowed' 
+              : 'bg-gray-500 text-white hover:bg-gray-600'
+          }`}
+        >
+          {showAll ? 'Seleccionar todos' : 'Seleccionar visibles'}
+        </button>
+        
+        <button
+          onClick={clearSelection}
+          disabled={selectedCount === 0}
+          className={`text-xs px-3 py-1 rounded ${
+            selectedCount === 0 
+              ? 'bg-gray-200 text-gray-400 cursor-not-allowed' 
+              : 'bg-red-500 text-white hover:bg-red-600'
+          }`}
+        >
+          Borrar selección ({selectedCount})
         </button>
       </div>
 
@@ -132,16 +191,17 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
               <div
                 key={polygon.id}
                 onClick={() => togglePolygonSelection(polygon)}
-                className={`p-3 rounded-md cursor-pointer transition-colors ${isSelected
+                className={`p-3 rounded-md cursor-pointer transition-colors ${
+                  isSelected
                     ? 'bg-blue-100 border-l-4 border-blue-500'
                     : 'hover:bg-gray-100'
-                  }`}
+                }`}
               >
                 <div className="flex items-start">
                   <input
                     type="checkbox"
                     checked={isSelected}
-                    onChange={() => { }}
+                    onChange={() => {}}
                     className="mt-1 mr-2"
                     onClick={(e) => e.stopPropagation()}
                   />
@@ -190,16 +250,17 @@ const PolygonList = ({ polygons, selectedPolygons, onSelectPolygon, filterByDate
                       <div
                         key={polygon.id}
                         onClick={() => togglePolygonSelection(polygon)}
-                        className={`p-2 rounded-md cursor-pointer transition-colors ${isSelected
+                        className={`p-2 rounded-md cursor-pointer transition-colors ${
+                          isSelected
                             ? 'bg-blue-100 border-l-4 border-blue-500'
                             : 'hover:bg-gray-100'
-                          }`}
+                        }`}
                       >
                         <div className="flex items-start">
                           <input
                             type="checkbox"
                             checked={isSelected}
-                            onChange={() => { }}
+                            onChange={() => {}}
                             className="mt-1 mr-2"
                             onClick={(e) => e.stopPropagation()}
                           />
